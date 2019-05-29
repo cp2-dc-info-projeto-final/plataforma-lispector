@@ -99,14 +99,3 @@
 3. Alunos entregam os gabaritos das questões ao Professor;
 4. Professor entrega resultado conforme gabarito informado.
 
-## CDU 09
-
-- Criação de Fóruns de debate
-
-**Atores:** Alunos, Funcionários e Professores 
-
-**Pré-Condições:** Estar cadastrado como Aluno, Funcionário ou Professore e estar logado no sistema
-
-**Fluxo Principal:**
-1. Qualquer usuário pode criar um fórum de debate online dos mais variados assuntos, com algumas restrições.
-2. Em caso de conteúdo inapropriado, os funcionários têm liberdade para banir da plataforma o usuário que cometeu a infração;
