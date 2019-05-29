@@ -21,7 +21,7 @@
 ## RF01
 - Cadastro de Usuários
 
-O site terá um recurso para cadastrar usuuários.
+O site terá um recurso para cadastrar usuários.
 
 ## RF02
 - Criação de Avaliações
@@ -40,7 +40,7 @@ O site terá um recurso para enviar documentos
 # Requisitos não funcionais
 
 ## RNF01
-- Tempo de resposts de 1 segundo ou menos.
+- Tempo de resposta de 1 segundo ou menos.
 
 O site deverá dar respostas curtas em pouco tempo, para facilitar o diálogo entre o professor e o aluno ou entre qualquer usuário que esteja utilizando o site.
 
