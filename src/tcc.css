@@ -1,0 +1,62 @@
+
+body{
+  background-color:#2E64FE;
+  background-image: url("fundo3.jpg");
+  font-family:monospace;
+
+}
+
+#conteudo {
+  background-color:#2E64FE;
+  background-image: url();
+  padding: 100px;
+  margin: 100px;
+}
+
+#banner {
+   height: 300px;
+   width: 907px;
+   background-image: url();
+   padding-top: 200px;
+   background-repeat: no-repeat;
+}
+
+#menu li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 5px;
+  background-color: #7a767b;
+  color: black;
+}
+
+#menu li a {
+  text-decoration: none;
+}
+
+#menu li a:link {
+    color:white;
+}
+
+/* visited link */
+#menu li a:visited {
+    color:white;
+
+}
+
+/* mouse over link */
+#menu li a:hover {
+    color: black;
+}
+
+/* selected link */
+#menu li a:active {
+    color: blue;
+}
+ #fonte li {
+display: inline-block;
+ border: 1px solid black;
+ padding: 15px;
+ margin: 5px;
+ color: black;
+ }

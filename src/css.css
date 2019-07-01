@@ -1,0 +1,19 @@
+div.menu
+{
+width: 400px;
+altura: 500px;
+background-color: #333;
+posição: fixo;
+Left: 0px;
+Top: 0px;
+}
+
+.menu ul li
+{
+margem-fundo: 20px;
+}
+
+corpo
+{
+altura: 3000px;
+}
