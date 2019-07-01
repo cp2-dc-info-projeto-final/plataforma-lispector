@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Ciep 404 Clarice Lispector </title>
+  <title>Calendario Escolar</title>
+</head>  
+<body> 
+<link rel="stylesheet" href="tcc.css" type="text/css">
+<link rel="stylesheet" href="calendario.css" type="text/css">   
+<h3>Calendário Escolar</h3>
+<script>
+  // preencher a tabela mensal com os títulos das colunas
+function dia_titulo(dia_nome) {
+    document.write("<div class='c-cal__col'>" + dia_name + "</div>");
+  }
+  // preenche a tabela do mês com números
+function fill_table(mes, mes_tamanho, indexMes) {
+    dia = 1;
+    // começa a nova tabela de meses
+    document.write("<div class='c-main c-main-" + indexMes + "'>");
+    document.write("<b>"+mes+" "+ano+"</b>")+
+
+    
+// cabeçalhos de coluna
+    document.write("<div class='c-cal__row'>");
+    dia_titulo("Segunda");
+    dia_titulo("Terça");
+    dia_titulo("Quarta");
+    dia_titulo("Quinta");
+    dia_titulo("Sexta");
+    dia_titulo("Sabado");
+    dia_titulo("Domingo");
+    document.write("</div>");
+
+    // preenche as células antes do primeiro dia do mês
+    document.write("<div class='c-cal__row'>");
+    for (var i = 1; i < comecar_dia; i++) {
+      if (comecar_dia > 7) {
+      } else {
+        document.write("<div class='c-cal__cel'></div>");
+      }
+    }
+
+    // preenche a primeira semana de dias
+    for (var i = comecar_dia; i < 8; i++) {
+      document.write(
+        "<div data-dia='2019-" +
+          indexMes +
+          "-0" +
+          dia +
+          "'class='c-cal__cel'><p>" +
+          dia +
+          "</p></div>"
+      );
+      dia++;
+    }
+    document.write("</div>");
+
+    // preenche as semanas restantes
+    while (dia <= mes_tamanho) {
+      document.write("<div class='c-cal__row'>");
+      for (var i = 1; i <= 7 && dia <= mes_tamanho; i++) {
+        if (dia >= 1 && dia <= 9) {
+          document.write(
+            "<div data-dia='2019'" +
+              indexMes +
+              "-0" +
+              dia +
+              "'class='c-cal__cel'><p>" +
+              dia +
+              "</p></div>"
+          );
+          dia++;
+        } else {
+          document.write(
+            "<div data-dia='2019-" +
+              indexMes +
+              "-" +
+              dia+
+              "' class='c-cal__cel'><p>" +
+              dia+
+              "</p></div>"
+          );
+          dia++;
+        }
+      }
+      document.write("</div>");     
+// o primeiro dia do próximo mês
+      comecar_dia = i;
+    }
+
+    document.write("</div>");
+  }
+</script>
+<header>
+  <div class="wrapper">
+    <div class="c-monthyear">
+    <div class="c-month">
+        <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
+        <div id="c-paginator">
+          <span class="c-paginator__mes">Janeiro</span>
+          <span class="c-paginator__mes">Fevereiro</span>
+          <span class="c-paginator__mes">Março</span>
+          <span class="c-paginator__mes">Abril</span>
+          <span class="c-paginator__mes">Maio</span>
+          <span class="c-paginator__mes">Junho</span>
+          <span class="c-paginator__mes">Julho</span>
+          <span class="c-paginator__mes">Agosto</span>
+          <span class="c-paginator__mes">Setembro</span>
+          <span class="c-paginator__mes">Outubro</span>
+          <span class="c-paginator__mes">Novembro</span>
+          <span class="c-paginator__mes">Dezembro</span>
+        </div>
+        <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
+      </div>
+      <span class="c-paginator__year">2019</span>
+    </div>
+    <div class="c-sort">
+      <a class="o-btn c-today__btn" href="javascript:;">TODAY</a>
+    </div>
+  </div>
+</header>
+<div class="wrapper">
+  <div class="c-calendar">
+    <div class="c-calendar__style c-aside">
+      <a class="c-add o-btn js-event__add" href="javascript:;">add event <span class="fa fa-plus"></span></a>
+      <div class="c-aside__day">
+        <span class="c-aside__num"></span> <span class="c-aside__month"></span>
+      </div>
+      <div class="c-aside__eventList">
+      </div>
+    </div>
+    <div class="c-cal__container c-calendar__style">
+      <script>
+      
+     // a variável abaixo para o ANO ATUAL
+      ANO= 2019;
+
+      // primeiro dia da semana do ano
+      Segunda = new Date(Julho, " + year);
+      start_dia = today.getDay() + 1;
+      fill_table("Janeiro", 31, "01");
+      fill_table("Fevereiro", 28, "02");
+      fill_table("Março", 31, "03");
+      fill_table("Abril", 30, "04");
+      fill_table("Maio", 31, "05");
+      fill_table("Junho", 30, "06");
+      fill_table("Julho", 31, "07");
+      fill_table("Auguso", 31, "08");
+      fill_table("Setembro", 30, "09");
+      fill_table("Outubro", 31, "10");
+      fill_table("Novembro", 30, "11");
+      fill_table("Dezembro", 31, "12");
+      </script>
+    </div>
+  </div>
+
+  <div class="c-event__creator c-calendar__style js-event__creator">
+    <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
+    <form id="addEvent">
+      <input placeholder="Event name" type="text" name="name">
+      <input type="date" name="date">
+      <textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
+      <select name="tags">
+          <option value="event">evento</option>
+          <option value="important">importante</option>
+        </select>
+    </form>
+    <br>
+</span>
+  </div>
+</div>
+</body>
+</html> 
