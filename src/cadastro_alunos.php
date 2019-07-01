@@ -1,11 +1,11 @@
 <?php
+$id = $_POST['id'];
 $nome = $_POST['nome'];
-$senha = $_POST['senha']; // aumentar campo  no banco para usar o MD5
-//$senha = MD5($_POST['senha']);
-$Email = $_POST['email'];
+$email = $_POST['email'];
+$senha = MD5($_POST['senha']);
 $matricula = $_POST['matricula'];
-$turma = $_POST['matricula'];
-$link = mysqli_connect("localhost", "root", "", "professor2");
+$turma = $_POST['turma'];
+$link = mysqli_connect("localhost", "root", "", "plataforma_lispector");
  
 // Check connection
 if($link === false){
@@ -13,7 +13,7 @@ if($link === false){
 }
  
 // Attempt insert query execution
-$sql = "INSERT INTO aluno(nome, senha, email, matricula, turma) VALUES ('$nome', '$senha', '$Email', '$matricula', '$turma')";
+$sql = "INSERT INTO alunos(id, nome, email, senha, matricula, turma) VALUES ('$id', '$nome', '$email', '$senha', '$matricula', '$turma')";
 if(mysqli_query($link, $sql)){
     echo "DADOS INSERIDOS COM SUCESSO.";
 } else{
