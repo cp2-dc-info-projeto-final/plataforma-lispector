@@ -1,11 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,900,900i';
+
 .txt__normal     { font-family: 'Lato', sans-serif; font-weight: 400; }
 .txt__normal--it { .txt__normal; font-style: italic; }
 .txt__bold       { font-family: 'Lato', sans-serif; font-weight: 900; }
 .txt__bold--it   { .txt__bold; font-style: italic; }
 .txt__awesome    { font: normal normal normal 14px/1 FontAwesome; }
 
-/* VARIABLES ================================================*/
+/* Variaveis*/
 
 @col__black: fade(#000000, 90%);
 @col__white: #ffffff;
@@ -231,7 +231,7 @@ header {
     top: 50%;
     width: @mr__medium;
     height: @mr__medium;
-    padding: 9px 12px;
+    padding: 5px 10px;
     background-color: lighten(@col__blu, 4%);
     cursor: pointer;
     z-index: @zindex-1;

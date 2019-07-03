@@ -6,8 +6,17 @@
   <title>Calendario Escolar</title>
 </head>  
 <body> 
+<h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ciep 404 Clarice Lispector</h1>
 <link rel="stylesheet" href="tcc.css" type="text/css">
-<link rel="stylesheet" href="calendario.css" type="text/css">   
+ &nbsp
+<a href="Eventos.html">Eventos</a>
+&nbsp
+<a href="Contato.html">Contato</a>
+&nbsp
+<a href="Notícias.html">Notícias</a>
+&nbsp
+<a href="Área do Aluno.html">Área do Aluno</a>
+
 <h3>Calendário Escolar</h3>
 <script>
   // preencher a tabela mensal com os títulos das colunas
@@ -22,16 +31,6 @@ function fill_table(mes, mes_tamanho, indexMes) {
     document.write("<b>"+mes+" "+ano+"</b>")+
 
     
-// cabeçalhos de coluna
-    document.write("<div class='c-cal__row'>");
-    dia_titulo("Segunda");
-    dia_titulo("Terça");
-    dia_titulo("Quarta");
-    dia_titulo("Quinta");
-    dia_titulo("Sexta");
-    dia_titulo("Sabado");
-    dia_titulo("Domingo");
-    document.write("</div>");
 
     // preenche as células antes do primeiro dia do mês
     document.write("<div class='c-cal__row'>");
@@ -98,33 +97,15 @@ function fill_table(mes, mes_tamanho, indexMes) {
     <div class="c-monthyear">
     <div class="c-month">
         <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
-        <div id="c-paginator">
-          <span class="c-paginator__mes">Janeiro</span>
-          <span class="c-paginator__mes">Fevereiro</span>
-          <span class="c-paginator__mes">Março</span>
-          <span class="c-paginator__mes">Abril</span>
-          <span class="c-paginator__mes">Maio</span>
-          <span class="c-paginator__mes">Junho</span>
-          <span class="c-paginator__mes">Julho</span>
-          <span class="c-paginator__mes">Agosto</span>
-          <span class="c-paginator__mes">Setembro</span>
-          <span class="c-paginator__mes">Outubro</span>
-          <span class="c-paginator__mes">Novembro</span>
-          <span class="c-paginator__mes">Dezembro</span>
-        </div>
-        <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
-      </div>
-      <span class="c-paginator__year">2019</span>
-    </div>
     <div class="c-sort">
-      <a class="o-btn c-today__btn" href="javascript:;">TODAY</a>
+      <a class="o-btn c-today__btn" href="javascript:;">Hoje</a>
     </div>
   </div>
 </header>
 <div class="wrapper">
   <div class="c-calendar">
     <div class="c-calendar__style c-aside">
-      <a class="c-add o-btn js-event__add" href="javascript:;">add event <span class="fa fa-plus"></span></a>
+      <a class="c-add o-btn js-event__add" href="javascript:;">adicionar evento <span class="fa fa-plus"></span></a>
       <div class="c-aside__day">
         <span class="c-aside__num"></span> <span class="c-aside__month"></span>
       </div>
@@ -156,20 +137,41 @@ function fill_table(mes, mes_tamanho, indexMes) {
     </div>
   </div>
 
-  <div class="c-event__creator c-calendar__style js-event__creator">
-    <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
+  <div class="c-event__creator c-calendar__style js-event__creator"
+<br>
+<br>
     <form id="addEvent">
       <input placeholder="Event name" type="text" name="name">
+<br>
       <input type="date" name="date">
-      <textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
+<br>
+      <textarea placeholder="Notes" name="notes" cols="10" rows="5"></textarea>
       <select name="tags">
+<br>
           <option value="event">evento</option>
           <option value="important">importante</option>
+          <option value="Confirmar">confirmar</option>
         </select>
     </form>
     <br>
 </span>
   </div>
 </div>
+<h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContato</h1>
+<h4>Etapas de Ensino:
+<li>Ensino Fundamental</li>
+<li>Ensino Médio </li>
+Telefone:(21)3655-1112
+<br>
+E-mai: lhysse@prof.educacao.rj.gov.br
+<br>
+Endereço  Rua Leontina Meziot,
+Pilar 
+Duque de Caxias - RJ
+<br>
+CEP: 25233-090</h4>
 </body>
 </html> 
+
+//linkar a página do facebook
+//linkar a página do instagram
