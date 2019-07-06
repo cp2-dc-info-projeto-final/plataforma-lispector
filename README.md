@@ -3,5 +3,5 @@
 Ana Beatriz, 
 Denis Fidelis, 
 Kelli Bruna, 
-Kethelen Elizabeth, 
+Kethelen Elisabeth, 
 Samara de Paiva.
