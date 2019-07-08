@@ -4,4 +4,4 @@ Ana Beatriz,
 Denis Fidelis, 
 Kelli Bruna, 
 Kethelen Elisabeth, 
-Samara de Paiva.
+Samara Paiva.
