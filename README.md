@@ -1,6 +1,6 @@
 # Plataforma Lispector
 
-## Integrantes:
+# Integrantes:
 
 Ana Beatriz, 
 Denis Fidelis, 
