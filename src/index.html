@@ -1,177 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+                   
+<link rel="stylesheet" type="text/css" href="Home.css" media="screen"/>
+
+  
+                       
+
+	<script src="jquery-3.4.1.min.js">
+
+	 </script> 
+
+	 <style> 
+  {
+      border: 2px solid red;
+      border-radius: 12px;
+}
+
+ </style>
+
 	<meta charset="UTF-8">
-	<title> Ciep 404 Clarice Lispector </title>
-  <title>Calendario Escolar</title>
+
 </head>  
+
 <body> 
-<h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ciep 404 Clarice Lispector</h1>
-<link rel="stylesheet" href="tcc.css" type="text/css">
- &nbsp
-<a href="Eventos.html">Eventos</a>
-&nbsp
-<a href="Contato.html">Contato</a>
-&nbsp
-<a href="Notícias.html">Notícias</a>
-&nbsp
-<a href="Área do Aluno.html">Área do Aluno</a>
 
-<h3>Calendário Escolar</h3>
-<script>
-  // preencher a tabela mensal com os títulos das colunas
-function dia_titulo(dia_nome) {
-    document.write("<div class='c-cal__col'>" + dia_name + "</div>");
-  }
-  // preenche a tabela do mês com números
-function fill_table(mes, mes_tamanho, indexMes) {
-    dia = 1;
-    // começa a nova tabela de meses
-    document.write("<div class='c-main c-main-" + indexMes + "'>");
-    document.write("<b>"+mes+" "+ano+"</b>")+
+	<h1 style="background:#ffffff;color:black;padding:10px;text-align: center;"> Ciep 404 Clarice Lispector </h1>
 
-    
+	<a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/Home.html">Home</a>
+	&nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/Sobre.html">Sobre</a>
+    &nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/%C3%81rea%20do%20Professor.html">Área do Professor</a>
+    &nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/%C3%81rea%20do%20Aluno.html">Área do Aluno</a>   
+    &nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/Caadastro%20de%20Alunos.html">Cadastro de Alunos</a>
+    &nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/Cadastro%20de%20Professores.html">Cadastro de Professores</a>
+    &nbsp
+    <a href="file:///C:/Users/labcaxias/Desktop/Lispecctor/plataforma-lispector-master%20(2)/plataforma-lispector-master/Contatos.html">Contatos</a><br><br>
 
-    // preenche as células antes do primeiro dia do mês
-    document.write("<div class='c-cal__row'>");
-    for (var i = 1; i < comecar_dia; i++) {
-      if (comecar_dia > 7) {
-      } else {
-        document.write("<div class='c-cal__cel'></div>");
-      }
-    }
+       <li>Ensino Fundamental</li><br>
+       <li>Ensino Médio</li>
 
-    // preenche a primeira semana de dias
-    for (var i = comecar_dia; i < 8; i++) {
-      document.write(
-        "<div data-dia='2019-" +
-          indexMes +
-          "-0" +
-          dia +
-          "'class='c-cal__cel'><p>" +
-          dia +
-          "</p></div>"
-      );
-      dia++;
-    }
-    document.write("</div>");
+     <style>
 
-    // preenche as semanas restantes
-    while (dia <= mes_tamanho) {
-      document.write("<div class='c-cal__row'>");
-      for (var i = 1; i <= 7 && dia <= mes_tamanho; i++) {
-        if (dia >= 1 && dia <= 9) {
-          document.write(
-            "<div data-dia='2019'" +
-              indexMes +
-              "-0" +
-              dia +
-              "'class='c-cal__cel'><p>" +
-              dia +
-              "</p></div>"
-          );
-          dia++;
-        } else {
-          document.write(
-            "<div data-dia='2019-" +
-              indexMes +
-              "-" +
-              dia+
-              "' class='c-cal__cel'><p>" +
-              dia+
-              "</p></div>"
-          );
-          dia++;
-        }
-      }
-      document.write("</div>");     
-// o primeiro dia do próximo mês
-      comecar_dia = i;
-    }
+     	body { background-color: #ccf2ff}
 
-    document.write("</div>");
-  }
-</script>
-<header>
-  <div class="wrapper">
-    <div class="c-monthyear">
-    <div class="c-month">
-        <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
-    <div class="c-sort">
-      <a class="o-btn c-today__btn" href="javascript:;">Hoje</a>
-    </div>
-  </div>
-</header>
-<div class="wrapper">
-  <div class="c-calendar">
-    <div class="c-calendar__style c-aside">
-      <a class="c-add o-btn js-event__add" href="javascript:;">adicionar evento <span class="fa fa-plus"></span></a>
-      <div class="c-aside__day">
-        <span class="c-aside__num"></span> <span class="c-aside__month"></span>
-      </div>
-      <div class="c-aside__eventList">
-      </div>
-    </div>
-    <div class="c-cal__container c-calendar__style">
-      <script>
-      
-     // a variável abaixo para o ANO ATUAL
-      ANO= 2019;
+     </style>
 
-      // primeiro dia da semana do ano
-      Segunda = new Date(Julho, " + year);
-      start_dia = today.getDay() + 1;
-      fill_table("Janeiro", 31, "01");
-      fill_table("Fevereiro", 28, "02");
-      fill_table("Março", 31, "03");
-      fill_table("Abril", 30, "04");
-      fill_table("Maio", 31, "05");
-      fill_table("Junho", 30, "06");
-      fill_table("Julho", 31, "07");
-      fill_table("Auguso", 31, "08");
-      fill_table("Setembro", 30, "09");
-      fill_table("Outubro", 31, "10");
-      fill_table("Novembro", 30, "11");
-      fill_table("Dezembro", 31, "12");
-      </script>
-    </div>
-  </div>
-
-  <div class="c-event__creator c-calendar__style js-event__creator"
-<br>
-<br>
-    <form id="addEvent">
-      <input placeholder="Event name" type="text" name="name">
-<br>
-      <input type="date" name="date">
-<br>
-      <textarea placeholder="Notes" name="notes" cols="10" rows="5"></textarea>
-      <select name="tags">
-<br>
-          <option value="event">evento</option>
-          <option value="important">importante</option>
-          <option value="Confirmar">confirmar</option>
-        </select>
-    </form>
-    <br>
-</span>
-  </div>
-</div>
-<h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContato</h1>
-<h4>Etapas de Ensino:
-<li>Ensino Fundamental</li>
-<li>Ensino Médio </li>
-Telefone:(21)3655-1112
-<br>
-E-mai: lhysse@prof.educacao.rj.gov.br
-<br>
-Endereço  Rua Leontina Meziot,
-Pilar 
-Duque de Caxias - RJ
-<br>
-CEP: 25233-090</h4>
 </body>
-</html> 
-
-//linkar a página do facebook
-//linkar a página do instagram
+</html>
