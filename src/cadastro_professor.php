@@ -1,5 +1,5 @@
 <?php
-$id = $_POST['id'];
+
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
@@ -12,7 +12,7 @@ if($link === false){
 }
  
 // Attempt insert query execution
-$sql = "INSERT INTO professor(id, nome, matricula, email, senha) VALUES ('$id', '$nome', '$matricula', '$email', '$senha')";
+$sql = "INSERT INTO professor( nome, matricula, email, senha) VALUES ( '$nome', '$matricula', '$email', '$senha')";
 if(mysqli_query($link, $sql)){
     echo "DADOS INSERIDOS COM SUCESSO.";
 } else{
