@@ -1,0 +1,89 @@
+<!DOCTYPE html> <!-- Indica ao navegador que este é um documento HTML. -->
+
+<html lang="pt-br"> <!-- Declaração do idioma no código HTML. -->
+
+<head> <!-- Nessa tag, estão inseridas as informações específicas da página, o título, o estilo, a codificação etc; -->
+
+	<meta charset="utf-8"> <!--Defini a codificação de Caracteres -->
+
+<body> <!-- Inicia a parte visível de seu template HTML, todo conteúdo do corpo da página fica depois dessa tag. -->
+
+	<header> <!-- Representa o cabeçalho da página: logotipo da empresa, título do site. Também pode representar o cabeçalho de um elemento. -->
+		
+		<h1>Ciep 404 - Clarice Lispector</h1>
+
+	</header> 
+
+
+	<section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
+					
+	<nav> <!-- É utilizado para o menu de navegação da página. Nela, estão inseridos links para outras páginas do site. -->
+				
+		<a href="Home.html">Home</a>
+		    &nbsp
+
+       <a href="AreaDoProfessor.html">Área do Professor</a>
+        &nbsp
+
+      <a href="AreaDoAluno.html">Área do Aluno</a>
+        &nbsp
+
+        <a href="Cadastros.html">Cadastro de Professores</a>
+        &nbsp
+
+        <a href="Contatos.html">Contatos</a>
+
+
+        <title>Index</title>
+
+    </head>
+
+<section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
+				
+    <article> <!-- Indica que os artigos da página, postagens, notícias e informes estão nesse local. -->
+
+			<h2>Sobre</h2>
+
+			<p>O Ciep Brizolão 404 - Clarice Lispector, é uma Escola pública e urbana. Com uma ótima estrutura, que conta com diversos ambientes educativos, laboratório de informática, sala de ciências, quadra esportiva coberta, biblioteca, sala de leitura, banheiro adequado a alunos com deficiência ou mobilidade reduzida, banheiro com chuveiro, auditório, pátio e etc. Oferece também alimentação escolar para os alunos e atividade complementar. Atende as modalidades: ensino regular, ensino fundamental, ensino médio e EJA - fundamental.</p>
+
+			<img src="ciep.png">
+
+		</article>
+
+
+<style>
+
+
+			header, section, nav, aside, footer
+
+			 { background-color: lightskyblue; } /* Cor de Fundo */
+article {
+  border: 6px solid white; /* Tamanho  (Em píxels) e Cor da Borda do Artigo */
+  margin: 6px; /* Tamanho (Em píxels) e Cor da Margem do Artigo */
+  padding: 6px; /* Tamanho (Em píxels) do Preenchimento do Artigo */
+  background-color: lightskyblue; /* Cor de Fundo */
+}
+
+header { grid-area: header; } /* Cabeçalho da área de grade */
+nav { grid-area: menu; } /* Menu da área de grade */
+section { grid-area: main} /* Área de grade principal */
+aside { grid-area: sidebar; } /* Barra lateral da área de grade */
+footer { grid-area: footer; } /* Rodapé da área de grade */
+
+body {
+  font-family: sans-serif; /* Família de Fontes: Sem serifa */;
+  display: grid; /* Grade de Exibição */
+  grid-template-areas: /* Áreas do modelo de Grades */
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'sidebar main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px; /* Tamanho (Em´píxels), da lacuna da grade */
+  padding: 10px; /* Tamanho (Em´píxels), do preenchimento*/
+}
+
+</style>
+</section>
+</section>
+</body>
+</html>
