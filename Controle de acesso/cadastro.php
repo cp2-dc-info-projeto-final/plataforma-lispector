@@ -1,9 +1,8 @@
 <?php
-    $id = $_POST["id"];
     $nome = $_POST["nome"];
     $email = $_POST["email"];
     $matricula = $_POST["matricula"];
-    $senha = MD5$_POST["senha"];
+    $senha = MD5($_POST['senha']);
     $confirmaSenha = $_POST["confirmaSenha"];
     session_start();
     if ($senha != $confirmaSenha) {    
@@ -11,7 +10,7 @@
         $_SESSION["erro"] = $erro;
         header("Location: formCadastro.php");
         exit();
-    }c
+    }
     # password hash
     $hash = password_hash($senha, PASSWORD_DEFAULT);
     $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
@@ -30,8 +29,8 @@
         header("Location: formCadastro.php");
         exit();
     }
-    $sql = "INSERT INTO usuario (id, nome, email, matricula, senha, confirmaSenha) VALUES
-            ('$id', '$nome', '$email', '$matricula', '$senha', '$hash')";
+    $sql = "INSERT INTO alunos (nome, email, matricula, senha, confirmaSenha) VALUES
+            ('$nome', '$email', '$matricula', '$senha', '$hash')";
     if(mysqli_query($connection, $sql)){
         session_unset();
         header("Location: formLogin.php");

@@ -8,10 +8,6 @@
 <h1>Cadastro</h1>
 <form action="cadastro.php" method="post">
     <p>
-        <label for="id">Nome</label>
-        <input type="text" name="id" id="id">
-    </p>
-    <p>
         <label for="nome">Nome</label>
         <input type="text" name="nome" id="nome">
     </p>
@@ -20,7 +16,7 @@
         <input type="text" name="email" id="email">
     </p>
     <p>
-        <label for="matricula">Nome</label>
+        <label for="matricula">Matrícula</label>
         <input type="text" name="matricula" id="matricula">
     </p>
     <p>
