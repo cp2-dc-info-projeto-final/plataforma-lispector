@@ -6,7 +6,7 @@
     $confirmaSenha = $_POST["confirmaSenha"];
     session_start();
     if ($senha != $confirmaSenha) {    
-        $erro = "As senhas não coincidem";        
+        $erro = "SENHAS NÃO COINCIDENTES";        
         $_SESSION["erro"] = $erro;
         header("Location: formCadastro.php");
         exit();
