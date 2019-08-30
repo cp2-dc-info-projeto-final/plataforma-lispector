@@ -35,7 +35,7 @@
         }
     ?>
     
-    <a href="AreadoAluno.html">Entrar
+    <a href="LoginDoAluno.html">Entrar
 
     	 <p id="backtoblog"><a href="index.html">Home</a>
     &larr; Voltar para Home</a></p>
