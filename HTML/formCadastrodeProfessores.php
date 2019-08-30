@@ -20,8 +20,8 @@
 		<label>Matrícula: </label><input type="text" name="matricula" id="matricula"><br><br>
 		<label>Senha: </label><input type="password" name="senha" id="senha"><br><br>
 		<label>Confirmar a Senha: </label><input type="password" name="confirmaSenha" id="confirmaSenha"><br><br>
- <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
- <?php
+        <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+    <?php
         session_start();
         if(array_key_exists('erro', $_SESSION) == true){
             $erro = $_SESSION["erro"];
