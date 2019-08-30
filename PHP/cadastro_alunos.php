@@ -25,7 +25,7 @@ $erro = "";
 if (mysqli_num_rows($result) > 0) {
     $erro = "E-mail indisponível.";        
     $_SESSION["erro"] = $erro;
-    header("Location: ../HTML/formCadastrodeAlunos.php");
+    header("Location: ../PHP/formCadastrodeAlunos.php");
     exit();
 }
 // Attempt insert query execution
