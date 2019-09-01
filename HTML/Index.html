@@ -2,103 +2,61 @@
 
 <html lang="pt-br"> <!-- Declaração do idioma no código HTML. -->
 
-<head> <!-- Nessa tag, estão inseridas as informações específicas da página, o título, o estilo, a codificação etc; -->
+<head> <!-- Nessa tag, estão inseridas as informações específicas da página, o título, o estilo, a codificação etc. -->
 
-  <style>
-    body p {
-      color: purple;
-    }
-    body h2 {
-      color: purple;
-    }
-    body h1 {
-      color: purple
-    }
-  
-    </style>
+  <title>Index</title> <!-- Define o título do documento. -->
+
+ <header> <!-- Representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação. -->
+
+  <h1 style= "background: #ffffff; color: darkblue; padding: 10px; text-align: center;">Ciep 404 - Clarice Lispector</h1> <!-- Elemento do cabeçalho estilizado. -->
+
+</header>
+
+    <section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
+				
+        <a href="Index.html">Home</a>
+            &nbsp
+    
+           <a href="AreaDoProfessor.html">Login do Professor</a>
+            &nbsp
+    
+          <a href="AreaDoAluno.html">Login do Aluno</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
+            &nbsp
+            <a href="Contatos.html">Contatos</a>
+
+            <div id="Artigo"> <!-- É um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como <article> ou <nav>). -->
+
+                <h1>Sobre</h1> <!-- Elemento do cabeçalho -->
+        
+                <h2> <!-- Elemento do cabeçalho -->
+                  O Ciep Brizolão 404 - Clarice Lispector, é uma Escola pública e urbana. Com uma ótima estrutura, que conta com diversos ambientes educativos, laboratório de informática, sala de ciências, quadra esportiva coberta, biblioteca, sala de leitura, banheiro adequado a alunos com deficiência ou mobilidade reduzida, banheiro com chuveiro, auditório, pátio e etc. Oferece também alimentação escolar para os alunos e atividade complementar. Atende as modalidades: ensino regular, ensino fundamental, ensino médio e EJA - fundamental.
+                </h2>
+
+                <img src="../IMAGENS/ciep.png"> <!-- Imagem do cabeçalho -->
+
+            </div>  
 
   <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico"> <!--Linka a imagem ico que aparecerá na guia do navegador-->
+
   <meta charset="UTF-8"> <!--Define a codificação de Caracteres -->
     
    </head>
-<body> <!-- Inicia a parte visível de seu template HTML, todo conteúdo do corpo da página fica depois dessa tag. -->
-
-  <style type="text/css">
-  p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px; 
-  }
-
-  h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px; 
-    position: top center;
-
-  }
-    
-    </style>
-  <header> <!-- Representa o cabeçalho da página: logotipo da empresa, título do site. Também pode representar o cabeçalho de um elemento. -->
 		
-		<h1>Ciep 404 - Clarice Lispector</h1>
-
-	</header> 
-
-
-	<section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
-					
-	<nav> <!-- É utilizado para o menu de navegação da página. Nela, estão inseridos links para outras páginas do site. -->
-				
-		<a href="Index.html">Home</a>
-		    &nbsp
-
-       <a href="AreaDoProfessor.html">Login do Professor</a>
-        &nbsp
-
-      <a href="AreaDoAluno.html">Login do Aluno</a>
-        &nbsp
-        <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
-        &nbsp
-        <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
-        &nbsp
-        <a href="Contatos.html">Contatos</a>
-        
-        <title>Index</title>
-
-    </head>
-
-<section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
-				
-    <article> <!-- Indica que os artigos da página, postagens, notícias e informes estão nesse local. -->
-
-        <h2>Sobre</h2>
-
-			<p>O Ciep Brizolão 404 - Clarice Lispector, é uma Escola pública e urbana. Com uma ótima estrutura, que conta com diversos ambientes educativos, laboratório de informática, sala de ciências, quadra esportiva coberta, biblioteca, sala de leitura, banheiro adequado a alunos com deficiência ou mobilidade reduzida, banheiro com chuveiro, auditório, pátio e etc. Oferece também alimentação escolar para os alunos e atividade complementar. Atende as modalidades: ensino regular, ensino fundamental, ensino médio e EJA - fundamental.</p>
-
-			<img src="../IMAGENS/ciep.png">
-
-    </article>
-
-
-
 <style>
 
 body {background-color: lightskyblue;}
 
-			header, section, nav, aside, footer
+			header, section
 
 			 { background-color: lightskyblue; } /* Cor de Fundo */
-article {
-  border: 20px solid white; /* Tamanho  (Em píxels) e Cor da Borda do Artigo */
-  margin: 20px; /* Tamanho (Em píxels) e Cor da Margem do Artigo */
-  padding: 250px; /* Tamanho (Em píxels) do Preenchimento do Artigo */
-  background-color: lightskyblue; /* Cor de Fundo */
-}
 
-header { grid-area: header; } /* Cabeçalho da área de grade */
-nav { grid-area: menu; } /* Menu da área de grade */
-section { grid-area: main} /* Área de grade principal */
-aside { grid-area: sidebar; } /* Barra lateral da área de grade */
-footer { grid-area: footer; } /* Rodapé da área de grade */
+
+       header { grid-area: header; } /* Cabeçalho da área de grade */
+       section { grid-area: main} /* Área de grade principal */
 
 body {
   font-family: sans-serif; /* Família de Fontes: Sem serifa */;
@@ -111,6 +69,27 @@ body {
   grid-gap: 20px; /* Tamanho (Em´píxels), da lacuna da grade */
   padding: 20px; /* Tamanho (Em´píxels), do preenchimento*/
 }
+
+h1 {
+  color: blue; /* Cor do Texto */
+  text-align: center; /* Posição do Texto */
+  font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
+  font-style: italic; /* Estilo da Fonte do Texto */
+}
+
+div {
+    border: 20px solid white; /* Tamanho  (Em píxels) e Cor da Borda do Artigo */
+  margin: 20px; /* Tamanho (Em píxels) e Cor da Margem do Artigo */
+  padding: 20px; /* Tamanho (Em píxels) do Preenchimento do Artigo */
+  background-color: lightskyblue; /* Cor de Fundo */  
+}
+
+h2 {
+   color: darkblue; /* Cor do Texto */
+  font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
+  font-style: italic; /* Estilo da Fonte do Texto */
+}
+
 
 </style>
 </section>
