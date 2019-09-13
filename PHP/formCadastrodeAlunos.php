@@ -37,7 +37,7 @@
     
     <a href="LoginDoAluno.html">Entrar
 
-    	 <p id="backtoblog"><a href="index.html">Home</a>
+    	 <p id="backtoblog"><a href="../HTML/Index.html">Home</a>
     &larr; Voltar para Home</a></p>
     
 </form>
