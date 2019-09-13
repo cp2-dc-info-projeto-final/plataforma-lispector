@@ -17,7 +17,7 @@ if($connection === false){
     die("Deu ruim, mano!" . mysqli_connect_error());
 }
 
-$sql = "SELECT id FROM professor WHERE email='$email'";
+$sql = "SELECT id FROM alunos WHERE email='$email'";
 $result = mysqli_query($connection, $sql);
 $erro = "";
  
@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) > 0) {
     exit();
 }
 // Attempt insert query execution
-$sql = "INSERT INTO professor (nome, email, matricula, senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
+$sql = "INSERT INTO alunos (nome, email, matricula, turma, senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
 if(mysqli_query($connection, $sql)){
     echo "DADOS INSERIDOS COM SUCESSO.";
 } else{
