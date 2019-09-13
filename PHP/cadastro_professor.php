@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) > 0) {
     exit();
 }
 // Attempt insert query execution
-$sql = "INSERT INTO alunos (nome, email, matricula, turma, senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
+$sql = "INSERT INTO professor (nome, email, matricula, turma, senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
 if(mysqli_query($connection, $sql)){
     echo "DADOS INSERIDOS COM SUCESSO.";
 } else{
