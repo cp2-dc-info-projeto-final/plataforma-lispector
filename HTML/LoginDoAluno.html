@@ -43,7 +43,7 @@
   
   <style> 
 
-  body {background-color:#ccf2ff}
+  body {background-color:lightskyblue}
 
 </style>
 </body>
