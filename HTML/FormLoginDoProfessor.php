@@ -20,7 +20,7 @@
 
   &nbsp &nbsp &nbsp
 
-    &nbsp &nbsp &nbsp <input type="text" placeholder="Digite sua Senha" name="uname" required>
+    &nbsp &nbsp &nbsp <input type="password" placeholder="Digite sua Senha" name="uname" required>
 
     <br>
 

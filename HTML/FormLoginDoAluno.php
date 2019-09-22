@@ -24,7 +24,7 @@
  <label for="uname"><b>Senha:</b></label>              
   &nbsp &nbsp &nbsp
 
-    <input type="text" placeholder="Digite sua Senha" name="uname" required> <br>
+    <input type="password" placeholder="Digite sua Senha" name="uname" required> <br>
     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 
      <input type="checkbox" checked="checked" name="remember"> Lembrar Senha
