@@ -6,6 +6,11 @@ $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
 
+if ($senha <> $confirmaSenha) {
+    $erro = "As senhas não coincidem";        
+    $_SESSION["erro"] = $erro;
+    header("Location: ../PHP/formCadastrodeAlunos.php");
+    exit();
 session_start();
 
 # password hash

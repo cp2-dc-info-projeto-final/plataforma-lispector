@@ -29,6 +29,14 @@
     <br>
 
    &nbsp &nbsp &nbsp <h4><button type="button" class="cancelbtn">Entrar</button><br><br>
+   <?php
+        session_start();
+        if(array_key_exists('erro', $_SESSION) == true){
+            $erro = $_SESSION["erro"];
+            echo "<br><b>$erro</b>";
+            session_unset();
+        }
+    ?>
 
 
     </label>
