@@ -16,8 +16,8 @@
         <input type="text" name="email" id="email">
     </p>
     <p>
-        <label for="matricula">Matrícula</label>
-        <input type="text" name="matricula" id="matricula">
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email">
     </p>
     <p>
         <label for="senha">Senha</label>

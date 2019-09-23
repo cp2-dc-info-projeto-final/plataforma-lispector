@@ -14,12 +14,12 @@
   <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">Login do Aluno</h1>
 
 
-    <label for="uname"><b>Matrícula:</b></label>      &nbsp &nbsp &nbsp
+    <label for="uname"><b>Email:</b></label>      &nbsp &nbsp &nbsp
 
-    <input type="text" placeholder="Digite sua Matrícula" name="uname" required>
+    <input type="text" placeholder="Digite seu Email" name="uname" required>
     <br>
 
-              &nbsp &nbsp &nbsp
+              
 
  <label for="uname"><b>Senha:</b></label>              
   &nbsp &nbsp &nbsp
