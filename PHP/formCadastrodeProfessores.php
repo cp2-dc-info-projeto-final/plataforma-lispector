@@ -13,6 +13,22 @@
        </style>
 
 <body>
+<div id="menu">
+        <a href="Index.html">Home</a>
+            &nbsp
+    
+           <a href="FormLoginDoProfessor.php">Login do Professor</a>
+            &nbsp
+    
+          <a href="FormLoginDoAluno.php">Login do Aluno</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
+            &nbsp
+            <a href="Contatos.html">Contatos</a>
+        </div>
+        <br><br>
 	<form method="post" action="../PHP/cadastro_professor.php"><!--liga ao código php-->
 	
 		<label>Nome: </label><input type="text" name="nome" id="nome"><br><br>
@@ -29,9 +45,7 @@
             session_unset();
         }
     ?>
-    
-
-   <p id="backtoblog"><a href="../HTML/Index.html">Home</a>
+     <p id="backtoblog"><a href="../HTML/Index.html">Home</a>
     &larr; Voltar para Home</a></p>,
     
 

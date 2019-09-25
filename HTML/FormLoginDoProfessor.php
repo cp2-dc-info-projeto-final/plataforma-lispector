@@ -60,7 +60,7 @@
     <a href="#">Esqueceu a Senha</a><br><br>
 
     <a href="../PHP/formCadastrodeProfessores.php">Ainda não é cadastrado?<br>Cadastre-se!</a><br>
-      </form>
+   
 
     <p id="backtoblog"><a href="index.html">Home</a>
     &larr; Voltar para Home</a></p>
@@ -71,6 +71,7 @@
   body {background-color:lightskyblue}
 
 </style>
+</form>
 </head>
 </body>
 </html>
