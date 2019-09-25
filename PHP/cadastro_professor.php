@@ -6,6 +6,12 @@ $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
 
 session_start();
+if ($senha != $confirmaSenha) {    
+    $erro = "SENHAS NÃO COINCIDENTES";        
+    $_SESSION["erro"] = $erro;
+    header("Location: formCadastrodeProfessores.php");
+    exit();
+}
 
 # password hash
 $hash = password_hash($senha, PASSWORD_DEFAULT);

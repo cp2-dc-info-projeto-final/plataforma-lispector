@@ -14,19 +14,19 @@
 
 <body>
 <div id="menu">
-        <a href="Index.html">Home</a>
+        <a href="../HTML/Index.html">Home</a>
             &nbsp
     
-           <a href="FormLoginDoProfessor.php">Login do Professor</a>
+           <a href="../HTML/FormLoginDoProfessor.php">Login do Professor</a>
             &nbsp
     
-          <a href="FormLoginDoAluno.php">Login do Aluno</a>
+          <a href="../HTML/FormLoginDoAluno.php">Login do Aluno</a>
             &nbsp
             <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
             &nbsp
             <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
             &nbsp
-            <a href="Contatos.html">Contatos</a>
+            <a href="../HTML/Contatos.html">Contatos</a>
         </div>
         <br><br>
 	<form method="post" action="../PHP/cadastro_professor.php"><!--liga ao código php-->

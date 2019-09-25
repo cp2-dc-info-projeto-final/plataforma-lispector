@@ -14,25 +14,26 @@
      	body { background-color: lightskyblue}
 
      </style>
-     <div id="menu">
-        <a href="Index.html">Home</a>
+
+
+<body>
+        <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">Cadastro de Alunos</h1>	
+        <div id="menu">
+        <a href="../HTML/Index.html">Home</a>
             &nbsp
     
-           <a href="FormLoginDoProfessor.php">Login do Professor</a>
+           <a href="../HTML/FormLoginDoProfessor.php">Login do Professor</a>
             &nbsp
     
-          <a href="FormLoginDoAluno.php">Login do Aluno</a>
+          <a href="../HTML/FormLoginDoAluno.php">Login do Aluno</a>
             &nbsp
             <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
             &nbsp
             <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
             &nbsp
-            <a href="Contatos.html">Contatos</a>
+            <a href="../HTML/Contatos.html">Contatos</a>
         </div>
         <br><br>
-
-<body>
-		<h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">Cadastro de Alunos</h1>	
 	<form method="post" action="../PHP/cadastro_alunos.php"><!--liga ao código php-->
 		
 		<label>Nome:</label><input type="text" name="nome" id="nome"><br><br>

@@ -5,7 +5,13 @@ $matricula = $_POST['matricula'];
 $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
-
+session_start();
+if ($senha != $confirmaSenha) {    
+    $erro = "SENHAS NÃO COINCIDENTES";        
+    $_SESSION["erro"] = $erro;
+    header("Location: formCadastrodeAlunos.php");
+    exit();
+}
 # password hash
 $hash = password_hash($senha, PASSWORD_DEFAULT);
 
@@ -30,6 +36,7 @@ if (mysqli_num_rows($result) > 0) {
 $sql = "INSERT INTO alunos (nome, email, matricula, turma, senha) VALUES ('$nome', '$email', '$matricula', '$turma', '$hash')";
 if(mysqli_query($connection, $sql)){
     echo "DADOS INSERIDOS COM SUCESSO.";
+ 
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO $sql.";
 }
