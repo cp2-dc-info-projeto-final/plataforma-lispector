@@ -14,6 +14,22 @@
      	body { background-color: lightskyblue}
 
      </style>
+     <div id="menu">
+        <a href="Index.html">Home</a>
+            &nbsp
+    
+           <a href="FormLoginDoProfessor.php">Login do Professor</a>
+            &nbsp
+    
+          <a href="FormLoginDoAluno.php">Login do Aluno</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
+            &nbsp
+            <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
+            &nbsp
+            <a href="Contatos.html">Contatos</a>
+        </div>
+        <br><br>
 
 <body>
 		<h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">Cadastro de Alunos</h1>	
