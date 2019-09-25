@@ -16,7 +16,7 @@ while($Row_email = mysql_fetch_array($sql)){ //fazemos um while para coletarmos 
                 $senha = $Row_email['senha']; // E a senha
                 }
 
-$msg="Olá $nome, você solicitou a recuperação de senha para o sistema xxxxxx\n \n"; //envia o email para a pessoa juntamente com seu nome e sua senha
+$msg="Olá $nome, você solicitou a recuperação de senha para o sistema\n \n"; //envia o email para a pessoa juntamente com seu nome e sua senha
 
 $msg.="Sua senha é: $senha"; //Senha que será enviada
 
