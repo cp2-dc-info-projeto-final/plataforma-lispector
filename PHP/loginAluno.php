@@ -8,7 +8,7 @@
             die("Erro de Conecção" . mysqli_connect_error());
         }
         
-        $sql = "SELECT senha,nome FROM aluno WHERE email='$email'";
+        $sql = "SELECT senha,nome FROM professor WHERE email='$email'";
     
         $result = mysqli_query($connection, $sql);
         
