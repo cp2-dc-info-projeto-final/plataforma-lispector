@@ -34,6 +34,6 @@
     <input type="password" name="senhaLoga" value="" />
     <input type="hidden" name="acao" value="logar" />
     <input type="submit" name="logar" value="" />
-    <a href="?recuperar=sim"></
+    <a href="?recuperar=sim">Esqueceu sua senha?</a>
 
 ?php }?> 
