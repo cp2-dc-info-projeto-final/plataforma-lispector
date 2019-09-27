@@ -5,7 +5,7 @@
   if( !empty($_POST) ){     // processar o pedido
 
     
-    mysql_connect('localhost', 'root', '');  // ligar à base de dados
+    mysql_connect('localhost', 'FormLoginDoAluno.php');  // ligar à base de dados
 
     mysql_select_db('test');  // escolher a base de dados pretendida
  
