@@ -18,18 +18,22 @@
 
   </style>
 
-<h1 label for="uname"><b>Nova Senha:</b></label></h1>
+<form action="" method="POST" enctype="multipart/form-data">
 
-<input type="password" placeholder="Digite a Nova Senha" name="uname" required><br>
+  <?php
 
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-&nbsp &nbsp
+  if (isset($_GET['recuperar']) && $_GET ['recuperar'] == 'sim'){
 
+    ?>
 
+    <input type="text" name="emailRecupera" value="" />
+    <input type="hidden" name="acao" value="" />
+    <input type="submit" name="RecuperarSenha" value="recuperar" />
+  <?php }else{?>
+    <input type="text" name="emailLoga" value="" />
+    <input type="password" name="senhaLoga" value="" />
+    <input type="hidden" name="acao" value="logar" />
+    <input type="submit" name="logar" value="" />
+    <a href="?recuperar=sim"></
 
-<a href="Index.html">Voltar Para Home</a>
-
-
-</header>
-</head>
-</html>
+?php }?> 
