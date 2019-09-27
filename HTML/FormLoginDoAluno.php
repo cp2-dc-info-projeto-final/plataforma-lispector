@@ -71,6 +71,12 @@
 
   body {background-color:lightskyblue}
 
+  div {
+    border: 20px solid white; /* Tamanho  (Em píxels) e Cor da Borda do Artigo */
+  margin: 20px; /* Tamanho (Em píxels) e Cor da Margem do Artigo */
+  padding: 20px; /* Tamanho (Em píxels) do Preenchimento do Artigo */
+  background-color: lightskyblue; /* Cor de Fundo */  
+}
 </style>
 </form>
 </body>
