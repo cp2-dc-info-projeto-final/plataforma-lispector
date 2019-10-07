@@ -1,14 +1,16 @@
 <?php
 
 $host = "localhost";
-$usuario = "aluno";
+$usuario = "root";
 $senha = "";
-$bd = "test";
+$bd = "plataforma_lispector";
 
-$mysqli = new mysqli ($host, $usuario, $senha, $bd)
+$mysqli = new mysqli ($host, $usuario, $senha, $bd);
 
-if ($mysqli->connect_errno.)
+if ($mysqli->connect_errno) {
 
-echo "Falha na Conexão: (".mysqli->connect_errno.") ".$mysqli->CONNECT_ERROR;
+echo "Falha na Conexão:" . $mysqli->connect_errno . $mysqli->CONNECT_ERROR;
+
+}
 
 ?>
