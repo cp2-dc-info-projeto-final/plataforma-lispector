@@ -1,6 +1,6 @@
 <?php>
 
-include("conexao.php");
+include ("Conexao.php");
 
 if(isset($_POST[ok])){
 
