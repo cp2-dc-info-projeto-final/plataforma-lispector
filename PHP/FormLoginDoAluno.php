@@ -57,14 +57,13 @@
         }
     ?>
 
- <a href="#">Esqueceu a Senha?</a><br>
+ <a href=".../PHP/NovaSenha.php">Se você esqueceu a Senha, clique aqui!</a><br>
 
  <a href="../PHP/formCadastrodeAlunos.php">Cadastre-se!</a>
 
 
 
-    <p id="backtoblog"><a href="index.html">Home</a>
-    &larr; Voltar para Home</a></p>
+    <p id="backtoblog"><a href=".../HTML/Index.html">Voltar para Home</a>
     
   
   <style> 

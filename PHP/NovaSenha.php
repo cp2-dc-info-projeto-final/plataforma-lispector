@@ -1,4 +1,4 @@
-<h1 style= background: #ffffff; color: darkblue; padding: 10px; text-align: center>Recuperação de Senha</h1> <!-- Elemento do cabeçalho estilizado. -->
+<h1 style= "background: #ffffff; color: darkblue; padding: 10px; text-align: center;">Recuperação de Senha</h1> <!-- Elemento do cabeçalho estilizado. -->
 
 
 <?php
