@@ -63,7 +63,9 @@
 
 
 
-    <p id="backtoblog"><a href=".../HTML/Index.html">Voltar para Home</a>
+    <p id="backtoblog">
+    
+    <a href=".../HTML/Index.html">Voltar para Home</a>
     
   
   <style> 
