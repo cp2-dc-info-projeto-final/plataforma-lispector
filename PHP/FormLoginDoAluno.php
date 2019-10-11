@@ -47,7 +47,7 @@
 
      <input type="checkbox" checked="checked" name="remember"> Lembrar Senha
   
- <p><input type="submit" value="Enviar"></button></p>
+ <p> <input type="submit" name="Enviar"></button></p>
  <?php
         session_start();
         if(array_key_exists('erro', $_SESSION) == true){
