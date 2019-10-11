@@ -1,0 +1,55 @@
+[code]
+
+/* Corpo do Texto*/
+
+body{
+margin: 0;
+padding: 0;
+}
+
+/* Dados do Formulário*/
+
+form{
+font-size: 16px;
+background: #99ccff;
+max-width: 500px;
+margin: 0 auto;
+padding: 30px;
+
+}
+
+h1{
+  font-size: 48px;
+  color: #000000;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* textarea de entrada*/
+
+input, textarea{
+width: 474px;
+padding: 10px;
+}
+
+
+textarea {
+width: 474px;
+height: 120px;
+line-height: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+[/code]
