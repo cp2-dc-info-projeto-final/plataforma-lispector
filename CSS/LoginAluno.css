@@ -1,4 +1,5 @@
-*:before, *:after { 
+/* CSS reset */
+*, *:before, *:after { 
     margin:0;
     padding:0;
     font-family: Arial,sans-serif;
@@ -14,7 +15,7 @@
     display: none;
   }
   
-  content{
+  .content{
     width: 500px;
     min-height: 560px;    
     margin: 0px auto;
@@ -30,6 +31,7 @@
     text-align: center;
     padding-bottom: 30px;
   }
+  
   h1:after{
     content: ' ';
     display: block;
@@ -53,6 +55,7 @@
     position: relative;
   }
   
+  
   /* placeholder */
   ::-webkit-input-placeholder  {
     color: #bebcbc; 
@@ -64,6 +67,7 @@
     color: #bebcbc;
     font-style: italic;
   }
+  
   
   input {
     outline: none;
@@ -108,6 +112,7 @@
   input[type="submit"]:hover{
     background: #4ab3c6;
   }
+  
   
   .link{
     position: absolute;
@@ -169,6 +174,7 @@
     animation-fill-mode: both;
   }
   
+  
   /* Efeito ao clicar no botão ( Ir para Login ) */
   #paracadastro:target ~ .content #cadastro,
   #paralogin:target ~ .content #login{
@@ -186,7 +192,6 @@
     -webkit-animation-name: fadeOutLeft;
     animation-name: fadeOutLeft;
   }
-  
   
   /*fadeInLeft*/
   @-webkit-keyframes fadeInLeft {
@@ -233,5 +238,4 @@
       transform: translateX(-20px);
     }
   }
-  
   
