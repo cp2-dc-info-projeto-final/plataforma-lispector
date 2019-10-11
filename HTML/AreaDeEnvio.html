@@ -6,20 +6,20 @@
         <title>Envio de Arquivos</title>
 
     <style>
-     {
-        color:black;
+    {
+        color:blak;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         background-color:seagreen;
     }
     </style>
     </head>
 <body>
-        <body background="../IMAGENS/ciep.png"></body>
-    <h1 style = "background:#8ABA7F;color:black;padding:10px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">Área para ENVIO</h1>
+<form enctype="multipart/form-data" action="../PHP/envio.php" method="POST">
+<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+Enviar Arquivo : <input name="userfile" type="file">
+<input type="submit" value="enviar">
 
-<p>
-    <strong>INSIRA SEUS ARQUIVOS:</strong>
-    <input type = "file" value = "EscolherArquivos" id = "EscolherArquivos" name = "EscolherArquivos">
-</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+</form>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 </body>
 </html>

@@ -32,7 +32,7 @@ Elenilza Ferreira da Silva e Silva
 Professora
 
 ### Cargo/Empresa :
-Professora de Geografia , Filosofia e Sociologia do CIEP 404 - Clarice Lispector
+Professora de Geografia, Filosofia e Sociologia do CIEP 404 - Clarice Lispector
 
 ### Data da entrevista :
 29/04/2019 (29 de abril de 2019)
