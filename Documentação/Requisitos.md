@@ -34,10 +34,11 @@ O site terá um recurso para criar avaliações.
 O site terá um recurso para enviar documentos
 
 ## RF04
+- Renovação de Senha
 
-- O site deve avisar os alunos quando uma nova tarefa estiver disponível
+O sistema deverá enviar ao usuário um código por email, caso o mesmo deseje mudar de senha, afim de que se confirme a identidade dele.
 
-# Requisitos não funcionais
+# Requisitos Não-funcionais
 
 ## RNF01
 - Tempo de resposta de 1 segundo ou menos.
@@ -45,7 +46,6 @@ O site terá um recurso para enviar documentos
 O site deverá dar respostas curtas em pouco tempo, para facilitar o diálogo entre o professor e o aluno ou entre qualquer usuário que esteja utilizando o site.
 
 ## RNF02
-
 - Interface amigável e intuitiva
 
 Tentaremos deixar o site o mais acessível possível, com dicas e/ou palavras chaves.
@@ -56,9 +56,11 @@ Tentaremos deixar o site o mais acessível possível, com dicas e/ou palavras ch
 O site possuirá requisitos confiaveis para armazenar as senhas do usuário com total segurança.
 
 ## RNF04
+- Cadastros simultâneos
 
-- O site deve suportar vários cadastros ao mesmo tempo
+O site deve suportar vários cadastros ao mesmo tempo.
 
 ## RNF05 
+- Plataformas
 
-- Deve rodar na Web em qualquer dispositivo com acesso à internet 
+O site deve rodar na Web em qualquer dispositivo com acesso à internet.

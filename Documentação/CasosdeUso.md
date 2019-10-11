@@ -8,7 +8,7 @@
 **Pré-requisitos:** Ser aluno do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
-1. Usuário informa Matrícula, Nome, Turma, E-mail e Senha.
+1. O usuário informa Matrícula, Nome, Turma, E-mail e Senha.
 2. Sistema verifica se o e-mail é válido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro do usuário como aluno. O usuário se cadastra pela internet através da página de login. 
 
 ## CDU 02
@@ -95,7 +95,7 @@
 
 **Fluxo Principal:**
 1. O professor tem acesso às informações do Aluno (nome e turma, apenas), informa as questões a serem propostas a eles e estabelece um tempo limite para elaboração de respostas;
-2. Alunos recebem as questões;
-3. Alunos entregam os gabaritos das questões ao Professor;
-4. Professor entrega resultado conforme gabarito informado.
+2. Os alunos recebem as questões;
+3. Os alunos entregam os gabaritos das questões ao Professor;
+4. O professor entrega o resultado conforme o gabarito anteriormente informado.
 
