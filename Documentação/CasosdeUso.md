@@ -45,7 +45,7 @@
 
 **Fluxo Principal:**
 
-1. Usuário informa e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso de acordo com o cadastro, indo para a tela inicial equivalente a seus respectivos cadastros.
+1. Usuário informa e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso de acordo com o cadastro, indo para a tela inicial equivalente a seus respectivos status.
 + Alunos recebem as permissões de acesso de Aluno;
 + Professores recebem as permissões de acesso de Professor;
 + Funcionários recebem as permissões de acesso de Funcionário.
