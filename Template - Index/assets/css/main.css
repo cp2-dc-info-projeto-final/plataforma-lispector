@@ -14,7 +14,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font: Times New Romans;
 		vertical-align: baseline;
 	}
 
@@ -1555,7 +1555,7 @@
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: lightskyblue;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1777,32 +1777,32 @@
 	}
 
 	input, select, textarea {
-		color: #e5474b;
+		color: lightskyblue;
 	}
 
 	a {
-		color: #e5474b;
+		color: lightskyblue;
 	}
 
 	strong, b {
-		color: #e5474b;
+		color: lightskyblue;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #e5474b;
+		color: lightskyblue;
 	}
 
 	blockquote {
-		border-left-color: #e5474b;
+		border-left-color: lightskyblue;
 	}
 
 	code {
 		background: none;
-		border-color: #e5474b;
+		border-color: lightskyblue;
 	}
 
 	hr {
-		border-bottom-color: #e5474b;
+		border-bottom-color:lightskyblue;
 	}
 
 /* Box */
@@ -1827,7 +1827,7 @@
 		}
 
 	.box {
-		border-color: #e5474b;
+		border-color: lightskyblue;
 	}
 
 /* Button */
@@ -1957,8 +1957,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e5474b;
-			color: #e5474b !important;
+			box-shadow: inset 0 0 0 2px lightskyblue;
+			color: lightskyblue !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -1990,7 +1990,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #e5474b;
+			background-color: lightskyblue;
 			color: #ffffff !important;
 		}
 
@@ -1999,7 +1999,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #e85d61;
+				background-color: lightskyblue;
 			}
 
 			input[type="submit"].special:active,
@@ -2007,7 +2007,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #e23135;
+				background-color: lightskyblue;
 			}
 
 /* Form */
@@ -2561,7 +2561,7 @@
 	}
 
 	header p {
-		color: #717171;
+		color: lightskyblue;
 	}
 
 /* Table */
@@ -3098,7 +3098,7 @@
 	}
 
 	#header {
-		background: #1c1c1c;
+		background: lightskyblue;
 		color: #d5d5d5;
 		cursor: default;
 		height: 5em;
@@ -3358,14 +3358,14 @@
 
 		}
 
-/* Banner */
+/* Ciep */
 
-	#banner {
-		background-color: #e5474b;
+	#Ciep {
+		background-color:lightskyblue;
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/banner.jpg");
+		background-image: url(/plataforma-lispector/IMAGENS/FESTA\ DA\ PÁSCOA\ 057.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -3743,10 +3743,10 @@
 /* Footer */
 
 	#footer {
-		background-color: #e5474b;
+		background-color: lightskyblue;
 		color: #f2a3a5;
 		padding: 4em 0 2em 0;
-		background: #e5474b;
+		background: #lightskyblue;
 	}
 
 		#footer input, #footer select, #footer textarea {
