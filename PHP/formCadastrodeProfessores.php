@@ -10,7 +10,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-<link href="http://127.0.0.1:8080/edsa-plataforma-lispector/CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
+<link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
 
  </head>
       
@@ -19,10 +19,8 @@
 <div id="menu">
         <a href="../HTML/Index.html">Home</a>
             &nbsp
-    
            <a href="../HTML/FormLoginDoProfessor.php">Login do Professor</a>
             &nbsp
-    
           <a href="../HTML/FormLoginDoAluno.php">Login do Aluno</a>
             &nbsp
             <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
