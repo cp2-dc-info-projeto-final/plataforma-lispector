@@ -4,13 +4,16 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
      <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Professores</h1>
+     <meta charset="UTF-8" />
+
+<title>Formulário de Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<link href="http://127.0.0.1:8080/edsa-plataforma-lispector/CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
 
  </head>
-         <style>
-
-     	body { background-color: lightskyblue}
-
-       </style>
+      
 
 <body>
 <div id="menu">
@@ -29,14 +32,98 @@
             <a href="../HTML/Contatos.html">Contatos</a>
         </div>
         <br><br>
-	<form method="post" action="../PHP/cadastro_professor.php"><!--liga ao código php-->
-	
-		<label>Nome: </label><input type="text" name="nome" id="nome"><br><br>
-		<label>Email: </label><input type="email" name="email" id="email"><br><br>
-		<label>Matrícula: </label><input type="text" name="matricula" id="matricula"><br><br>
-		<label>Senha: </label><input type="password" name="senha" id="senha"><br><br>
-		<label>Confirmar a Senha: </label><input type="password" name="confirmaSenha" id="confirmaSenha"><br><br>
-        <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+        <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    <a class="links" id="parahome"></a>
+     
+    <div class="content">   
+
+     <!--FORMULÁRIO DE LOGIN-->
+
+     <div id="login">
+
+      <form method="post" action=""> 
+
+        <h1>Login</h1> 
+                 
+        <p> 
+          <label for="email_login">Digite Seu e-mail</label>
+          <input id="email_login" name="email_login" required="required" type="text" placeholder="example@example.com" /> 
+        </p>
+         
+        <p> 
+          <label for="senha_cad">Digite sua senha</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+        </p>
+         
+        <p> 
+          <input type="submit" value="Logar" /> 
+        </p>
+         
+        <p class="link">
+          Ainda não tem conta?
+          <a href="#paracadastro">Cadastre-se</a>
+        </p>
+
+      </form>
+
+    </div>
+
+    <!--FORMULÁRIO DE CADASTRO-->
+
+    <div id="cadastro">
+      <form method="post" action="cadastro_professor.php"> 
+        <h1>Cadastro</h1> 
+         
+        <p> 
+          <label for="nome_cad">Digite seu nome</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+        </p>
+         
+        <p> 
+          <label for="email_cad">Digite Seu e-mail</label>
+          <input id="email_cad" name="email_cad" required="required" type="email" placeholder="example@example.com"/> 
+        </p>
+        <p> 
+          <label for="matricula_cad">Sua Matrícula</label>
+          <input id="matricula_cad" name="matricula_cad" required="required" type="text" placeholder="matricula" />
+        </p>
+        <p> 
+          <label for="turma_cad">Digite Sua Turma</label>
+          <input id="turma_cad" name="turma_cad" required="required" type="text" placeholder="turma" />
+        </p>
+      
+        <p> 
+          <label for="senha_cad">Crie uma senha</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+        </p>
+        <p> 
+          <label for="senha_cad">Confirme sua senha</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+        </p>
+
+
+     
+         
+        <p> 
+          <input type="submit" value="Cadastrar"/> 
+        </p>
+         
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
     <?php
         session_start();
         if(array_key_exists('erro', $_SESSION) == true){
