@@ -24,7 +24,7 @@
   
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: lightskyblue;
     padding: 2px 0 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -51,7 +51,7 @@
   }
    
   label{
-    color: #405c60;
+    color: lightskyblue;
     position: relative;
   }
   
@@ -94,7 +94,7 @@
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: rgb(61, 157, 179);
+    background: lightskyblue;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -110,7 +110,7 @@
    
   /*estilo do botão submit no hover */
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: lightskyblue;
   }
   
   
@@ -134,7 +134,7 @@
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(29, 162, 193);
+    color: lightskyblue);
     margin-left: 10px;
     border: 1px solid #cbd518;
    

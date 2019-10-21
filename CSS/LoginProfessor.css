@@ -177,7 +177,9 @@ input[type="submit"]:hover{
 
 /* Efeito ao clicar no botão ( Ir para Login ) */
 #paracadastro:target ~ .content #cadastro,
-#paralogin:target ~ .content #login{
+#paralogin:target ~ .content #login
+
+{
   z-index: 2;
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
