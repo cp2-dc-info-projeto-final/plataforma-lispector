@@ -24,7 +24,7 @@
   
   h1{
     font-size: 48px;
-    color: #066a75;
+    color: lightskyblue;
     padding: 2px 0 10px 0;
     font-family: Arial,sans-serif;
     font-weight: bold;
@@ -91,10 +91,11 @@
   }
    
   /*estilo do botão submit */
+
   input[type="submit"]{
     width: 100%!important;
     cursor: pointer;  
-    background: rgb(61, 157, 179);
+    background: lightskyblue;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -110,7 +111,7 @@
    
   /*estilo do botão submit no hover */
   input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: lightskyblue;
   }
   
   
@@ -160,7 +161,7 @@
     padding: 18px 6% 60px 6%;
     margin: 0 0 35px 0;
     background: #f7f7f7;
-    border: 1px solid rgba(147, 184, 189,0.8);
+    border: 1px solid lightskyblue;
      
     -webkit-box-shadow: 5px;
     border-radius: 5px;
