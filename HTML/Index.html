@@ -1,112 +1,184 @@
-<!DOCTYPE html> <!-- Indica ao navegador que este é um documento HTML. -->
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>IndexT</title>
 
-<html lang="pt-br"> <!-- Declaração do idioma no código HTML. -->
+		<meta charset="utf-8"/>
 
-<head> <!-- Nessa tag, estão inseridas as informações específicas da página, o título, o estilo, a codificação etc. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  <title>Index</title> <!-- Define o título do documento. -->
+		<link rel="stylesheet" href="assets/css/main.css" />
 
- <header> <!-- Representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação. -->
+	</head>
 
-    <meta charset="UTF-8">
+	<body>
 
-  <h1 style= "background: #ffffff; color: darkblue; padding: 10px; text-align: center;">Ciep 404 - Clarice Lispector</h1> <!-- Elemento do cabeçalho estilizado. -->
+		<!-- Header -->
 
-</header>
+			<header id="header">
 
-    <section> <!-- Indica uma seção do corpo da página. Como os locais nos quais foram colocados os conteúdos principais da página. -->
+				<div class="inner">
 
-				<div id="menu">
+					<a href="indexT.html" class="logo"></a>
+					
+					<nav id="nav">
 
-        <a href="Index.html">Home</a>
-            &nbsp
-    
-           <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
-            &nbsp
+						<a href="indexT.html">Home</a>
+						
+						<a href="Login do Profesor.html">Login do Profesor</a>
 
-          <a href="Aluno.html">Cadastro de Alunos</a>
-            &nbsp
-            
-            <a href="funcionário.html">Cadastro de funcionário</a>
-            &nbsp
+						<a href="Login do Aluno.html">Login do Aluno</a>
 
-          
-            <a href="Contatos.html">Contatos</a>
-            &nbsp
-            
-            <a href="../PHP/NovaSenha.php">Recuperar Senha</a>
-            &nbsp
-            <a href="AreaDeEnvio.html">Area de Envio</a>
-            &nbsp
-            
+						<a href="Cadastro do Aluno.html">Cadastro do Aluno</a>
+
+						<a href="Cadastro do Professor.html">Cadastro do Professor</a>
+
+						<a href="Contatos.html">Contatos</a>
+
+					</nav>
 
 				</div>
 
-            <div id="Artigo"> <!-- É um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como <article> ou <nav>). -->
+			</header>
 
-                <h1>Sobre</h1> <!-- Elemento do cabeçalho -->
-        
-                <h2> <!-- Elemento do cabeçalho -->
-                  O Ciep Brizolão 404 - Clarice Lispector, é uma Escola pública e urbana. Com uma ótima estrutura, que conta com diversos ambientes educativos, laboratório de informática, sala de ciências, quadra esportiva coberta, biblioteca, sala de leitura, banheiro adequado a alunos com deficiência ou mobilidade reduzida, banheiro com chuveiro, auditório, pátio e etc. Oferece também alimentação escolar para os alunos e atividade complementar. Atende as modalidades: ensino regular, ensino fundamental, ensino médio e EJA - fundamental.
-                </h2>
+		<!-- Ciep -->
 
-                <img src="../IMAGENS/ciep.png"> <!-- Imagem do cabeçalho -->
+			<section id="Ciep">
 
-            </div>  
+				<div class="Ciep">
+						<img src="C:\Users\labcaxias\Documents\TCC\plataforma-lispector\IMAGENS\FESTA.jpg" width="100%" sizes="50%";> 
 
-  <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico"> <!--Linka a imagem ico que aparecerá na guia do navegador-->
+					<ul class="actions">
 
-  <meta charset="UTF-8"> <!--Define a codificação de Caracteres -->
-    
-   </head>
-		
-<style>
+					</ul>
 
-body {background-color: lightskyblue;}
+				</div>
 
-			header, section
+			</section>
 
-			 { background-color: lightskyblue; } /* Cor de Fundo */
+		<!-- One -->
 
+			<section id="one">
 
-       header { grid-area: header; } /* Cabeçalho da área de grade */
-       section { grid-area: main} /* Área de grade principal */
+			
+				<div class="inner">
 
-body {
-  font-family: sans-serif; /* Família de Fontes: Sem serifa */;
-  display: grid; /* Grade de Exibição */
-  grid-template-areas: /* Áreas do modelo de Grades */
-    'header header header header header header'
-    'menu menu menu menu menu menu'
-    'sidebar main main main main main'
-    'footer footer footer footer footer footer';
-  grid-gap: 20px; /* Tamanho (Em´píxels), da lacuna da grade */
-  padding: 20px; /* Tamanho (Em´píxels), do preenchimento*/
-}
+					<header>
 
-h1 {
-  color: blue; /* Cor do Texto */
-  text-align: center; /* Posição do Texto */
-  font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
-  font-style: italic; /* Estilo da Fonte do Texto */
-}
+					<ul class="actions">
+					</ul>
+				</div>
+			</section>
 
-div {
-    border: 20px solid white; /* Tamanho  (Em píxels) e Cor da Borda do Artigo */
-  margin: 20px; /* Tamanho (Em píxels) e Cor da Margem do Artigo */
-  padding: 20px; /* Tamanho (Em píxels) do Preenchimento do Artigo */
-  background-color: lightskyblue; /* Cor de Fundo */  
-}
+		<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3>Quem foi Clarice Lispector?</h3>
+							</header>
+							<div class="image fit">
+								<img src="../IMAGENS/Clarice.jpg" alt="" />
 
-h2 {
-   color: darkblue; /* Cor do Texto */
-  font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
-  font-style: italic; /* Estilo da Fonte do Texto */
-}
+							</div>
 
+							<p> Chaya Pinkhasovna Lispector, foi uma escritora e jornalista ucraniana naturalizada brasileira. Autora de romances, contos e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX e a maior escritora judia desde Franz Kafka.  Por iniciativa de seu pai, todos mudaram o nome. Nascida Haia Lispector, passa a se chamar Clarice.</p>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>Sobre o Ciep:</h3>
+							</header>
+							<div class="image fit">
+								<img src="../IMAGENS/ciep.png" alt="" />
+							</div>
+							<p>O Ciep Brizolão 404 - Clarice Lispector, é uma Escola pública e urbana. Com uma ótima estrutura, que conta com diversos ambientes educativos, laboratório de informática, sala de ciências, quadra esportiva coberta, biblioteca, sala de leitura, banheiro adequado a alunos com deficiência ou mobilidade reduzida, banheiro com chuveiro, auditório, pátio e etc. Oferece também alimentação escolar para os alunos e atividade complementar. Atende as modalidades: ensino regular, ensino fundamental, ensino médio e EJA - fundamental.</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
-</style>
-</section>
-</section>
-</body>
+		<!-- Three -->
+			<section id="three">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<span class="icon fa-laptop"></span>
+							<header>
+								<h3>Tempus Feugiat</h3>
+							</header>
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<div class="content">
+							<span class="icon fa-diamond"></span>
+							<header>
+								<h3>Aliquam Nulla</h3>
+							</header>
+							<p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+					<div class="content">
+							<span class="icon fa-laptop"></span>
+							<header>
+								<h3>Sed Magna</h3>
+							</header>
+							<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Contatos</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="alt" /></li>
+						</ul>
+					</form>
+				
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
