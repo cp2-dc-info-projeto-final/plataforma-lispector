@@ -3363,12 +3363,11 @@
 	#Ciep {
 		background-color:lightskyblue;
 		color: #f2a3a5;
-		padding: 13em 0 11em 0;
+		padding: 0em 0 0em 0;
 		background-color: #0c0c0c;
-		background-image: url(/plataforma-lispector/IMAGENS/FESTA\ DA\ PÁSCOA\ 057.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 15% left;
+		background-position: 100% left;
 		text-align: left;
 		position: relative;
 		z-index: 9999;
