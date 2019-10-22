@@ -117,7 +117,7 @@
   
   .link{
     position: absolute;
-    background: #e1eaeb;
+    background: lightskyblue;
     color: #7f7c7c;
     left: 0px;
     height: 20px;
@@ -133,7 +133,7 @@
    
   .link a {
     font-weight: bold;
-    background: #f7f8f1;
+    background: lightskyblue;
     padding: 6px;
     color: rgb(29, 162, 193);
     margin-left: 10px;
