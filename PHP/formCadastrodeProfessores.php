@@ -41,7 +41,7 @@
 
      <div id="login">
 
-      <form method="post" action=""> 
+      <form method="post" action="loginprofessor.php"> 
 
         <h1>Login</h1> 
                  
