@@ -1,15 +1,4 @@
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
-
-/*
-	Introspect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
-
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header {
+ acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header {
 		
 		border: 200px;
 		border-style: hidden;
@@ -95,61 +84,6 @@
 			min-width: 80em;
 		}
 
-		.container.\37 5\25 {
-			width: 60em;
-		}
-
-		.container.\35 0\25 {
-			width: 40em;
-		}
-
-		.container.\32 5\25 {
-			width: 20em;
-		}
-
-		.container {
-			width: 80em;
-		}
-		button[name="drop"]{
-			border: none;
-			cursor: pointer;
-			background-color: #FF7F40;
-			padding: 10px;
-			font-size: 15px;
-			color: white;
-		  }
-		  .drop-content{
-			display: none;
-			background-color: #E4A87A;
-		}
-		.drop-content a{
-			color: white;
-			padding: 8px 10px;
-			text-decoration: none;
-			display: block;
-		  }
-		  .menu-drop:hover .drop-content{
-			display: block;
-		  }
-		  .menu-drop:hover button[name="drop"]{
-			background-color: #E2703D
-		  }
-	
-	.drop-content a:hover{
-			background-color: #C9936F;
-		  }
-
-		  .drop-content{
-			display: none;
-			background-color: #E4A87A;
-				
-			position: absolute; 
-		  }
-		  .menu-drop{
-			position: relative;
-		  }
-
-	}
 
 	@media screen and (max-width: 1280px) {
 
@@ -3632,15 +3566,6 @@
 			}
 
 		}
-
-	#two {
-		padding: 6em 0 4em 0;
-		background: #f3f3f3;
-		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
-	}
 
 		#two .inner {
 			display: -ms-flexbox;
