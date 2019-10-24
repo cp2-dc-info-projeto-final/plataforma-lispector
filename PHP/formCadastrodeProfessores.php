@@ -13,22 +13,10 @@
 <link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
 
  </head>
-      
-
+    
 <body>
 <div id="menu">
-        <a href="../HTML/Index.html">Home</a>
-            &nbsp
-           <a href="../HTML/FormLoginDoProfessor.php">Login do Professor</a>
-            &nbsp
-          <a href="../HTML/FormLoginDoAluno.php">Login do Aluno</a>
-            &nbsp
-            <a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a>
-            &nbsp
-            <a href="../PHP/formCadastrodeAlunos.php">Cadastro de Alunos</a>
-            &nbsp
-            <a href="../HTML/Contatos.html">Contatos</a>
-        </div>
+        
         <br><br>
         <div class="container" >
     <a class="links" id="paracadastro"></a>
@@ -66,13 +54,13 @@
 
       </form>
 
+
     </div>
 
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
       <form method="post" action="cadastro_professor.php"> 
-        <h1>Cadastro</h1> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
@@ -95,9 +83,6 @@
           <label for="confirmaSenha">Confirme sua senha</label>
           <input id="confirmaSenha" name="confirmaSenha" required="required" type="password" placeholder="ex. 1234"/>
         </p>
-
-
-     
          
         <p> 
           <input type="submit" value="Cadastrar"/> 
@@ -125,9 +110,7 @@
             session_unset();
         }
     ?>
-     <p id="backtoblog"><a href="../HTML/Index.html">Home</a>
-    &larr; Voltar para Home</a></p>,
-    
+     
 
 </form>
 
