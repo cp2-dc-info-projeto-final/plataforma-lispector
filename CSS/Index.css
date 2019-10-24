@@ -1,9 +1,10 @@
 ,img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header {
 		
 		border: 200px;
+		border-top-width: 50px;
 		border-style: hidden;
 		padding: 10px;
-		border-color: beige;
+		border-color: indianred;
 		font-size: 100%;
 		font: Arial Black;
 		vertical-align: baseline;
@@ -109,6 +110,19 @@
 			width: 65em;
 		}
 
+		*{margin: 0; padding: 0;}
+ 
+		body{
+		font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		}
+		 
+		.menu{
+		list-style:none; 
+		border:1px solid #c0c0c0; 
+		float:left; 
+		}
+		
 	}
 
 	@media screen and (max-width: 980px) {
