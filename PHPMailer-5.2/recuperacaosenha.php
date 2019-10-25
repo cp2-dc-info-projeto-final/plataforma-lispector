@@ -1,7 +1,7 @@
 <?php
   if( !empty($_POST) ){
     // processar o pedido
-    mysql_connect('localhost', 'root', '');  // ligar à base de dados
+    mysql_connect('localhost', 'root', 'plataforma_lispector');  // ligar à base de dados
     mysql_select_db('test');  // escolher a base de dados pretendida
  
     $user = mysql_real_escape_string($_POST['email']);
