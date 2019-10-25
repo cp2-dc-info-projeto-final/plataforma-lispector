@@ -65,8 +65,6 @@
 
     <div id="cadastro">
 
-      <form method="post" action="cadastro_aluno.php"> 
-
       <form method="post" action="cadastro_alunos.php"> 
          
         <p> 
