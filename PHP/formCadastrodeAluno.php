@@ -64,7 +64,7 @@
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
-      <form method="post" action="cadastro_professor.php"> 
+      <form method="post" action="cadastro_alunos.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>

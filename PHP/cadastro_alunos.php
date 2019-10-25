@@ -5,6 +5,7 @@ $matricula = $_POST['matricula'];
 $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
+
 session_start();
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        
@@ -12,6 +13,7 @@ if ($senha != $confirmaSenha) {
     header("Location: formCadastrodeAlunos.php");
     exit();
 }
+
 # password hash
 $hash = password_hash($senha, PASSWORD_DEFAULT);
 
