@@ -8,7 +8,7 @@
  .menu {
  width: 100%;
  height: 50px;
- background-color: lightskyblue;
+ background-color: black;
  font-family: Arial;
  }
 
@@ -28,7 +28,7 @@
  display: block;
  text-decoration: none;
  text-align: center;
- background-color: lightskyblue;
+ background-color: black;
  color: #fff;
  }
 
