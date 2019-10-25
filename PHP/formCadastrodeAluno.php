@@ -64,7 +64,11 @@
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
+<<<<<<< HEAD
       <form method="post" action="cadastro_aluno.php"> 
+=======
+      <form method="post" action="cadastro_alunos.php"> 
+>>>>>>> 9c37a95750979028dbc4e7d0406b04680cac7d4d
          
         <p> 
           <label for="nome">Digite seu nome</label>

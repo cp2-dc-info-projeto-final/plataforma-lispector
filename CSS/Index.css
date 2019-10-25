@@ -1,17 +1,15 @@
 ,img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header {
 		
-<<<<<<< HEAD
 		border: 200px;
 		border-top-width: 50px;
 		border-style: hidden;
 		padding: 10px;
 		border-color: indianred;
-=======
+
 		border: 0px;
 		border-style: hidden;
 		padding: 0px;
 		border-color: beige;
->>>>>>> 7047d81508dadce84d976383bc97278c556a39fc
 		font-size: 100%;
 		font: Arial Black;
 		vertical-align: baseline;
