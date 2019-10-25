@@ -1,16 +1,20 @@
 <html>
+
 <head>
+
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
+
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Professores</h1>
+     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Alunos</h1>
+     
      <meta charset="UTF-8" />
 
 <title>Formulário de Login</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-<link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
+<link href="../CSS/LoginAluno.css"type="text/css" rel="stylesheet" >
 
  </head>
     
