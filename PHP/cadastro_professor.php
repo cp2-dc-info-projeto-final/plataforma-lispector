@@ -3,11 +3,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
 $senha = MD5($_POST['senha']);
-<<<<<<< HEAD:PHP/Codigos_reservas/cadastro_professor.php
-$confirmaSenha = MD5($_POST["confirmaSenha"]);
-=======
 $confirmaSenha = $_POST["confirmaSenha"];
->>>>>>> 9c37a95750979028dbc4e7d0406b04680cac7d4d:PHP/cadastro_professor.php
 
 session_start();
 if ($senha != $confirmaSenha) {    
