@@ -3,7 +3,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
 $turma = $_POST['turma'];
-$senha = MD5($_POST['senha']);
+$senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
 session_start();
 if ($senha != $confirmaSenha) {    
