@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <head>
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
