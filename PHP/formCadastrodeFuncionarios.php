@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <head>
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
@@ -47,6 +46,11 @@
         <p> 
           <input type="submit" value="Logar" /> 
         </p>
+
+         <p> 
+              <input type="submit" value="Esqueci minha senha" style="width: 100px; height: 50px"
+              link rel="stylesheet" type="text/PHPMailer-5" href="../PHPMailer-5.2/recuperaçaosenha.php" media="screen" />
+          </p>
          
         <p class="link">
           Ainda não tem conta?
@@ -88,7 +92,7 @@
            
           <p class="link">  
             Já tem conta?
-            <a href="#paralogin"> Ir para Login </a>
+            <a href="#paralogin">Ir para Login</a>
           </p>
 
         </form>
@@ -113,8 +117,6 @@
 
 </body>
 </html>
-
-=======
 <html>
 <head>
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
@@ -229,5 +231,3 @@
 
 </body>
 </html>
-
->>>>>>> 9c37a95750979028dbc4e7d0406b04680cac7d4d
