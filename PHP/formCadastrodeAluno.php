@@ -1,16 +1,20 @@
 <html>
+
 <head>
+
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
+
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Funcionário</h1>
+     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Alunos</h1>
+     
      <meta charset="UTF-8" />
 
 <title>Formulário de Login</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-<link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
+<link href="../CSS/LoginAluno.css"type="text/css" rel="stylesheet" >
 
  </head>
     
@@ -29,7 +33,7 @@
 
      <div id="login">
 
-      <form method="post" action="loginfuncionário.php"> 
+      <form method="post" action="loginaluno.php"> 
 
         <h1>Login</h1> 
                  
@@ -60,7 +64,7 @@
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
-      <form method="post" action="../PHP/Codigos_reservas/cadastro_funcionario.php"> 
+      <form method="post" action="cadastro_aluno.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
@@ -70,6 +74,10 @@
         <p> 
           <label for="email">Digite Seu e-mail</label>
           <input id="email" name="email" required="required" type="email" placeholder="example@example.com"/> 
+        </p>
+        <p> 
+          <label for="matricula">Sua Matrícula</label>
+          <input id="matricula" name="matricula" required="required" type="text" placeholder="matricula" />
         </p>
          <p> 
           <label for="senha">Crie uma senha</label>
@@ -112,4 +120,3 @@
 
 </body>
 </html>
-
