@@ -20,8 +20,9 @@ body {background-color: lightskyblue;}
 
 </style>
 <body>
-
 <a href="Index.html">Home</a>
+
+
 <?php
 
 $uploadir='../var/www/uploads';
@@ -32,8 +33,26 @@ if(move_uploaded_file($_FILES['userfile']['tmp_name'],$uploadfile)){
 }else{
     echo "Não foi possível enviar o arquivo";
 }
-print_r($_FILES);
+
 print"</pre>";
 ?>
+<form method="post" enctype="multipart/form-data">
+<p>Arquivo:
+  <input type="file" name="file[]"/>
+  <input type="file" name="file[]"/>
+  <input type="file" name="file[]"/>
+  <input type="submit" value="enviar"/>
+</p>
+</form>
+<?php
+foreach($_FILES["file"]["error"] as $key => $error){
+  if($error == UPLOAD_ERR_OK){
+    $tmp_name = $_FILES["file"]["tmp_name"][$key];
+  $name = $_FILES["file"]["name"][$key];
+  move_uploaded_file($tmp_name , "data/$name");
+  }
+}
+?>
+
 </body>
 </html>

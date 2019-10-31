@@ -65,8 +65,6 @@
 
     <div id="cadastro">
 
-      <form method="post" action="cadastro_aluno.php"> 
-
       <form method="post" action="cadastro_alunos.php"> 
          
         <p> 
@@ -82,6 +80,10 @@
           <label for="matricula">Sua Matrícula</label>
           <input id="matricula" name="matricula" required="required" type="text" placeholder="matricula" />
         </p>
+        <p> 
+            <label for="turma">Sua Turma</label>
+            <input id="turma" name="turma" required="required" type="text" placeholder="turma" />
+          </p>
          <p> 
           <label for="senha">Crie uma senha</label>
           <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
@@ -123,3 +125,4 @@
 
 </body>
 </html>
+

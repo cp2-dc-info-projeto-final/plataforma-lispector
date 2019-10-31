@@ -6,7 +6,6 @@ $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
 
-
 session_start(); // Reinicializa um array de sessão com os valores originais
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        

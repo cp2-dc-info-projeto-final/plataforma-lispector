@@ -2,7 +2,7 @@
 
 <div id="login">
 
-        <form method="post" action="loginfuncionário.php"> 
+        <form method="post" action="loginaluno.php"> 
   
           <h1>Login</h1> 
                    
