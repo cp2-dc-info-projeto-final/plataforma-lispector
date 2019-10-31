@@ -22,6 +22,11 @@ a.links{
   position: relative;   
 }
 
+
+body {
+  background-color: lightskyblue;
+}
+
 h1{
   font-size: 48px;
   color: #066a75;

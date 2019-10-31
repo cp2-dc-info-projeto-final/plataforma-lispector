@@ -3,7 +3,7 @@
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Professores</h1>
+     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center; background-color: lightskyblue;">  Cadastro de Professores</h1>
      <meta charset="UTF-8" />
 
 <title>Formulário de Login</title>

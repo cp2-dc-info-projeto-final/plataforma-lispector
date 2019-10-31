@@ -6,7 +6,7 @@
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center;">  Cadastro de Alunos</h1>
+     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center; background-color: lightskyblue">  Cadastro de Alunos</h1>
      
      <meta charset="UTF-8" />
 
