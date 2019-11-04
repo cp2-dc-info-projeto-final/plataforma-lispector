@@ -12,7 +12,7 @@
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>        
-<li><a href="Logins.php">Logins</a>
+<li><a href="#">Logins</a>
           <ul>
 					<li><a href="../PHP/frmLoginAluno.php">Login de Alunos</a></li>
           <li><a href="../PHP/frmLoginProfessor.php">Login de Professores</a></li>
