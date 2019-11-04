@@ -1,16 +1,38 @@
 <html>
 
+<nav  class="menu">
+
+<link rel="stylesheet" href="../CSS/Menu.css">
+
+<ul>
+			<li><a href="../HTML/Index.html">Home</a></li>
+	  <li><a href="Cadastros.php">Cadastros</a>
+          <ul>
+					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
+          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
+          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
+</ul>        
+			<li><a href="Logins.html">Logins</a>
+				<ul>
+					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
+						<li><a href="../PHP/frmLoginProfessor.php"||>Login do</a></li>
+        </ul>
+        </li>
+			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
+			</li>
+
+		</ul>
+  </nav>
+  
 <head>
 
 <link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <h1 style="background:#ffffff;color:black;padding:10px;text-align: center; background-color: lightskyblue">  Cadastro de Alunos</h1>
      
      <meta charset="UTF-8" />
 
-<title>Formulário de Login</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
