@@ -18,7 +18,7 @@
                 $hash = $row["senha"];
     
                 if (password_verify($senha, $hash)) {
-                    return true;
+                    return true;                
                 } else {
                     return false;
                 }
