@@ -24,14 +24,14 @@
  float: left;
  }
 
-.menu a {
- padding: 15px;
- display: block;
- text-decoration: none;
- text-align: center;
- background-color: black;
- color: #fff;
- }
+ .menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    }
 
 .menu ul ul {
  position: absolute;
