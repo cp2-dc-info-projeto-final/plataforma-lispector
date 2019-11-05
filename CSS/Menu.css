@@ -24,8 +24,10 @@
  }
 
 .menu a {
- padding: 15px;
+
+ padding: 10px;
  display: block;
+ margin-top: 4px;
  text-decoration: none;
  text-align: center;
  background-color: black;

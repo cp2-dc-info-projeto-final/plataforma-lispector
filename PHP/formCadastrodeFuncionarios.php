@@ -1,17 +1,12 @@
 <html>
-<head>
-<link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <meta charset="UTF-8" />
+<nav  class="menu">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-<link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
+<link rel="stylesheet" href="../CSS/Menu.css">
 
 <ul>
 			<li><a href="../HTML/Index.html">Home</a></li>
-	  <li><a href="Cadastros.php">Cadastros</a>
+	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
@@ -26,9 +21,24 @@
 			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
 			</li>
 
-		</ul>
+    </ul>
+    
   </nav>
   
+<head>
+
+<link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+     
+     <meta charset="UTF-8" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<link href="../CSS/LoginAluno.css"type="text/css" rel="stylesheet" >
+
  </head>
     
 <body>
@@ -46,7 +56,7 @@
 
      <div id="login">
 
-      <form method="post" action="loginfuncionario.php"> 
+      <form method="post" action="loginaluno.php"> 
 
         <h1>Login</h1> 
                  
@@ -63,11 +73,6 @@
         <p> 
           <input type="submit" value="Logar" /> 
         </p>
-
-         <p> 
-              <input type="submit" value="Esqueci minha senha" style="width: 100px; height: 50px"
-              link rel="stylesheet" type="text/PHPMailer-5" href="../PHPMailer-5.2/recuperaçaosenha.php" media="screen" />
-          </p>
          
         <p class="link">
           Ainda não tem conta?
@@ -82,7 +87,8 @@
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
-      <form method="post" action="cadastro_funcionario.php"> 
+
+      <form method="post" action="cadastro_alunos.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
@@ -93,6 +99,14 @@
           <label for="email">Digite Seu e-mail</label>
           <input id="email" name="email" required="required" type="email" placeholder="example@example.com"/> 
         </p>
+        <p> 
+          <label for="matricula">Sua Matrícula</label>
+          <input id="matricula" name="matricula" required="required" type="text" placeholder="matricula" />
+        </p>
+        <p> 
+            <label for="turma">Sua Turma</label>
+            <input id="turma" name="turma" required="required" type="text" placeholder="turma" />
+          </p>
          <p> 
           <label for="senha">Crie uma senha</label>
           <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
@@ -109,7 +123,7 @@
            
           <p class="link">  
             Já tem conta?
-            <a href="#paralogin">Ir para Login</a>
+            <a href="#paralogin"> Ir para Login </a>
           </p>
 
         </form>
@@ -134,3 +148,4 @@
 
 </body>
 </html>
+

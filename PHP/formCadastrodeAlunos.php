@@ -6,7 +6,7 @@
 
 <ul>
 			<li><a href="../HTML/Index.html">Home</a></li>
-	  <li><a href="Cadastros.php">Cadastros</a>
+	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
@@ -21,7 +21,8 @@
 			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
 			</li>
 
-		</ul>
+    </ul>
+    
   </nav>
   
 <head>

@@ -1,24 +1,12 @@
 <html>
-<head>
-<link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-     <meta charset="UTF-8" />
-
-<title>Formulário de Login</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-<link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
-
-<nav class="menu">
+<nav  class="menu">
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
-
-		<ul>
+<ul>
 			<li><a href="../HTML/Index.html">Home</a></li>
-	  <li><a href="Cadastros.php">Cadastros</a>
+	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
@@ -33,9 +21,24 @@
 			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
 			</li>
 
-		</ul>
+    </ul>
+    
   </nav>
   
+<head>
+
+<link rel = "shortcut icon" type = "image/x-icon" href= "../ICO/clispector.ico">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+     
+     <meta charset="UTF-8" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<link href="../CSS/LoginAluno.css"type="text/css" rel="stylesheet" >
+
  </head>
     
 <body>
@@ -53,7 +56,7 @@
 
      <div id="login">
 
-      <form method="post" action="loginprofessor.php"> 
+      <form method="post" action="loginaluno.php"> 
 
         <h1>Login</h1> 
                  
@@ -84,7 +87,8 @@
     <!--FORMULÁRIO DE CADASTRO-->
 
     <div id="cadastro">
-      <form method="post" action="cadastro_professor.php"> 
+
+      <form method="post" action="cadastro_alunos.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
@@ -99,6 +103,10 @@
           <label for="matricula">Sua Matrícula</label>
           <input id="matricula" name="matricula" required="required" type="text" placeholder="matricula" />
         </p>
+        <p> 
+            <label for="turma">Sua Turma</label>
+            <input id="turma" name="turma" required="required" type="text" placeholder="turma" />
+          </p>
          <p> 
           <label for="senha">Crie uma senha</label>
           <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
@@ -140,3 +148,4 @@
 
 </body>
 </html>
+
