@@ -9,25 +9,28 @@
 
 <link href="../CSS/LoginProfessor.css"  type="text/css" rel="stylesheet" >
 
-<ul>
-			<li><a href="../HTML/Index.html">Home</a></li>
-	  <li><a href="Cadastros.php">Cadastros</a>
-          <ul>
-					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
-          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
-          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
-</ul>        
-			<li><a href="Logins.html">Logins</a>
-				<ul>
-					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
-						<li><a href="../PHP/frmLoginProfessor.php"||>Login do</a></li>
-        </ul>
-        </li>
-			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
-			</li>
+<nav class="menu">
 
-		</ul>
-  </nav>
+		<link rel="stylesheet" href="../CSS/Menu.css">
+		
+		<ul>
+					<li><a href="Index.html">Home</a></li>
+
+			  <li><a href="../PHP/formCadastrodeAlunos.php">Cadastros</a>
+				  <ul>
+				  <li><a href="../PHP/formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
+				  <li><a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a></li>
+				  <li><a href="../PHP/frmLoginAluno.php">Cadastro de Alunos</a><li>
+		</ul>        
+		<li><a href="#">Logins</a>
+				  <ul>
+				  <li><a href="formCadastrodeFuncionarios.php">Login de Alunos</a></li>
+				  <li><a href="formCadastrodeProfessores.php">Login de Professores</a></li>
+				  <li><a href="formCadastrodeAlunos.php">Login de Professores</a><li>
+				</ul>
+		</nav>
+ </head>
+
   
  </head>
     
