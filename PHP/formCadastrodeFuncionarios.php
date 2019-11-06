@@ -4,51 +4,25 @@
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
-<<<<<<< HEAD
 <ul>
 			<li><a href="../HTML/Index.html">Home</a></li>
-	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+	     <li><a href="#">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>        
-			<li><a href="Logins.html">Logins</a>
+<li><a href="#">Logins</a>
 				<ul>
 					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
-						<li><a href="../PHP/frmLoginProfessor.php"||>Login do</a></li>
+						<li><a href="../PHP/frmLoginProfessor.php">Login do Professor</a></li>
+            <li><a href="../PHP/frmLoginfuncionario.php">Login do Funcionario</a></li>
         </ul>
         </li>
 			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
 			</li>
-
-    </ul>
     
   </nav>
-=======
-<nav class="menu">
-
-		<link rel="stylesheet" href="../CSS/Menu.css">
-		
-		<ul>
-					<li><a href="Index.html">Home</a></li>
-
-			  <li><a href="../PHP/formCadastrodeAlunos.php">Cadastros</a>
-				  <ul>
-				  <li><a href="../PHP/formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
-				  <li><a href="../PHP/formCadastrodeProfessores.php">Cadastro de Professores</a></li>
-				  <li><a href="../PHP/frmLoginAluno.php">Cadastro de Alunos</a><li>
-		</ul>        
-		<li><a href="#">Logins</a>
-				  <ul>
-				  <li><a href="formCadastrodeFuncionarios.php">Login de Alunos</a></li>
-				  <li><a href="formCadastrodeProfessores.php">Login de Professores</a></li>
-				  <li><a href="formCadastrodeAlunos.php">Login de Professores</a><li>
-				</ul>
-		</nav>
- </head>
-
->>>>>>> 75a7c890dc2327a640b0852b30d0016a32e0cb32
   
 <head>
 
@@ -113,7 +87,7 @@
 
     <div id="cadastro">
 
-      <form method="post" action="cadastro_alunos.php"> 
+      <form method="post" action="cadastro_funcionario.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
@@ -124,14 +98,7 @@
           <label for="email">Digite Seu e-mail</label>
           <input id="email" name="email" required="required" type="email" placeholder="example@example.com"/> 
         </p>
-        <p> 
-          <label for="matricula">Sua Matrícula</label>
-          <input id="matricula" name="matricula" required="required" type="text" placeholder="matricula" />
-        </p>
-        <p> 
-            <label for="turma">Sua Turma</label>
-            <input id="turma" name="turma" required="required" type="text" placeholder="turma" />
-          </p>
+
          <p> 
           <label for="senha">Crie uma senha</label>
           <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>

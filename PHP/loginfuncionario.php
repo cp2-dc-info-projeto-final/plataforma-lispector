@@ -8,7 +8,7 @@
             die("Erro de Conexão" . mysqli_connect_error());
         }
         
-        $sql = "SELECT senha, email FROM funcionario WHERE email='$email'";
+        $sql = "SELECT senha, email FROM professor WHERE email='$email'";
     
         $result = mysqli_query($connection, $sql);
         
@@ -26,8 +26,6 @@
         } else {
             return false;
         }
-        mysqli_close($connection);      
-
-        <a href="loginaluno.php"</a>
-        <a href="loginprofessor.php"</a> 
+        mysqli_close($connection);
+    }   
 ?>
