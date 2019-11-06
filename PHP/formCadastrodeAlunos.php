@@ -12,11 +12,11 @@
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>        
-			<li><a href="Logins.html">Logins</a>
+			<li><a href="#">Logins</a>
 				<ul>
 					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
-						<li><a href="../PHP/frmLoginProfessor.php"||>Login do Professor</a></li>
-            <li><a href="../PHP/frmLoginfuncionario.php"||>Login do Funcionario</a></li>
+						<li><a href="../PHP/frmLoginProfessor.php">Login do Professor</a></li>
+            <li><a href="../PHP/frmLoginfuncionario.php">Login do Funcionario</a></li>
         </ul>
         </li>
 			<li><a href="PáginaDeEnvio.html">Área do Professor</a>

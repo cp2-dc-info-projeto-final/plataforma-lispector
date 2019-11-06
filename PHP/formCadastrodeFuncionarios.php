@@ -6,20 +6,21 @@
 
 <ul>
 			<li><a href="../HTML/Index.html">Home</a></li>
-	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+	     <li><a href="#">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionários</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>        
-			<li><a href="Logins.html">Logins</a>
+<li><a href="#">Logins</a>
 				<ul>
-					<li><a href="../PHP/frmLoginAluno.php">Login do Aluno</li>
-						<li><a href="../PHP/frmLoginProfessor.php"||>Login do Professor</a></li>
-            <li><a href="../PHP/frmLoginfuncionario.php"||>Login do Funcionario</a></li>
+					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
+						<li><a href="../PHP/frmLoginProfessor.php">Login do Professor</a></li>
+            <li><a href="../PHP/frmLoginfuncionario.php">Login do Funcionario</a></li>
         </ul>
-
-    </ul>
+        </li>
+			<li><a href="PáginaDeEnvio.html">Área do Professor</a>
+			</li>
     
   </nav>
   
