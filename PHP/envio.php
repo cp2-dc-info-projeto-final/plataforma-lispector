@@ -1,58 +1,64 @@
-<!DOCTYPE html> <!-- Indica ao navegador que este é um documento HTML. -->
-
-<html lang="pt-br"> <!-- Declaração do idioma no código HTML. -->
-
-<head> <!-- Nessa tag, estão inseridas as informações específicas da página, o título, o estilo, a codificação etc. -->
-
-  <title>Página de Envio</title> <!-- Define o título do documento. -->
-
- <header> <!-- Representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação. -->
-
-    <meta charset="UTF-8">
-
-  <h1 style= "background: #ffffff; color: darkblue; padding: 10px; text-align: center;">Página de Envio</h1> <!-- Elemento do cabeçalho estilizado. -->
-
-</header>
-
-<style>
-
-body {background-color: lightskyblue;}
-
-</style>
-<body>
-<a href="Index.html">Home</a>
-
-
 <?php
-
-$uploadir='../var/www/uploads';
-$uploadfile=$uploadir.basename($_FILES['userfile']['name']);
-echo '<pre>';
-if(move_uploaded_file($_FILES['userfile']['tmp_name'],$uploadfile)){
-    echo "Arquivo enviado!";
-}else{
-    echo "Não foi possível enviar o arquivo";
+ 
+// Pasta onde o arquivo vai ser salvo
+$_UP['pasta'] = 'uploads/';
+ 
+// Tamanho máximo do arquivo (em Bytes)
+$_UP['tamanho'] = 1024 * 1024 * 2; // 2Mb
+ 
+// Array com as extensões permitidas
+$_UP['extensoes'] = array('jpg', 'png', 'gif');
+ 
+// Renomeia o arquivo? (Se true, o arquivo será salvo como .jpg e um nome único)
+$_UP['renomeia'] = false;
+ 
+// Array com os tipos de erros de upload do PHP
+$_UP['erros'][0] = 'Não houve erro';
+$_UP['erros'][1] = 'O arquivo no upload é maior do que o limite do PHP';
+$_UP['erros'][2] = 'O arquivo ultrapassa o limite de tamanho especifiado no HTML';
+$_UP['erros'][3] = 'O upload do arquivo foi feito parcialmente';
+$_UP['erros'][4] = 'Não foi feito o upload do arquivo';
+ 
+// Verifica se houve algum erro com o upload. Se sim, exibe a mensagem do erro
+if ($_FILES['arquivo']['error'] != 0) {
+die("Não foi possível fazer o upload, erro:<br />" . $_UP['erros'][$_FILES['arquivo']['error']]);
+exit; // Para a execução do script
 }
-
-print"</pre>";
-?>
-<form method="post" enctype="multipart/form-data">
-<p>Arquivo:
-  <input type="file" name="file[]"/>
-  <input type="file" name="file[]"/>
-  <input type="file" name="file[]"/>
-  <input type="submit" value="enviar"/>
-</p>
-</form>
-<?php
-foreach($_FILES["file"]["error"] as $key => $error){
-  if($error == UPLOAD_ERR_OK){
-    $tmp_name = $_FILES["file"]["tmp_name"][$key];
-  $name = $_FILES["file"]["name"][$key];
-  move_uploaded_file($tmp_name , "data/$name");
-  }
+ 
+// Caso script chegue a esse ponto, não houve erro com o upload e o PHP pode continuar
+ 
+// Faz a verificação da extensão do arquivo
+$extensao = strtolower(end(explode('.', $_FILES['arquivo']['name'])));
+if (array_search($extensao, $_UP['extensoes']) === false) {
+echo "Por favor, envie arquivos com as seguintes extensões: jpg, png ou gif";
 }
+ 
+// Faz a verificação do tamanho do arquivo
+else if ($_UP['tamanho'] < $_FILES['arquivo']['size']) {
+echo "O arquivo enviado é muito grande, envie arquivos de até 2Mb.";
+}
+ 
+// O arquivo passou em todas as verificações, hora de tentar movê-lo para a pasta
+else {
+// Primeiro verifica se deve trocar o nome do arquivo
+if ($_UP['renomeia'] == true) {
+// Cria um nome baseado no UNIX TIMESTAMP atual e com extensão .jpg
+$nome_final = time().'.jpg';
+} else {
+// Mantém o nome original do arquivo
+$nome_final = $_FILES['arquivo']['name'];
+}
+ 
+// Depois verifica se é possível mover o arquivo para a pasta escolhida
+if (move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta'] . $nome_final)) {
+// Upload efetuado com sucesso, exibe uma mensagem e um link para o arquivo
+echo "Upload efetuado com sucesso!";
+echo '<br /><a href="' . $_UP['pasta'] . $nome_final . '">Clique aqui para acessar o arquivo</a>';
+} else {
+// Não foi possível fazer o upload, provavelmente a pasta está incorreta
+echo "Não foi possível enviar o arquivo, tente novamente";
+}
+ 
+}
+ 
 ?>
-
-</body>
-</html>
