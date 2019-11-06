@@ -1,6 +1,6 @@
 <html>
 
-<nav  class="menu">
+<nav class="menu">
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
@@ -12,6 +12,7 @@
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>        
+<<<<<<< HEAD
 			<li><a href="Logins.html">Logins</a>
 				<ul>
 					<li><a href="../PHP/frmLoginAluno.php">Login do Alunos</li>
@@ -24,6 +25,15 @@
     </ul>
     
   </nav>
+=======
+<li><a href="#">Logins</a>
+          <ul>
+					<li><a href="../PHP/frmLoginAluno.php">Login de Alunos</a></li>
+          <li><a href="../PHP/frmLoginProfessor.php">Login de Professores</a></li>
+          <li><a href="#">Login de Professores</a><li> <!--fazer form do login do funcionário - se ainda o houver.. -->
+		</ul>
+</nav>
+>>>>>>> 4cfed19f85028036b634d459318f76f918e2061e
   
 <head>
 

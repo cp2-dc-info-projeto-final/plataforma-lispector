@@ -10,6 +10,7 @@
  height: 50px;
  background-color: black;
  font-family: Arial;
+ margin-top: -10px;
  }
 
 /*Estilizando as listas */
@@ -23,6 +24,7 @@
  float: left;
  }
 
+<<<<<<< HEAD
 .menu a {
 
  padding: 10px;
@@ -33,6 +35,16 @@
  background-color: black;
  color: #fff;
  }
+=======
+ .menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    }
+>>>>>>> 4cfed19f85028036b634d459318f76f918e2061e
 
 .menu ul ul {
  position: absolute;
