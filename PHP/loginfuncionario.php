@@ -26,6 +26,8 @@
         } else {
             return false;
         }
-        mysqli_close($connection);
-    }   
+        mysqli_close($connection);      
+
+        <a href="loginaluno.php"</a>
+        <a href="loginprofessor.php"</a> 
 ?>
