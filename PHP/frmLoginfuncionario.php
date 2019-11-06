@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="../CSS/LoginAluno.css">
-<link rel="stylesheet" href="../CSS/Professor.css">
+<link rel="stylesheet" href="../CSS/LoginFuncionario.css">
 
 <div id="login">
 
@@ -27,5 +26,9 @@
           </p>
   
         </form>
+    
+        <a href="loginaluno.php"></a>
+        <a href="loginprofessor.php"></a> 
   
       </div>
+      
