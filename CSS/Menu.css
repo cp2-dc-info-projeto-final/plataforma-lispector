@@ -1,4 +1,4 @@
-*Resetando os valores de espaçamento */
+/*Resetando os valores de espaçamento */
  * {
  margin: 0;
  padding: 0;
@@ -24,7 +24,7 @@
  float: left;
  }
 
-<<<<<<< HEAD
+
 .menu a {
 
  padding: 10px;
@@ -35,7 +35,7 @@
  background-color: black;
  color: #fff;
  }
-=======
+
  .menu a {
     padding: 10px;
     display: block;
@@ -44,7 +44,7 @@
     background-color: black;
     color: #fff;
     }
->>>>>>> 4cfed19f85028036b634d459318f76f918e2061e
+
 
 .menu ul ul {
  position: absolute;
