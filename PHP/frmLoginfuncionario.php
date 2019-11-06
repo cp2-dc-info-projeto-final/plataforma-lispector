@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../CSS/LoginAluno.css">
+<link rel="stylesheet" href="../CSS/Professor.css">
 
 <div id="login">
 
