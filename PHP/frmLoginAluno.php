@@ -2,7 +2,10 @@
 
 <div id="login">
 
+
         <form method="post" action="loginaluno.php"> 
+
+        <a href="../HTML/Index.html"> &LT Voltar para Home </a>
   
           <h1>Login</h1> 
                    

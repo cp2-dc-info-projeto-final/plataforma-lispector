@@ -3,7 +3,9 @@
 <div id="login">
 
         <form method="post" action="loginfuncionario.php"> 
-  
+
+        <a href="../HTML/Index.html"> &LT Voltar para Home </a>
+        
           <h1>Login</h1> 
                    
           <p> 
@@ -31,4 +33,3 @@
         <a href="loginprofessor.php"></a> 
   
       </div>
-      
