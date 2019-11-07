@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="../CSS/LoginAluno.css">
 
 <div id="login">
+  
 
         <form method="post" action="loginaluno.php"> 
   

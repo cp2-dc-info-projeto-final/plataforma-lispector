@@ -11,7 +11,7 @@
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
-</ul>        
+</ul>    
 <li><a href="#">Logins</a>
           <ul>
 					<li><a href="frmLoginAluno.php">Login do Aluno</a></li>
