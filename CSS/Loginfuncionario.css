@@ -14,6 +14,10 @@
   a.links{
     display: none;
   }
+
+  body {
+    background-color: lightskyblue;
+  }
   
   .content{
     width: 500px;
