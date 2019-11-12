@@ -87,7 +87,7 @@
 
     <div id="cadastro">
 
-      <form method="post" action="cadastro_professores.php"> 
+      <form method="post" action="codigo_cadastro_professores.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>

@@ -55,7 +55,7 @@
 
      <div id="login">
 
-      <form method="post" action="loginaluno.php"> 
+      <form method="post" action="codigo_login_professores.php"> 
 
         <h1>Login</h1> 
                  
@@ -87,7 +87,7 @@
 
     <div id="cadastro">
 
-      <form method="post" action="cadastro_professores.php"> 
+      <form method="post" action="codigo_cadastro_professores.php"> 
          
         <p> 
           <label for="nome">Digite seu nome</label>
