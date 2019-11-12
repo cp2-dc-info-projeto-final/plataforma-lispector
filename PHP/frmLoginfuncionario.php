@@ -1,34 +1,31 @@
-<link rel="stylesheet" href="../CSS/LoginFuncionario.css">
+<link rel="stylesheet" href="../CSS/Logins.css" >
 
+<script type="text/javascript" src="../JavaScript/Logins.js"> </script>
 <div id="login">
 
-        <form method="post" action="loginfuncionario.php"> 
   
-          <h1>Login</h1> 
-                   
-          <p> 
-            <label for="email_login">Digite Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="example@example.com" /> 
-          </p>
-           
-          <p> 
-            <label for="senha_cad">Digite sua senha</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
-          </p>
-           
-          <p> 
-            <input type="submit" value="Logar" /> 
-          </p>
-           
-          <p class="link">
-            Ainda não tem conta?
-            <a href="#paracadastro">Cadastre-se</a>
-          </p>
-  
-        </form>
-    
-        <a href="loginaluno.php"></a>
-        <a href="loginprofessor.php"></a> 
-  
-      </div>
-      
+        <div class="login-page">
+
+<div class="form">
+
+  <form class="register-form">
+
+  </form>
+
+  <form class="login-form">
+
+  <h1> Login do Funcionário </h1>
+
+    <input type="text" placeholder="Digite seu E-mail"/>
+
+    <input type="password" placeholder="Digite sua Semha"/>
+
+    <button>login</button>
+
+    <p class="message">Não é cadastrado? <a href="formCadastrodeFuncionarios.php">Cadastre-se!</a></p>
+
+  </form>
+
+</div>
+
+</div>
