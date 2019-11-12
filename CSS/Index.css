@@ -1770,32 +1770,32 @@ hr {
 }
 
 input, select, textarea {
-    color: lightskyblue;
+    color: #4CAF50;
 }
 
 a {
-    color: lightskyblue;
+    color: #4CAF50;
 }
 
 strong, b {
-    color: lightskyblue;
+    color: #4CAF50;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: lightskyblue;
+    color: #4CAF50;
 }
 
 blockquote {
-    border-left-color: lightskyblue;
+    border-left-color: #4CAF50;
 }
 
 code {
     background: none;
-    border-color: lightskyblue;
+    border-color: #4CAF50;
 }
 
 hr {
-    border-bottom-color:lightskyblue;
+    border-bottom-color:#4CAF50;
 }
 
 /* Box */
