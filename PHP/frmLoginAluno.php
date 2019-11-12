@@ -18,7 +18,7 @@
 
     <input type="text" placeholder="Digite seu E-mail"/>
 
-    <input type="password" placeholder="Digite sua Semha"/>
+    <input type="password" placeholder="Digite sua Senha"/>
 
     <button>login</button>
 
