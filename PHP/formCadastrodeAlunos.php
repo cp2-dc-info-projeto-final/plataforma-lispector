@@ -1,6 +1,6 @@
 <html>
 
-<nav  class="menu">
+<nav  class="menu"> <!-- Início do Estilo do Menu -->
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
@@ -22,7 +22,7 @@
 
     </ul>
     
-  </nav>
+  </nav> <!-- Fim do Estilo do Menu -->
   
 <head>
 
@@ -31,7 +31,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
      
-     <meta charset="UTF-8" />
+     <meta charset="UTF-8"/>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -41,10 +41,13 @@
  </head>
     
 <body>
+
 <div id="menu">
         
         <br><br>
+
         <div class="container" >
+          
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
     <a class="links" id="parahome"></a>
@@ -147,4 +150,3 @@
 
 </body>
 </html>
-
