@@ -17,7 +17,7 @@
 
       <div id="cadastro">
         <form method="post" action=""> 
-          <h1>Cadastro de Funcionários</h1> 
+          <h1>Cadastro de Alunos</h1> 
            
           <p> 
             <label for="nome_cad">Digite seu nome</label>
@@ -45,7 +45,7 @@
            
           <p class="link">  
             Já tem conta?
-            <a href="../PHP/frmLoginfuncionario.php">Entre!</a>
+            <a href="frmLoginAluno.php">Entre!</a>
           </p>
         </form>
       </div>
