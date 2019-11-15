@@ -39,7 +39,7 @@
 
   <form class="login-form">
 
-  <h1> Login do Aluno </h1>
+  <h1> Login do Professor </h1>
 
     <input type="text" placeholder="Digite seu E-mail"/>
 
