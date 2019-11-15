@@ -11,6 +11,27 @@
   <link rel="stylesheet" href="../CSS/Teste.css">
 
 
+  <ul>
+<li><a href="../HTML/Index.html">Home</a></li>
+	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+          <ul>
+					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
+          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
+          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
+</ul>    
+<li><a href="#">Logins</a>
+          <ul>
+					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
+          <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
+          <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
+</ul>      
+<li><a href="PáginaDeEnvio.html">Área do Professor</a></li>
+
+    </ul>
+    
+  </nav>
+
+  
 </head>
 
 <body>

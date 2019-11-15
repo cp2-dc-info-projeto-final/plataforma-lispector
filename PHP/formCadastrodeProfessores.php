@@ -16,8 +16,10 @@
 <body>
 
       <div id="cadastro">
+
         <form method="post" action=""> 
-          <h1>Cadastro de Funcionários</h1> 
+
+          <h1>Cadastro de Professores</h1> 
            
           <p> 
             <label for="nome_cad">Digite seu nome</label>

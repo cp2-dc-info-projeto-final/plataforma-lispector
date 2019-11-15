@@ -3,7 +3,10 @@
 <script type="text/javascript" src="../JavaScript/Logins.js"> </script>
 <div id="login">
 
-<nav  class="menu">
+<nav class="menu">
+
+<meta charset="utf-8">
+
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
@@ -17,7 +20,7 @@
 </ul>    
 <li><a href="#">Logins</a>
           <ul>
-					<li><a href="frmLoginAluno.php">Login do Aluno</a></li>
+					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
           <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
 </ul>      
@@ -39,7 +42,7 @@
 
   <form class="login-form">
 
-  <h1> Login do Professor </h1>
+  <h1> Login do Aluno </h1>
 
     <input type="text" placeholder="Digite seu E-mail"/>
 

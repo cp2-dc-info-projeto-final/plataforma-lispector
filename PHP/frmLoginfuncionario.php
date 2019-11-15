@@ -47,7 +47,7 @@
 
     <button>login</button>
 
-    <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
+    <p class="message">Não é cadastrado? <a href="formCadastrodeFuncionarios.php">Cadastre-se!</a></p>
 
   </form>
 

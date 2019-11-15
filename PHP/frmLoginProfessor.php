@@ -17,7 +17,7 @@
 </ul>    
 <li><a href="#">Logins</a>
           <ul>
-					<li><a href="frmLoginAluno.php">Login do Aluno</a></li>
+					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
           <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
 </ul>      
@@ -47,7 +47,7 @@
 
     <button>login</button>
 
-    <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
+    <p class="message">Não é cadastrado? <a href="formCadastrodeProfessores.php">Cadastre-se!</a></p>
 
   </form>
 
