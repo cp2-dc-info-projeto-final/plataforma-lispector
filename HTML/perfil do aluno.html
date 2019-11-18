@@ -1,0 +1,103 @@
+<html><head>
+
+<script type="text/javascript"><!--- A validação do cadastro em javascript --//>
+
+function checa(){
+
+if(document.form.nome.value == ""){
+
+alert("Digite um nome válido")
+
+return false;
+
+document.form.nome.focus();
+
+}
+
+<!-- Onde está document.form. é o nome do formulario, que fica aqui <form name="form" action="cadastra.php"> onde tem document.form.nome é o nome do campo que fica aqui: <input type="text" name="nome">
+
+Seguindo... --//>
+
+if(document.form.login.value == "" || document.form.login.value.length < 3){
+
+alert("Digite um login válido ou acima de 3 dígitos")
+
+return false;
+
+document.form.login.focus();
+
+}
+
+if(document.form.senha.value == "" || document.form.senha.value.legth < 5){
+
+alert("Digite uma senha válida")
+
+return false;
+
+document.form.senha.focus();
+
+}
+
+if(document.form.email.value == "" || document.form.email.value.indexOf('@')==-1 || document.form.email.value.indexOf('.')==-1){
+
+alert("Digite um e-mail válido")
+
+return false;
+
+document.form.email.focus();
+
+}
+
+if(document.form.email.value != document.form.confmail.value){
+
+alert("Os e-mails não correspondem")
+
+document.form.confmail.focus();
+
+return false;
+
+}
+
+if(document.form.senha.value != document.form.confsenha.value){
+
+alert("As senhas não correspondem");
+
+document.form.confsenha.focus();
+
+return false;
+
+}
+
+</script>
+
+Acabado a validação em javascript vamos para o html
+
+</head><title>TITULO</title><body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" bgcolor="#A9A9A9">
+
+<form name="form" action="confirma.php" method="POST" onSubmit="return Checa()"><!-- A validação do form --//>
+
+<table border="0" width="150" cellspacing="0" cellpadding="0">
+
+<td valign="top">Nome:</td><td><input type="text" name="nome"></td></tr><tr>
+
+<Td>E-mail:</td><td><input type="text" name="email"></td></tr><TR>
+
+<Td>Login:</td><td><input type="text" name="login"></td></tr><TR>
+
+<td>Confirme E-mail:</td><td><input type="text" name="confmail"></td></tr><Tr>
+
+<td>Senha:</td><Td><input type="password" name="senha"></td></tr><TR>
+
+<TD>Confirme Senha</td><TD><input type="password" name="confsenha"></td></tr>
+
+<TR><Td>Turma:</td><td><input type="text" name="Turma"></td></tr><TR>
+
+<TD>endereco:</td><td><input type="text" name="endereco"></td></tr><TR>
+
+<TD>codigo postal:</td><TD><input type="text" name="codigo postal"></td></tr>
+
+<TR><TD>Cidade:</td><td><input type="text" name="cidade"></td></tr><tr>
+
+<td align="center"><input type="submit" value="Enviar">&nbsp;&nbsp; <input type="reset" value="Apagar"></td></form></tr></table>
+
+</body></html>
