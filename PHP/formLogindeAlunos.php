@@ -42,6 +42,9 @@
 
   <form class="login-form">
 
+  <form method="post" action="codigo_login_aluno.php"> 
+
+
   <h1> Login do Aluno </h1>
 
     <input type="text" placeholder="Digite seu E-mail"/>

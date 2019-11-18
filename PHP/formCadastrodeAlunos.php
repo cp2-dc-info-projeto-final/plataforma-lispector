@@ -4,14 +4,15 @@
 
   <meta charset="UTF-8" />
 
-  <title>Cadastro de Funcionários</title>
+  <title>Cadastro de Alunos</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="stylesheet" href="../CSS/Teste.css">
 
-
+<!-- MENU!--> 
   <ul>
+
 <li><a href="../HTML/Index.html">Home</a></li>
 	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
@@ -31,18 +32,31 @@
     
   </nav>
 
-  
+<!--FINAL DO MENU!--> 
+
 </head>
 
 <body>
 
       <div id="cadastro">
+
         <form method="post" action=""> 
+        
           <h1>Cadastro de Alunos</h1> 
-           
+
           <p> 
             <label for="nome_cad">Digite seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+          </p>
+
+          <p> 
+            <label for="turma_cad">Digite sua turma</label>
+            <input id="turms_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
+          </p>
+
+          <p> 
+            <label for="matricula_cad">Digite seu Matrícula</label>
+            <input id="matricula_cad" name="matricula_cad" required="required" type="text" placeholder="ex:M02100361" />
           </p>
            
           <p> 
@@ -69,6 +83,11 @@
             <a href="frmLoginAluno.php">Entre!</a>
           </p>
         </form>
+
+        <?php
+require('codigo_cadastro_alunos.php');
+?>
+
       </div>
     </div>
   </div>  
