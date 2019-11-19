@@ -52,7 +52,9 @@
 
     <input type="password" placeholder="Digite sua Senha"/>
 
-    <button>login</button>
+    <button>login
+    header("location: perfildoaluno.php");
+    </button>
 
     <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 
