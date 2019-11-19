@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../CSS/Menu.css">
 
 <ul>
+<li><a> href="perfildoaluno.html">Perfil do aluno</a></li>
 <li><a href="../HTML/Index.html">Home</a></li>
 	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
@@ -41,6 +42,9 @@
   </form>
 
   <form class="login-form">
+
+  <form method="post" action="codigo_login_aluno.php"> 
+
 
   <h1> Login do Aluno </h1>
 

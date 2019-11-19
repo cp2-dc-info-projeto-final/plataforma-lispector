@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 25-Out-2019 às 13:56
+-- Generation Time: 19-Nov-2019 às 14:31
 -- Versão do servidor: 5.7.17
 -- PHP Version: 5.6.30
 
@@ -71,6 +71,44 @@ CREATE TABLE `funcionario` (
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `perfildoaluno`
+--
+
+CREATE TABLE `perfildoaluno` (
+  `id` int(50) NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `matrícula` varchar(60) NOT NULL,
+  `turma` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `perfildofuncionario`
+--
+
+CREATE TABLE `perfildofuncionario` (
+  `id` int(50) NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `perfildoprofessor`
+--
+
+CREATE TABLE `perfildoprofessor` (
+  `id` int(50) NOT NULL,
+  `nome` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `professor`
 --
 
@@ -112,6 +150,24 @@ ALTER TABLE `funcionario`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `perfildoaluno`
+--
+ALTER TABLE `perfildoaluno`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `perfildofuncionario`
+--
+ALTER TABLE `perfildofuncionario`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `perfildoprofessor`
+--
+ALTER TABLE `perfildoprofessor`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `professor`
 --
 ALTER TABLE `professor`
@@ -131,6 +187,21 @@ ALTER TABLE `alunos`
 --
 ALTER TABLE `funcionario`
   MODIFY `id` int(60) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `perfildoaluno`
+--
+ALTER TABLE `perfildoaluno`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `perfildofuncionario`
+--
+ALTER TABLE `perfildofuncionario`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `perfildoprofessor`
+--
+ALTER TABLE `perfildoprofessor`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `professor`
 --

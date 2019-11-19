@@ -35,6 +35,9 @@
 
   <form class="register-form">
 
+  <form method="post" action="codigo_login_funcionario.php"> 
+
+
   </form>
 
   <form class="login-form">

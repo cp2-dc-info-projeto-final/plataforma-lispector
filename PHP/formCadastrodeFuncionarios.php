@@ -16,7 +16,9 @@
 <body>
 
       <div id="cadastro">
-        <form method="post" action=""> 
+
+        <form method="post" action="codigo_cadastro_funcionario.php"> 
+
           <h1>Cadastro de Funcionários</h1> 
            
           <p> 
