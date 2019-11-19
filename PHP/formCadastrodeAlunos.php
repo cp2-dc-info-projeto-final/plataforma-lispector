@@ -40,13 +40,8 @@
 
       <div id="cadastro">
 
-<<<<<<< HEAD
         <form method="post" action="novocadastro-conexao.php"> 
-
-=======
-        <form method="post" action=""> 
-        
->>>>>>> 64218382962e12cf5b0c99a8f83cb49d9b0ea998
+        <form method="post" action="">
           <h1>Cadastro de Alunos</h1> 
 
           <p> 
@@ -54,10 +49,8 @@
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
           </p>
 
-<<<<<<< HEAD
           <form method="POST" action="proc_upload.php" >
         Envie sua foto <input name= "arquivo" type= "file">
-=======
           <p> 
             <label for="turma_cad">Digite sua turma</label>
             <input id="turms_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
@@ -67,7 +60,6 @@
             <label for="matricula_cad">Digite seu Matrícula</label>
             <input id="matricula_cad" name="matricula_cad" required="required" type="text" placeholder="ex:M02100361" />
           </p>
->>>>>>> 64218382962e12cf5b0c99a8f83cb49d9b0ea998
            
           <p> 
             <label for="email_cad">Digite Seu e-mail</label>
@@ -104,13 +96,9 @@
           </p>
         </form>
 
-<<<<<<< HEAD
-=======
         <?php
 require('codigo_cadastro_alunos.php');
 ?>
-
->>>>>>> 64218382962e12cf5b0c99a8f83cb49d9b0ea998
       </div>
     </div>
   </div>  
