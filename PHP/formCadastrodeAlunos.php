@@ -4,7 +4,7 @@
 
   <meta charset="UTF-8" />
 
-  <title>Cadastro de Funcionários</title>
+  <title>Cadastro de Alunos</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
@@ -37,29 +37,44 @@
 <body>
 
       <div id="cadastro">
-        <form method="post" action=""> 
+
+        <form method="post" action="novocadastro-conexao.php"> 
+
           <h1>Cadastro de Alunos</h1> 
            
           <p> 
             <label for="nome_cad">Digite seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
           </p>
+
+          <form method="POST" action="proc_upload.php" >
+        Envie sua foto <input name= "arquivo" type= "file">
            
           <p> 
             <label for="email_cad">Digite Seu e-mail</label>
             <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
           </p>
+
+          <p> 
+            <label for="turma_cad">Digite Sua Turma </label>
+            <input id="turma_cad" name="turma_cad" required="required" type="turma" placeholder="ex: IN301"/> 
+          </p>
            
           <p> 
+            <label for="matricula_cad">Digite Sua Matrícula </label>
+            <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="ex: 1301"/> 
+          </p>
+
+          <p> 
             <label for="senha_cad">Crie uma senha</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex: 1234"/>
           </p>
 
           <p> 
               <label for="senha_cad">Confirme sua senha</label>
-              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex: 1234"/>
             </p>
-           
+            
           <p> 
             <input type="submit" value="Cadastrar"/> 
           </p>
@@ -69,6 +84,7 @@
             <a href="frmLoginAluno.php">Entre!</a>
           </p>
         </form>
+
       </div>
     </div>
   </div>  
