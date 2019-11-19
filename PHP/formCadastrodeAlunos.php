@@ -41,7 +41,7 @@
       <div id="cadastro">
 
         <form method="post" action="novocadastro-conexao.php"> 
-        <form method="post" action="">
+        
           <h1>Cadastro de Alunos</h1> 
 
           <p> 
@@ -67,16 +67,6 @@
           </p>
 
           <p> 
-            <label for="turma_cad">Digite Sua Turma </label>
-            <input id="turma_cad" name="turma_cad" required="required" type="turma" placeholder="ex: IN301"/> 
-          </p>
-           
-          <p> 
-            <label for="matricula_cad">Digite Sua Matrícula </label>
-            <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="ex: 1301"/> 
-          </p>
-
-          <p> 
             <label for="senha_cad">Crie uma senha</label>
             <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex: 1234"/>
           </p>
@@ -96,9 +86,7 @@
           </p>
         </form>
 
-        <?php
-require('codigo_cadastro_alunos.php');
-?>
+       
       </div>
     </div>
   </div>  

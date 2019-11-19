@@ -4,7 +4,7 @@ $host = "localhost";
 $usuario = "root";
 $senha = "";
 $bd = "plataforma_lispector";
-$conexao = mysqli_connect($host, $usuario, $senha,) or die(mysql_error());
+$conexao = mysqli_connect($host, $usuario, $senha) or die(mysql_error());
 ?>
 
 <?php
