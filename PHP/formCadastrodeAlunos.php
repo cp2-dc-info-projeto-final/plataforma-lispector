@@ -48,10 +48,7 @@
             <label for="nome_cad">Digite seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
           </p>
-
-          <form method="POST" action="proc_upload.php" >
-        Envie sua foto <input name= "arquivo" type= "file">
-          <p> 
+          
             <label for="turma_cad">Digite sua turma</label>
             <input id="turms_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
           </p>
