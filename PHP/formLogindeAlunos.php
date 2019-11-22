@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
+
 <ul>
-<li><a> href="perfildoaluno.html">Perfil do aluno</a></li>
 <li><a href="../HTML/Index.html">Home</a></li>
 	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
@@ -52,7 +52,8 @@
 
     <input type="password" placeholder="Digite sua Senha"/>
 
-    <button>login</button>
+    <input type="submit" value="Logar"/>
+    <li><a href="perfildoaluno.php">Perfil do aluno</a></li>
 
     <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 
