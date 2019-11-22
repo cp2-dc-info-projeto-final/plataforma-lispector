@@ -47,8 +47,16 @@
 
     <input type="password" name="senha" placeholder="Digite sua Senha"/>
 
+<<<<<<< HEAD
     <input type="submit" value="Logar"/>
     <li><a href="perfildoaluno.php">Perfil do aluno</a></li>
+=======
+    <button>login
+    <?php
+    header("location: perfildoaluno.php");
+    ?>
+    </button>
+>>>>>>> 045d5feb1311fb9edcfa63d7ee8c720e03607264
 
     <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 

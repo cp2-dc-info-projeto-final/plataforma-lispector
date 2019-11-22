@@ -3,13 +3,13 @@
 ## CDU 01
 - Cadastro de Alunos
 
-**Atores:** Alunos
+**Atores:** Funcionários
 
 **Pré-requisitos:** Ser aluno do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
-1. O usuário informa Matrícula, Nome, Turma, E-mail e Senha.
-2. Sistema verifica se o e-mail é válido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro do usuário como aluno. O usuário se cadastra pela internet através da página de login. 
+1. O usuário informa Matrícula, Nome, Turma, E-mail e uma Senha.
+2. Sistema verifica se o e-mail é válido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro do usuário como aluno. O usuário é cadastrado por um funcionário.
 
 ## CDU 02
 
@@ -61,7 +61,7 @@
 **Pré-Condições:** Ser cadastrado no sistema como Funcionário e estar logado
 
 **Fluxo Principal:**
-1. Sistema disponibiliza as informações dos Alunos e Professores (exceto a senha), não podendo alterá-las, para visualização. O funcionário tem a possibilidade de excluir o Aluno/Professor do sistema.
+1. Sistema disponibiliza a opção de um funcionário cadastrar um aluno
 
 ## CDU 06
 
@@ -87,15 +87,14 @@
 
 ## CDU 08
 
-- Entrega de Questões e Resultados aos alunos (avaliações)
+- Entrega de Documentos aos Alunos 
 
 **Atores:** Professores e Alunos
 
 **Pré-Condições:** Estar cadastrado e logado no sistema como Professor ou Aluno
 
 **Fluxo Principal:**
-1. O professor tem acesso às informações do Aluno (nome e turma, apenas), informa as questões a serem propostas a eles e estabelece um tempo limite para elaboração de respostas;
-2. Os alunos recebem as questões;
-3. Os alunos entregam os gabaritos das questões ao Professor;
-4. O professor entrega o resultado conforme o gabarito anteriormente informado.
+1. O professor tem acesso às informações do Aluno (nome e turma, apenas), envia os documentos aos alunos;
+2. Os alunos recebem os documentos;
+
 
