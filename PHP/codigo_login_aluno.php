@@ -1,5 +1,19 @@
 <?php
-    function autentica($email, $senha) {
+
+$senha =$_POST["senha"];
+$email =$_POST["email"];
+
+
+if(autentica($email, $senha)){
+    
+    header('Location:perfildoaluno.php?email='.$email);
+
+}
+else{
+    header('Location:formLogindeAlunos.php');
+}
+    
+function autentica($email, $senha) {
         
         $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
  
@@ -17,7 +31,7 @@
             while($row = mysqli_fetch_assoc($result)) {
                 $hash = $row["senha"];
     
-                if (password_verify($senha, $hash)) {
+                if ($senha == $hash) {
                     return true;                
                 } else {
                     return false;

@@ -37,20 +37,15 @@
 
 <div class="form">
 
-  <form class="register-form">
-
-  </form>
-
-  <form class="login-form">
-
+ 
   <form method="post" action="codigo_login_aluno.php"> 
 
 
   <h1> Login do Aluno </h1>
 
-    <input type="text" placeholder="Digite seu E-mail"/>
+    <input type="text" name="email" placeholder="Digite seu E-mail"/>
 
-    <input type="password" placeholder="Digite sua Senha"/>
+    <input type="password" name="senha" placeholder="Digite sua Senha"/>
 
     <input type="submit" value="Logar"/>
     <li><a href="perfildoaluno.php">Perfil do aluno</a></li>

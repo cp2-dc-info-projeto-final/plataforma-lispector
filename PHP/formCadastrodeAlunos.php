@@ -60,7 +60,7 @@
 =======
           <p> 
             <label for="turma_cad">Digite sua turma</label>
-            <input id="turms_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
+            <input id="turma_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
           </p>
 
           <p> 
@@ -75,23 +75,13 @@
           </p>
 
           <p> 
-            <label for="turma_cad">Digite Sua Turma </label>
-            <input id="turma_cad" name="turma_cad" required="required" type="turma" placeholder="ex: IN301"/> 
-          </p>
-           
-          <p> 
-            <label for="matricula_cad">Digite Sua Matrícula </label>
-            <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="ex: 1301"/> 
-          </p>
-
-          <p> 
             <label for="senha_cad">Crie uma senha</label>
             <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex: 1234"/>
           </p>
 
           <p> 
-              <label for="senha_cad">Confirme sua senha</label>
-              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex: 1234"/>
+              <label for="senha_cad1">Confirme sua senha</label>
+              <input id="senha_cad1" name="senha_cad1" required="required" type="password" placeholder="ex: 1234"/>
             </p>
             
           <p> 
