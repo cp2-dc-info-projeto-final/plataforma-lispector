@@ -48,19 +48,19 @@
             <label for="nome_cad">Digite seu nome</label>
             <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
           </p>
-          
-            <label for="turma_cad">Digite sua turma</label>
-            <input id="turma_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
-          </p>
 
+          <p> 
+            <label for="email_cad">Digite Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+          </p>
+          
           <p> 
             <label for="matricula_cad">Digite seu Matrícula</label>
             <input id="matricula_cad" name="matricula_cad" required="required" type="text" placeholder="ex:M02100361" />
           </p>
-           
-          <p> 
-            <label for="email_cad">Digite Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+
+            <label for="turma_cad">Digite sua turma</label>
+            <input id="turma_cad" name="turma_cad" required="required" type="text" placeholder="ex:1103" />
           </p>
 
           <p> 
@@ -79,7 +79,7 @@
            
           <p class="link">  
             Já tem conta?
-            <a href="frmLoginAluno.php">Entre!</a>
+            <a href="formLogindeAlunos.php">Entre!</a>
           </p>
         </form>
 

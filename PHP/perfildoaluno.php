@@ -4,7 +4,7 @@
 
   <meta charset="UTF-8" />
 
-  <title>Cadastro de Alunos</title>
+  <title>Perfil do Aluno</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 

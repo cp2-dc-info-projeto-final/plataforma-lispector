@@ -17,7 +17,7 @@ $email=$_POST ['email_cad'];
 $senha=$_POST ['senha_cad'];
 $confirmasenha=$_POST ['senha_cad1'];
 
-$sql = mysqli_query ($connection, "INSERT INTO alunos( nome, email, turma, matricula, senha) VALUES ('$nome', '$email', $turma, '$matricula','$senha')");
+$sql = mysqli_query ($connection, "INSERT INTO alunos(nome, email, turma, matricula, senha) VALUES ('$nome', '$email', $turma, '$matricula','$senha')");
 // Check connection
 if($sql === false){
     die("Erro de Conexão" . mysqli_connect_error());

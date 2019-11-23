@@ -4,7 +4,7 @@
 
   <meta charset="UTF-8" />
 
-  <title>Cadastro de Funcionários</title>
+  <title>Cadastro de Professores</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 

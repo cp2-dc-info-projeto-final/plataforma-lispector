@@ -1,93 +1,53 @@
-<html><head>
+<!DOCTYPE html>
 
-<script type="text/javascript">
+<head>
 
-function checa(){
+  <meta charset="UTF-8" />
 
-if(document.form.nome.value == ""){
+  <title>Perfil do Funcionario</title>
 
-alert("Digite um nome válido")
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-return false;
 
-document.form.nome.focus();
+</head>
 
+<?php
+
+error_reporting(0); #oculta erros PHP
+
+$login = $HTTP_SESSION_VARS["login"];
+$email = $_GET['email'];
+
+$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
+
+$sql = "SELECT * FROM funcionario WHERE email='$email'";
+
+$result = mysqli_query($connection, $sql);
+
+while($row = $result->fetch_assoc()){
+
+    $nome = $row['nome'];
+    $id = $row['id'];
+    $email = $row['email'];
 }
 
-<form name="form" action="cadastra.php"><input type="text" name="nome">
-{
-if(document.form.login.value == "" || document.form.login.value.length < 3)
 
 
-alert("Digite um login válido ou acima de 3 dígitos")
+echo ("Olá $nome você é o usuário número $id.");
 
-return false;
+echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
 
-document.form.login.focus();
+?>
 
-}
-{
-if(document.form.senha.value == "" || document.form.senha.value.legth < 5)
+<body>
 
-alert("Digite uma senha válida")
+      <div id="cadastro">
 
-return false;
+        
 
-document.form.senha.focus();
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
 
-}
-{
-if(document.form.email.value == "" || document.form.email.value.indexOf('@')==-1 || document.form.email.value.indexOf('.')==-1)
-
-alert("Digite um e-mail válido")
-
-return false;
-
-document.form.email.focus();
-
-}
-{
-if(document.form.email.value != document.form.confmail.value)
-
-alert("Os e-mails não correspondem")
-
-document.form.confmail.focus();
-
-return false;
-
-}
-
-{
-if(document.form.senha.value != document.form.confsenha.value)
-
-alert("As senhas não correspondem");
-
-document.form.confsenha.focus();
-
-return false;
-
-}
-
-</script>
-
-</head><title>Página de Perfil Do Funcionário</title><body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" bgcolor="#0000FF">
-
-<form name="form" action="confirma.php" method="POST" onSubmit="return Checa()">
-
-<table border="0" width="150" cellspacing="0" cellpadding="0">
-
-<td valign="top">Nome:</td><td><input type="text" name="nome"></td></tr><tr>
-
-<Td>E-mail:</td><td><input type="text" name="email"></td></tr><TR>
-
-<Td>Login:</td><td><input type="text" name="login"></td></tr><TR>
-
-<td>Confirme E-mail:</td><td><input type="text" name="confmail"></td></tr><Tr>
-
-<TR><Td>Turma:</td><td><input type="text" name="Turma"></td></tr><TR>
-
-
-<td align="center"><input type="submit" value="Enviar">&nbsp;&nbsp;
-<input type="reset" value="Apagar"></td></form></tr></table>
-
-</body></html>
