@@ -22,23 +22,23 @@
           <h1>Cadastro de Funcionários</h1> 
            
           <p> 
-            <label for="nome_cad">Digite seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+            <label for="nome">Digite seu nome</label>
+            <input id="nome" name="nome" required="required" type="text" placeholder="nome" />
           </p>
            
           <p> 
-            <label for="email_cad">Digite Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+            <label for="email">Digite Seu e-mail</label>
+            <input id="email" name="email" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
           </p>
            
           <p> 
-            <label for="senha_cad">Crie uma senha</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            <label for="senha">Crie uma senha</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
           </p>
 
           <p> 
-              <label for="senha_cad">Confirme sua senha</label>
-              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+              <label for="senha">Confirme sua senha</label>
+              <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
             </p>
            
           <p> 
