@@ -49,7 +49,7 @@
 
 
     <input type="submit" value="Logar"/>
-    header("location: perfildoaluno.php");
+
 
     <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 
