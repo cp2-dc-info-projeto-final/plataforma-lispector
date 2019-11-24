@@ -17,7 +17,7 @@
 
       <div id="cadastro">
 
-        <form method="post" action="codigo_cadastro_alunos.php"> 
+        <form method="post" action="codigo_cadastro_professor.php"> 
 
           <h1>Cadastro de Professores</h1> 
            
