@@ -42,7 +42,8 @@
             </p>
            
           <p> 
-            <input type="submit" value="Cadastrar"/> 
+            <input type="submit" value="Cadastrar"/>
+ 
           </p>
            
           <p class="link">  
