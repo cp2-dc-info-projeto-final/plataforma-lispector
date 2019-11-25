@@ -26,7 +26,7 @@
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
           <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
 </ul>      
-<li><a href="PáginaDeEnvio.html">Área do Professor</a></li>
+
 
     </ul>
     
