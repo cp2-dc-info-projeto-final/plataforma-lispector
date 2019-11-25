@@ -42,6 +42,8 @@ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>turma: $turma<Br></a>");
 <body>
 
       <div id="cadastro">
+        <p>deseja trocar a senha?</p>
+        <a href=../PHPMailer-5.2/recuperacaosenha.php>trocar senha</a>
 
         
 

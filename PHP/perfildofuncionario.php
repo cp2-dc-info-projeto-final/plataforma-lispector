@@ -42,8 +42,17 @@ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
 <body>
 
       <div id="cadastro">
+      
+      <link rel="stylesheet" href="../CSS/Menu.css">
 
-        
+<ul>
+<li><a href="../HTML/Index.html">Home</a></li>
+	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+          <ul>
+					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
+          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
+          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
+</ul>    
 
       </div>
     </div>

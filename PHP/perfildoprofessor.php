@@ -41,8 +41,7 @@ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
 <body>
 
       <div id="cadastro">
-
-        
+      <a href= "../PHP/questoesView.php">Fazer Questões</a>      
 
       </div>
     </div>
