@@ -40,7 +40,7 @@
 
       <div id="cadastro">
 
-        <form method="post" action="novocadastro-conexao.php"> 
+        <form method="post" action="codigo_login_aluno.php"> 
         
           <h1>Cadastro de Alunos</h1> 
 
