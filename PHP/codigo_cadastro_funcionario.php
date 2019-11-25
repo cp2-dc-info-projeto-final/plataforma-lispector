@@ -8,7 +8,7 @@ session_start();
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        
     $_SESSION["erro"] = $erro;
-    header("Location: ../formCadastrodeFuncionarios.php");
+    header("Location: ../PHP/formCadastrodeFuncionarios.php");
     exit();
 }
 # password hash
@@ -35,7 +35,7 @@ if (mysqli_num_rows($result) > 0) {
 // Attempt insert query execution
 $sql = "INSERT INTO funcionario (nome, email, senha) VALUES ('$nome', '$email', '$hash')";
 if(mysqli_query($connection, $sql)){
-    echo "DADOS INSERIDOS COM SUCESSO.";
+header("Location:../PHP/frmLoginfuncionario.php");
  
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO $sql.";

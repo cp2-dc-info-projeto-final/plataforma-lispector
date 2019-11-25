@@ -17,7 +17,7 @@
 
       <div id="cadastro">
 
-        <form method="post" action="codigo_cadastro_funcionario.php"> 
+        <form method="post" action="../PHP/codigo_cadastro_funcionario.php"> 
 
           <h1>Cadastro de Funcionários</h1> 
            
@@ -37,8 +37,8 @@
           </p>
 
           <p> 
-              <label for="senha">Confirme sua senha</label>
-              <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
+              <label for="confirmaSenha">Confirme sua senha</label>
+              <input id="confirmaSenha" name="confirmaSenha" required="required" type="password" placeholder="ex. 1234"/>
             </p>
            
           <p> 

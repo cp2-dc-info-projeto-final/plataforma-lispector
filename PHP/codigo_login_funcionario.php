@@ -1,4 +1,17 @@
 <?php
+
+$senha =$_POST["senha"];
+$email =$_POST["email"];
+
+
+if(autentica($email, $senha)){
+    
+    header('<Location:../PHP/perfildofuncionario.php?email='.$email);
+
+}
+else{
+    header('Location:frmLoginfuncionario.php');
+}
     function autentica($email, $senha) {
         
         $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
