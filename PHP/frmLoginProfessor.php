@@ -9,21 +9,12 @@
 
 <ul>
 <li><a href="../HTML/Index.html">Home</a></li>
-	     <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
-          <ul>
-					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
-          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
-          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
-</ul>    
 <li><a href="#">Logins</a>
           <ul>
 					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
           <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
-</ul>      
-<li><a href="PáginaDeEnvio.html">Área do Professor</a></li>
 
-    </ul>
     
   </nav>
 
@@ -44,11 +35,11 @@
 
   <h1> Login do Professor </h1>
 
-    <input type="email" name="email" placeholder="Digite seu E-mail"/>
+    <input type="email" id="email" name="email" placeholder="Digite seu E-mail"/>
 
-    <input type="password" name="senha" placeholder="Digite sua Senha"/>
+    <input type="password" id="email" name="senha" placeholder="Digite sua Senha"/>
 
-    <button>login</button>
+    <input type="submit" value="Logar"/>
 
     <p class="message">Não é cadastrado? <a href="formCadastrodeProfessores.php">Cadastre-se!</a></p>
 

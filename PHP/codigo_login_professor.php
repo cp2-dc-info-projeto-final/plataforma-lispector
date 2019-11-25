@@ -1,15 +1,15 @@
 <?php
-$senha =$_POST["senha"];
+$senha =(MD5($_POST["senha"]);
 $email =$_POST["email"];
 
 if(autentica($email, $senha)){
-    header('Location:perfildoprofessor.php?email='.$email);
+    header('Location:../PHP/perfildoprofessor.php?email='.$email);
 }
 else{
     header('Location:formLoginProfessor.php');
 }
    
-    function autentica($email, $senha) {
+    function autentica($email, $senha){
         
         $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
  

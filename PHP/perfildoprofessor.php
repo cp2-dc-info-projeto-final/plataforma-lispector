@@ -10,6 +10,14 @@
 
 
 </head>
+<body>
+<link rel="stylesheet" href="../CSS/Menu_Index.css">
+		
+		<ul>
+    <li><a href="../HTML/Index.html">Home</a></li>
+    
+    <li><a href= "../PHP/questoesView.php">Fazer Questões</a></li>      
+
 
 <?php
 
@@ -38,11 +46,9 @@ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
 
 ?>
 
-<body>
+
 
       <div id="cadastro">
-      <a href= "../PHP/questoesView.php">Fazer Questões</a>      
-
       </div>
     </div>
   </div>  
