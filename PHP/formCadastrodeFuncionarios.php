@@ -17,7 +17,7 @@
 
       <div id="cadastro">
 
-        <form method="post" action="../PHP/codigo_cadastro_funcionario.php"> 
+        <form method="post" action="codigo_login_funcionario.php"> 
 
           <h1>Cadastro de Funcionários</h1> 
            
