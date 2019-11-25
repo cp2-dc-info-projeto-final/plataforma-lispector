@@ -2,11 +2,8 @@
 $senha =$_POST["senha"];
 $email =$_POST["email"];
 
-
 if(autentica($email, $senha)){
-    
     header('Location:perfildoprofessor.php?email='.$email);
-
 }
 else{
     header('Location:formLoginProfessor.php');
@@ -29,7 +26,6 @@ else{
             // output data of each row
             while($row = mysqli_fetch_assoc($result)) {
                 $hash = $row["senha"];
-    
                 if (password_verify($senha, $hash)) {
                     return true;
                 } else {

@@ -44,9 +44,9 @@
 
   <h1> Login do Professor </h1>
 
-    <input type="text" placeholder="Digite seu E-mail"/>
+    <input type="email" name="email" placeholder="Digite seu E-mail"/>
 
-    <input type="password" placeholder="Digite sua Senha"/>
+    <input type="password" name="senha" placeholder="Digite sua Senha"/>
 
     <button>login</button>
 
