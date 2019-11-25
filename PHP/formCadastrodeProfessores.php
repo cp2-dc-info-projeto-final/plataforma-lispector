@@ -30,15 +30,18 @@
             <label for="email">Digite Seu e-mail</label>
             <input id="email" name="email" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
           </p>
-           
+          <p> 
+            <label for="matricula">Digite sua matricula</label>
+            <input id="matricula" name="matricula" required="required" type="text" placeholder="M000001" />
+          </p>
           <p> 
             <label for="senha">Crie uma senha</label>
             <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
           </p>
 
           <p> 
-              <label for="senha">Confirme sua senha</label>
-              <input id="senha" name="senha" required="required" type="password" placeholder="ex. 1234"/>
+              <label for="confirmaSenha">Confirme sua senha</label>
+              <input id="confirmaSenha" name="confirmaSenha" required="required" type="password" placeholder="ex. 1234"/>
             </p>
            
           <p> 
