@@ -8,6 +8,7 @@
 - [RF02](#rf02)
 - [RF03](#rf03)
 - [RF04](#rf04)
+- [RF05](#rf05)
 
 ### Requisitos não funcionais
 - [RNF01](#rnf01)
@@ -15,6 +16,7 @@
 - [RNF03](#rnf03)
 - [RNF04](#rnf04)
 - [RNF05](#rnf05)
+- [RNF06](#rnf06)
 
 # Requisitos Funcionais
 
@@ -38,6 +40,11 @@ O site terá um recurso para enviar documentos
 
 O sistema deverá enviar ao usuário um código por email, caso o mesmo deseje mudar de senha, afim de que se confirme a identidade dele.
 
+## RF05
+- Gerenciamento de Cadastros
+
+O sistema disponibiliza a opção de um funcionário cadastro um aluno.
+
 # Requisitos Não-funcionais
 
 ## RNF01
@@ -60,7 +67,12 @@ O site possuirá requisitos confiaveis para armazenar as senhas do usuário com 
 
 O site deve suportar vários cadastros ao mesmo tempo.
 
-## RNF05 
+## RNF05
+-Mural De Notícias
+
+O site terá um mural, referente as notícias da escola
+
+## RNF06 
 - Plataformas
 
 O site deve rodar na Web em qualquer dispositivo com acesso à internet.
