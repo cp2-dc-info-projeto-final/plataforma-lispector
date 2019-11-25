@@ -31,7 +31,7 @@ if (mysqli_num_rows($result) > 0) {
 // Attempt insert query execution
 $sql = "INSERT INTO professor (nome, email, matricula,senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
 if(mysqli_query($connection, $sql)){
-    echo "DADOS INSERIDOS COM SUCESSO.";
+   header("Location:../PHP/frmLoginProfessor.php");
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO $sql.";
 }
