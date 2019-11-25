@@ -16,7 +16,7 @@
 - [RNF03](#rnf03)
 - [RNF04](#rnf04)
 - [RNF05](#rnf05)
---[RNF06](#rnf06)
+- [RNF06](#rnf06)
 
 # Requisitos Funcionais
 
