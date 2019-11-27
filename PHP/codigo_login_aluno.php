@@ -15,7 +15,7 @@ else{
     
 function autentica($email, $senha) {
         
-        $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
+        $connection = mysqli_connect("localhost", "root", "", "plataforma-lispector");
  
         // Check connection
         if($connection === false){
