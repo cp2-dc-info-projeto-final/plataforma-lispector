@@ -52,12 +52,13 @@
 
     <input type="password" id="email" name="senha" placeholder="Confirme sua Senha"/>
 
-
     <input type="submit" value="Cadastrar"/>
 
     <p class="message">Já é cadastrado? <a href="frmLogindeAlunos.php">Entre!</a></p>
 
   </form>
+
+</form>
 
 </div>
 

@@ -44,8 +44,7 @@
     <input type="text" name="email" placeholder="Digite seu E-mail"/>
 
     <input type="password" name="senha" placeholder="Digite sua Senha"/>
-
-
+    
     <input type="submit" value="Logar"/>
 
 
