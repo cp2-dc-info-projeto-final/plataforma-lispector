@@ -32,13 +32,13 @@
 
   <form class="register-form">
 
-  <form method="post" action="codigo_login_profesor.php"> 
+  <form method="post" action="codigo_login_aluno.php"> 
 
   </form>
 
   <form class="login-form">
 
-  <h1> Cadastro de Professores </h1>
+  <h1> Cadastro de Alunos </h1>
 
     <input type="name" id="name" name="name" placeholder="Digite seu Nome"/>
 

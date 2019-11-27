@@ -32,7 +32,7 @@
 
   <form class="register-form">
 
-  <form method="post" action="codigo_login_profesor.php"> 
+  <form method="post" action="codigo_login_funcionario.php"> 
 
   </form>
 
