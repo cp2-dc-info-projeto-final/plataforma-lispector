@@ -25,7 +25,7 @@
   </nav>
 
   
-        <div class="login-page">
+        <div class="cadastro-page">
           
 
 <div class="form">

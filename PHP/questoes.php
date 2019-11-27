@@ -1,7 +1,7 @@
 <?php
     
     function enviarQuestao($enunciado, $opA, $opB, $opC, $opD, $gabarito, $tipo) {
-        $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
+        $connection = mysqli_connect("localhost", "root", "", "plataforma-lispector");
  
         // Check connection
         if($connection === false){
