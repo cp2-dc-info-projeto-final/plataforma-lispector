@@ -47,7 +47,7 @@ error_reporting(0); #oculta erros PHP
 $login = $HTTP_SESSION_VARS["login"];
 $email = $_GET['email'];
 
-$connection = mysqli_connect("localhost", "root", "", "plataforma-lispector");
+$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
 $sql = "SELECT * FROM alunos WHERE email='$email'";
 
