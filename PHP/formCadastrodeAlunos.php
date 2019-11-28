@@ -32,7 +32,7 @@
 
   <form class="register-form">
 
-  <form method="post" action="codigo_login_aluno.php"> 
+  <form method="post" action="novocadastro-conexao.php"> 
 
   </form>
 
