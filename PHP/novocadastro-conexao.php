@@ -17,6 +17,13 @@ $email=$_POST ['email_cad'];
 $senha=$_POST ['senha_cad'];
 $confirmasenha=$_POST ['senha_cad1'];
 $hash = password_hash($senha, PASSWORD_DEFAULT);
+
+if ($senha != $confirmaSenha) {    
+    $erro = "SENHAS NÃO COINCIDENTES";        
+    $_SESSION["erro"] = $erro;
+    header("Location: formCadastrodeAlunos.php");
+    exit();}
+    
 $sql = mysqli_query ($connection, "INSERT INTO alunos(nome, email, turma, matricula, senha) VALUES ('$nome', '$email', $turma, '$matricula','$hash')");
 // Check connection
 if($sql === false){

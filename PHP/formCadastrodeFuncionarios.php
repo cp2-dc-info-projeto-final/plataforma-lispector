@@ -32,7 +32,7 @@
 
   <form class="register-form">
 
-  <form method="post" action="codigo_login_funcionario.php"> 
+  <form method="post" action="codigo_cadastro_funcionario.php"> 
 
   </form>
 
@@ -51,7 +51,7 @@
 
     <input type="submit" value="Cadastrar"/>
 
-    <p class="message">Já é cadastrado? <a href="frmLogindefunciorio.php">Entre!</a></p>
+    <p class="message">Já é cadastrado? <a href="frmLoginfuncionario.php">Entre!</a></p>
 
   </form>
 

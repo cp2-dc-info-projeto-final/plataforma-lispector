@@ -35,7 +35,7 @@ if (mysqli_num_rows($result) > 0) {
 // Attempt insert query execution
 $sql = "INSERT INTO funcionario (nome, email, senha) VALUES ('$nome', '$email', '$hash')";
 if(mysqli_query($connection, $sql)){
-header("Location:../PHP/frmLoginfuncionario.php");
+header("Location: frmLoginfuncionario.php");
  
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO $sql.";
