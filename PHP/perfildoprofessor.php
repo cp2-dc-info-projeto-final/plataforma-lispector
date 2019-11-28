@@ -1,22 +1,37 @@
-<!DOCTYPE html>
+<link rel="stylesheet" href="../CSS/PerfilDoProfessor.css">
 
-<head>
+ 
+ <meta charset="UTF-8" />
 
-  <meta charset="UTF-8" />
+ <body background="../IMAGEMS/Topo.";>
 
   <title>Perfil do Professor</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 
+    <nav  class="menu">
 
-</head>
-<body>
-<link rel="stylesheet" href="../CSS/Menu_Index.css">
-		
-		<ul>
-    <li><a href="../HTML/Index.html">Home</a></li>
-    
-    <li><a href= "../PHP/questoesView.php">Fazer Questões</a></li>      
+<link rel="stylesheet" href="../CSS/Menu.css">
+
+<ul>
+<li><a href="../HTML/Index.html">Home</a></li>
+<li> <a href="perfildoprofessor.php">Seu Perfil</a><li>
+<li><a href= "../PHP/questoesView.php">Fazer Questões</a></li>
+<li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+          <ul>
+					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
+          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
+          <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
+</ul>
+<li><a href="#">Logins</a>
+          <ul>
+					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
+          <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
+          <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
+  
+  </nav>
+
+  <div class="echo">
 
 
 <?php
@@ -54,4 +69,3 @@ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
   </div>  
 </body>
 </html>
-
