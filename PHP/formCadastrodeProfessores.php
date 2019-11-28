@@ -51,7 +51,7 @@
 
     <input type="submit" value="Cadastrar"/>
 
-    <p class="message">Já é cadastrado? <a href="frmLogindeProfessor.php">Entre!</a></p>
+    <p class="message">Já é cadastrado? <a href="frmLoginProfessor.php">Entre!</a></p>
 
   </form>
 
