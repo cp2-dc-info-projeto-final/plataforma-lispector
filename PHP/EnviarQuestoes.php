@@ -7,9 +7,8 @@
 <li><a href="../HTML/Index.html">Home</a></li>
 <li> <a href="perfildoprofessor.php">Seu Perfil</a><li>
 <li><a href= "../PHP/EnviarQuestoes.php">Enviar Questões</a></li>
-<li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
+<li><a href="formCadastrodeProfessores.php">Cadastros</a></li>
           <ul>
-					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>
