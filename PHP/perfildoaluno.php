@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="../CSS/Perfis.css">
+<link rel="stylesheet" href="../CSS/Estilo_Perfis.css">
 
 
 <nav class="menu">
