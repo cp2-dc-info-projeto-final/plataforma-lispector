@@ -12,7 +12,6 @@
 <li><a href="formCadastrodeProfessores.php">Cadastros</a></li>
           <ul>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
-          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>    
 <li><a href="#">Logins</a>

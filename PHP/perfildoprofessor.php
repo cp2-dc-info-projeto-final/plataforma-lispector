@@ -18,14 +18,12 @@
 <<li><a href="formCadastrodeProfessores.php">Cadastros</a></li>
           <ul>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
-          <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
 </ul>
 <li><a href="#">Logins</a>
           <ul>
 					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
-          <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
   
   </nav>
 
