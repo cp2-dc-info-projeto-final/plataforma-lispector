@@ -1,15 +1,16 @@
 # Especificação de Casos de Uso
 
 ## CDU 01
+
 - Cadastro de Alunos
 
-**Atores:** Funcionários
+**Atores:** Professores
 
 **Pré-requisitos:** Ser aluno do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
-1. O usuário informa Matrícula, Nome, Turma, E-mail e uma Senha.
-2. Sistema verifica se o e-mail é válido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro do usuário como aluno. O usuário é cadastrado por um funcionário.
+1. O usuário informa nome, turma, e-mail, matrícula, senha e confirma a senha.
+2. Sistema verifica se os dados são válidos. Caso os dados já estejam cadastrados no sistema, estejam incompletos ou errado, ele retornará um erro. Se os dados forem válidos, o sistema efetuará o cadastro do usuário como aluno. O usuário é cadastrado por um professor.
 
 ## CDU 02
 
@@ -20,39 +21,28 @@
 **Pré-requisitos:** Ser Professor do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
-1. Usuário informa Nome, Matrícula e Email.
-2. Sistema verifica se o e-mail é válido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro da pessoa como Professor.
+
+1. Usuário informa nome, matrícula, email, senha e cconfirma a senha.
+2. Sistema verifica se a matrícula realmwnte, é do professor e verifica se tem algum erro nos dados inseridos. Caso haja algum erro, o sistema retornará para o formulário. Se os dados forem válidos, o sistema efetuará o cadastro do usuário como professor. O usuário é cadastrado por ele mesmo, através da Matrícula saberemos se ele trabalha no Ciep.
 
 ## CDU 03
 
-- Cadastro de Funcionários
-
-**Atores:** Funcionários
-
-**Pré-requisitos:** Ser funcionário do CIEP 404 - Clarice Lispector.
-
-**Fluxo Principal:**
-1. Usuário informa o Nome e Email
-2. Sistema verifica se o e-mail é valido; caso o e-mail já esteja cadastrado no sistema, ele retornará um erro; se o e-mail for válido o sistema efetuará o cadastro da pessoa como Funcionário.
-
-## CDU 04
-
 - Login
 
-**Atores:** Alunos, Professores e Funcionários
+**Atores:** Alunos e professores
 
 **Pré-condições:** Ser cadastrado no sistema
 
 **Fluxo Principal:**
 
-1. Usuário informa e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso de acordo com o cadastro, indo para a tela inicial equivalente a seus respectivos status.
+1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso de acordo com o cadastro, indo para a tela individual do perfil de cada um.
+
 + Alunos recebem as permissões de acesso de Aluno;
-+ Professores recebem as permissões de acesso de Professor;
-+ Funcionários recebem as permissões de acesso de Funcionário.
++ Professores recebem as permissões de acesso de Professor.
 
-2. Caso o Usuário tenha esquecido sua senha, será redirecionado para a página de Recuperação através do email informado.
+2. Caso o Usuário tenha esquecido sua senha, será redirecionado para a página de Recuperação.
 
-## CDU 05
+## CDU 04
 
 - Gerenciamento de Cadastros
 
@@ -63,29 +53,8 @@
 **Fluxo Principal:**
 1. Sistema disponibiliza a opção de um funcionário cadastrar um aluno
 
-## CDU 06
 
-- Elaboração de Calendário de Avaliações futuras
-
-**Atores:** Professores
-
-**Pré-Condições:** Ser cadastrado no sistema como Professor e estar logado
-
-**Fluxo Principal:**
-1. O Professor elabora um calendário para cientificação dos alunos quanto às datas das avaliações que estão por vir.
-
-## CDU 07
-
-- Confecção do Mural de Notícias
-
-**Atores:** Funcionários
-
-**Pré-Condições:** Ser cadastrado no sistema como Funcionário e estar logado
-
-**Fluxo Principal:**
-1. Funcionário informa os eventos previstos da instituição ou avisos, seja referente à escola, seja referente à plataforma.
-
-## CDU 08
+## CDU 04
 
 - Entrega de Documentos aos Alunos 
 
@@ -94,7 +63,5 @@
 **Pré-Condições:** Estar cadastrado e logado no sistema como Professor ou Aluno
 
 **Fluxo Principal:**
-1. O professor tem acesso às informações do Aluno (nome e turma, apenas), envia os documentos aos alunos;
-2. Os alunos recebem os documentos;
-
-
+1. O professor enviará tarefas aos alunos;
+2. Os alunos recebem as tarefas;
