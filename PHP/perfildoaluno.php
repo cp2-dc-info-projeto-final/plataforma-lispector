@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<link rel="stylesheet" href="../CSS/Perfis.css">
+
+
 <nav class="menu">
 
 <meta charset="utf-8">
@@ -30,7 +33,6 @@
 
   <title>Perfil do Aluno</title>
 
-  <h1 align ="center"> Perfil do Aluno</h1>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 

@@ -16,7 +16,6 @@
           <ul>
 					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
-          <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
   
   </nav>
 
