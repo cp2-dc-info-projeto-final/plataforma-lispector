@@ -17,7 +17,7 @@
 </ul>    
 <li><a href="#">Logins</a>
           <ul>
-					<li><a href="frmLoginAluno.php">Login do Aluno</a></li>
+					<li><a href="formLoginAluno.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
           <li><a href="frmLoginfuncionario.php">Login do Funcionário</a><li>
 </ul>      
