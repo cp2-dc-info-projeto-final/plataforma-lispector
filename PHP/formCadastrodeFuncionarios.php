@@ -40,13 +40,13 @@
 
   <h1> Cadastro de Funcionários </h1>
 
-    <input type="name" id="name" name="name" placeholder="Digite seu Nome"/>
+    <input type="name" id="name" name="nome" placeholder="Digite seu Nome"/>
 
     <input type="email" id="email" name="email" placeholder="Digite seu E-mail"/>
 
     <input type="password" id="email" name="senha" placeholder="Crie uma Senha"/>
 
-    <input type="password" id="email" name="senha" placeholder="Confirme sua Senha"/>
+    <input type="password" id="email" name="confirmaSenha" placeholder="Confirme sua Senha"/>
 
 
     <input type="submit" value="Cadastrar"/>

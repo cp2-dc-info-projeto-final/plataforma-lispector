@@ -1,9 +1,7 @@
-<link rel="stylesheet" href="../CSS/PerfilDoProfessor.css">
+<link rel="stylesheet" href="../CSS/Perfis.css">
 
  
  <meta charset="UTF-8" />
-
- <body background="../IMAGEMS/Topo.";>
 
   <title>Perfil do Professor</title>
 
@@ -16,7 +14,7 @@
 <ul>
 <li><a href="../HTML/Index.html">Home</a></li>
 <li> <a href="perfildoprofessor.php">Seu Perfil</a><li>
-<li><a href= "../PHP/questoesView.php">Fazer Questões</a></li>
+<li><a href= "../PHP/EnviarQuestoes.php">Enviar Questões</a></li>
 <li><a href="formCadastrodeFuncionarios.php">Cadastros</a>
           <ul>
 					<li><a href="formCadastrodeFuncionarios.php">Cadastro de Funcionarios</a></li>
