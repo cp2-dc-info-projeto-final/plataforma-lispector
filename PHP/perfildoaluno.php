@@ -13,6 +13,7 @@
 
 <ul>
 <li><a href="../HTML/Index.html">Home</a></li>
+<li> <a href="perfildoaluno.php">Seu Perfil</a><li>
 <li><a href="formCadastrodeProfessores.php">Cadastros</a></li>
           <ul>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
@@ -36,21 +37,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-
 </head>
-
-<style>
-		
-.conteudo1 {
-
-   border:20px solid;
-   padding: 30px;
-background: lightskyblue;
-
-}   
-
-</style>
- <div class="conteudo1">
   
 
 <?php
@@ -73,9 +60,9 @@ while($row = $result->fetch_assoc()){
     $turma = $row['turma'];
 }
 
-<h1> echo ("Olá $nome Você é o usuário número: $id."); </h1>
+ echo ("Olá $nome Você é o usuário número: $id."); 
 
-<h1> echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); </h1>
+ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); 
 
 ?>
 

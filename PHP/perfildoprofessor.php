@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="../CSS/Perfis.css">
 
- 
  <meta charset="UTF-8" />
 
   <title>Perfil do Professor</title>
@@ -27,9 +26,7 @@
   
   </nav>
 
-  <div class="echo">
-
-
+  
 <?php
 
 error_reporting(0); #oculta erros PHP
@@ -50,14 +47,11 @@ while($row = $result->fetch_assoc()){
 }
 
 
-
 echo ("Olá $nome você é o usuário número $id.");
 
 echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");
 
 ?>
-
-
       </div>
     </div>
   </div>  
