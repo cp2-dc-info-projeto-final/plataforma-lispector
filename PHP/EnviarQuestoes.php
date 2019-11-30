@@ -29,8 +29,7 @@
             border:20px solid;
             padding: 30px;
 			background: lightskyblue;
-			
-
+	
         }   
     </style>
     </head>

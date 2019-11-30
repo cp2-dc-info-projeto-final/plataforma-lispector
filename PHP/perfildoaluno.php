@@ -39,6 +39,20 @@
 
 </head>
 
+<style>
+		
+.conteudo1 {
+
+   border:20px solid;
+   padding: 30px;
+background: lightskyblue;
+
+}   
+
+</style>
+ <div class="conteudo1">
+  
+
 <?php
 
 error_reporting(0); #oculta erros PHP
@@ -59,11 +73,9 @@ while($row = $result->fetch_assoc()){
     $turma = $row['turma'];
 }
 
+<h1> echo ("Olá $nome Você é o usuário número: $id."); </h1>
 
-
-echo ("Olá $nome Você é o usuário número: $id.");
-
-echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>");
+<h1> echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); </h1>
 
 ?>
 
