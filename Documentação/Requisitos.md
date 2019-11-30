@@ -1,4 +1,3 @@
-
 # REQUISITOS
 
 ## SUMÁRIO
@@ -8,7 +7,6 @@
 - [RF02](#rf02)
 - [RF03](#rf03)
 - [RF04](#rf04)
-- [RF05](#rf05)
 
 ### Requisitos não funcionais
 - [RNF01](#rnf01)
@@ -25,24 +23,20 @@
 O site terá um recurso para cadastrar usuários.
 
 ## RF02
-- Criação de Avaliações
+- Envio de Tarefas
 
-O site terá um recurso para criar avaliações.
+O site terá um recurso para enviar tarefas.
 
 ## RF03
-- Envio de Documentos
-
-O site terá um recurso para enviar documentos
-
-## RF04
 - Renovação de Senha
 
 O sistema deverá enviar ao usuário um código por email, caso o mesmo deseje mudar de senha, afim de que se confirme a identidade dele.
 
-## RF05
-- Gerenciamento de Cadastros
+## RF04
 
-O sistema disponibiliza a opção de um professor cadastrar um aluno.
+- Envio de Senhas
+
+O sistema enviará s senhas, para os alunos, através de um botão.
 
 # Requisitos Não-funcionais
 
