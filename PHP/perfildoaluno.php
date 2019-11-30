@@ -38,9 +38,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 </head>
-  
+
 
 <?php
+
 
 error_reporting(0); #oculta erros PHP
 
@@ -60,6 +61,7 @@ while($row = $result->fetch_assoc()){
     $turma = $row['turma'];
 }
 
+
  echo ("Olá $nome Você é o usuário número: $id."); 
 
  echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); 
@@ -69,8 +71,8 @@ while($row = $result->fetch_assoc()){
 <body>
 
       <div id="cadastro">
-        <p>deseja trocar a senha?</p>
-        <a href=../PHPMailer-5.2/recuperacaosenha.php>trocar senha</a>
+        <p>Deseja trocar a senha?</p>
+        <a href=recuperacaosenha.php>trocar senha</a>
 
         
 
