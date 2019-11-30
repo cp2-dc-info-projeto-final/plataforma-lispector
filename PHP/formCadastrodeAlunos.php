@@ -19,10 +19,9 @@
 					<li><a href="formLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
 
-    
   </nav>
 
-  
+
         <div class="cadastro-page">
           
 
