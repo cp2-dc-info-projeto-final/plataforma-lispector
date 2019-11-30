@@ -46,7 +46,6 @@ while($row = $result->fetch_assoc()){
     $id = $row['id'];
 }
 
-
 echo ("Olá $nome você é o usuário número $id.");
 
 echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br></a>");

@@ -10,4 +10,4 @@ Samara Paiva.
 
 # Descrição do Projeto
 
-Uma plataforma para melhor comunicação de Alunos e Professores do CIEP 404 - Clarice Lispector
+Uma plataforma para melhorar a comunicação de Alunos e Professores do CIEP 404 - Clarice Lispector.
