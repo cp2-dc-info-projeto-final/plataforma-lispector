@@ -54,7 +54,7 @@
 1. Sistema disponibiliza a opção de um funcionário cadastrar um aluno
 
 
-## CDU 04
+## CDU 05
 
 - Entrega de Documentos aos Alunos 
 
