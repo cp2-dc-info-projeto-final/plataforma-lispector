@@ -1,12 +1,12 @@
 <?php // Dados do PHP
+
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
 $turma = $_POST['turma'];
 $senha = $_POST['senha'];
-$confirmaSenha = $_POST['confirmaSenha'];
 
-$limk = mysqli_connect ($nome, $email, $matricula, $turma, $senha, $confirmaSenha);
+$limk = mysqli_connect ($nome, $email, $matricula, $turma, $senha);
 
 if (mysqli_connect_error($limk)) {
 
@@ -15,8 +15,6 @@ if (mysqli_connect_error($limk)) {
 else {
     echo "Conexão OK!";
 }
-
-
 
 session_start(); // Reinicializa um array de sessão com os valores originais
 if ($senha != $confirmaSenha) {    
