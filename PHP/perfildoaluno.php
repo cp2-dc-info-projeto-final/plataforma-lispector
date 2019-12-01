@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" href="../CSS/Perfis.css">
-<link rel="stylesheet" href="../CSS/Estilo_Perfis.css">
+<head>
 
+<link rel="stylesheet" href="../CSS/Logins.css" >
 
-<nav class="menu">
+<script type="text/javascript" src="../JavaScript/Logins.js"> </script>
+<div id="login">
 
-<meta charset="utf-8">
-
+<nav  class="menu">
 
 <link rel="stylesheet" href="../CSS/Menu.css">
 
 <ul>
 <li><a href="../HTML/Index.html">Home</a></li>
-<li> <a href="perfildoaluno.php">Seu Perfil</a><li>
-<li><a href="formCadastrodeProfessores.php">Cadastros</a></li>
+<li><a href="formCadastrodeProfessores.php">Cadastros</a>
           <ul>
           <li><a href="formCadastrodeProfessores.php">Cadastro de Professores</a></li>
           <li><a href="formCadastrodeAlunos.php">Cadastro de Alunos</a><li>
-</ul>    
+</ul>
 <li><a href="#">Logins</a>
           <ul>
-					<li><a href="frmLogindeAlunos.php">Login do Aluno</a></li>
+					<li><a href="formLogindeAlunos.php">Login do Aluno</a></li>
           <li><a href="frmLoginProfessor.php">Login do Professor</a></li>
-</ul>      
 
-    </ul>
     
   </nav>
-
-<head>
 
   <meta charset="UTF-8"/>
 
@@ -39,6 +34,7 @@
 
 </head>
 
+<div id="echo">
 
 <?php
 
@@ -68,11 +64,9 @@ while($row = $result->fetch_assoc()){
 
 ?>
 
-<body>
-
       <div id="cadastro">
         <p>Deseja trocar a senha?</p>
-        <a href=recuperacaosenha.php>trocar senha</a>
+        <a href=recuperacaosenha.php>Trocar senha</a>
 
         
 
