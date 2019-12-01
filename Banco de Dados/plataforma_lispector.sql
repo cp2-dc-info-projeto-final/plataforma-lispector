@@ -5,19 +5,21 @@ CREATE TABLE alunos (
 id int ( 60 ) NOT  NULL AUTO_INCREMENT,
 nome VARCHAR ( 60 ) NOT  NULL,
 email VARCHAR ( 60 ) NOT  NULL,
-senha  VARCHAR ( 60 ) NOT  NULL,
 matricula VARCHAR ( 50 ) NOT  NULL,
 turma VARCHAR ( 5 ) NOT  NULL,
+senha  VARCHAR ( 60 ) NOT  NULL
+ConfirmaSenha  VARCHAR ( 60 ) NOT  NULL,
 PRIMARY KEY (ID)
 );
 
 CREATE TABLE professor (
 
-id int (1) NOT NULL AUTO_INCREMENT,
+id int ( 1) NOT  NULL AUTO_INCREMENT,
 nome VARCHAR ( 60 ) NOT  NULL,
 email VARCHAR ( 60 ) NOT  NULL,
-senha  VARCHAR ( 60 ) NOT  NULL,
 matricula VARCHAR ( 50 ) NOT  NULL,
+senha  VARCHAR ( 60 ) NOT  NULL
+ConfirmaSenha  VARCHAR ( 60 ) NOT  NULL,
 PRIMARY KEY (ID)
 );
 
