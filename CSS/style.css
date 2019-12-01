@@ -5602,11 +5602,11 @@ h1, h2, h3, h4, h5,
     opacity: 1;
     background: white;
     background: -moz-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.88) 24%, rgba(255, 255, 255, 0.81) 39%, rgba(255, 255, 255, 0.5) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(24%, rgba(255, 255, 255, 0.88)), color-stop(39%, rgba(255, 255, 255, 0.81)), color-stop(100%, rgba(255, 255, 255, 0.5)));
+    background: -webkit-gradient (left top, left bottom, color-stop(0%, white), color-stop(24%, rgba(255, 255, 255, 0.88)), color-stop(39%, rgba(255, 255, 255, 0.81)), color-stop(100%, rgba(255, 255, 255, 0.5)));
     background: -webkit-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.88) 24%, rgba(255, 255, 255, 0.81) 39%, rgba(255, 255, 255, 0.5) 100%);
     background: -o-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.88) 24%, rgba(255, 255, 255, 0.81) 39%, rgba(255, 255, 255, 0.5) 100%);
     background: -ms-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.88) 24%, rgba(255, 255, 255, 0.81) 39%, rgba(255, 255, 255, 0.5) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(24%, rgba(255, 255, 255, 0.88)), color-stop(39%, rgba(255, 255, 255, 0.81)), to(rgba(255, 255, 255, 0.5)));
+    background: -webkit-gradient (linear, left top, left bottom, from(white), color-stop(24%, rgba(255, 255, 255, 0.88)), color-stop(39%, rgba(255, 255, 255, 0.81)), to(rgba(255, 255, 255, 0.5)));
     background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.88) 24%, rgba(255, 255, 255, 0.81) 39%, rgba(255, 255, 255, 0.5) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
 
