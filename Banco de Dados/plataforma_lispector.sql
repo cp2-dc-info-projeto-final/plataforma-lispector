@@ -25,7 +25,8 @@ CREATE TABLE tarefa (
 
 id int (1) NOT  NULL AUTO_INCREMENT,
 nome VARCHAR ( 60 ) NOT  NULL,
-PRIMARY KEY (ID)
+PRIMARY KEY (ID),
+FOREING KEY (id_professor) REFERENCES professor
 );
 
 CREATE TABLE disciplina (
@@ -39,8 +40,11 @@ CREATE TABLE questao (
 
 id int ( 60 ) NOT  NULL AUTO_INCREMENT,
 pergunta VARCHAR ( 60 ) NOT  NULL,
-pergunta VARCHAR ( 60 ) NOT  NULL,
-PRIMARY KEY (ID)
+resposta VARCHAR ( 60 ) NOT  NULL,
+PRIMARY KEY (ID),
+FOREIGN KEY (id_tarefa) REFERENCES tarefa,
+FOREIGN KEY (id_disciplina) REFERENCES disciplina,
+FOREIGN KEY (id_professor) REFERENCES professor
 );
 
 CREATE TABLE aluno_questao (
