@@ -1,7 +1,7 @@
 <?php
 
-$senha =$_POST["senha"];
 $email =$_POST["email"];
+$senha =$_POST["senha"];
 
 
 if(autentica($email, $senha)){

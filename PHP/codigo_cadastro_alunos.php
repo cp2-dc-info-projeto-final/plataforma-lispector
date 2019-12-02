@@ -1,5 +1,4 @@
 <?php // Dados do PHP
-
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
@@ -9,13 +8,13 @@ $confirmaSenha = $_POST['confirmaSenha'];
 
 $link = mysqli_connect ($nome, $email, $matricula, $turma, $senha, $confirmaSenha);
 
-/*if (mysqli_connect_error($link) {
+if (mysqli_connect_error($link)) {
 
     echo "Erro de conexão";
 }
 else {
     echo "Conexão OK!";
-}*/
+}
 
 session_start();  //Reinicializa um array de sessão com os valores originais
 if ($senha != $confirmaSenha) {    
@@ -40,7 +39,7 @@ $erro = "";
 if (mysqli_num_rows($result) > 0) {
     $erro = "E-mail indisponível.";        
     $_SESSION["erro"] = $erro;
-    header("Location: ../PHP/formCadastrodeAlunos.php");
+    header("Location: ../HTML/formCadastrodeAlunos.html");
     exit();
 }
 // Attempt insert query execution
