@@ -1,18 +1,5 @@
 <?php
 
-$email =$_POST["email"];
-$senha =$_POST["senha"];
-
-
-if(autentica($email, $senha)){
-    
-    header('Location:perfildoaluno.php?email='.$email);
-
-}
-else{
-    header('Location:formLogindeAlunos.php');
-}
-    
 function autentica($email, $senha) {
         
         $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
