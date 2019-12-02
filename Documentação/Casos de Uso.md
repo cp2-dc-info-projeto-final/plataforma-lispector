@@ -6,7 +6,7 @@
 
 **Atores:** Professores
 
-**Pré-requisitos:** Ser aluno do CIEP 404 - Clarice Lispector.
+**Pré-requisitos:** Ser professor do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
 1. O usuário informa nome, turma, e-mail, matrícula, senha e confirma a senha.
@@ -44,19 +44,7 @@
 
 ## CDU 04
 
-- Gerenciamento de Cadastros
-
-**Atores:** Funcionários
-
-**Pré-Condições:** Ser cadastrado no sistema como Funcionário e estar logado
-
-**Fluxo Principal:**
-1. Sistema disponibiliza a opção de um funcionário cadastrar um aluno
-
-
-## CDU 05
-
-- Entrega de Documentos aos Alunos 
+- Entrega de Tarefas aos Alunos 
 
 **Atores:** Professores e Alunos
 
