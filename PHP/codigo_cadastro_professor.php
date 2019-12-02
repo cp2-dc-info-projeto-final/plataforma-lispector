@@ -8,7 +8,7 @@ session_start();
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        
     $_SESSION["erro"] = $erro;
-    header("Location: formCadastrodeProfessores.php");
+    header("Location: ../HTML/formCadastrodeProfessores.html");
     exit();
 }
 # password hash
@@ -29,9 +29,9 @@ if (mysqli_num_rows($result) > 0) {
     exit();
 }
 // Attempt insert query execution
-$sql = "INSERT INTO professor (nome, email, matricula,senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
+$sql = "INSERT INTO professor (nome, email, matricula, senha) VALUES ('$nome', '$email', '$matricula', '$hash')";
 if(mysqli_query($connection, $sql)){
-   header("Location:../PHP/frmLoginProfessor.php");
+   echo "DADOS INSERIDOS COM SUCESSO.";
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO $sql.";
 }
