@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Cadastro de Professores </title>
+    <title>Perfil de Professores </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Perfil do Aluno</h2>
+          <h2>Perfil do Professor</h2>
           <p>Seja muito bem-vindo(a). Este é o seu Perfil! </div>
       </div>
         <div class="row">
@@ -146,6 +146,8 @@ while($row = $result->fetch_assoc()){
  echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); 
 
 ?>
+
+<input name="Arquiuvo" type="file" value="Enviar Tarefa">
 
      
 
