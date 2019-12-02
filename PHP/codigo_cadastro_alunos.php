@@ -5,18 +5,19 @@ $email = $_POST['email'];
 $matricula = $_POST['matricula'];
 $turma = $_POST['turma'];
 $senha = $_POST['senha'];
+$confirmaSenha = $_POST['confirmaSenha'];
 
-$limk = mysqli_connect ($nome, $email, $matricula, $turma, $senha);
+$link = mysqli_connect ($nome, $email, $matricula, $turma, $senha, $confirmaSenha);
 
-if (mysqli_connect_error($limk)) {
+/*if (mysqli_connect_error($link) {
 
     echo "Erro de conexão";
 }
 else {
     echo "Conexão OK!";
-}
+}*/
 
-session_start(); // Reinicializa um array de sessão com os valores originais
+session_start();  //Reinicializa um array de sessão com os valores originais
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        
     $_SESSION["erro"] = $erro;
@@ -25,8 +26,8 @@ if ($senha != $confirmaSenha) {
 
 # password hash
 $hash = password_hash($senha, PASSWORD_DEFAULT);
-$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
+$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 // Check connection
 if($connection === false){
 die("Deu ruim, mano!" . mysqli_connect_error());
