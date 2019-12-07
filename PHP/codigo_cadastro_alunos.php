@@ -1,4 +1,5 @@
 <?php // Dados do PHP
+
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
@@ -6,18 +7,18 @@ $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST['confirmaSenha'];
 
-$link = mysqli_connect ($nome, $email, $matricula, $turma, $senha, $confirmaSenha);
+$link = mysqli_connect ($nome, $email, $matricula, $turma, $senha, $confirmaSenha); // Conectar com o Banco de Dados
 
-if (mysqli_connect_error($link)) {
+if (mysqli_connect_error($link)) { // Retorna uma string descrevendo o ultimo erro da função connect
 
-    echo "Erro de conexão";
+    echo "Erro de conexão"; // Mensagem que aparecerá, caso haja o erro.
 }
 else {
-    echo "Conexão OK!";
+    echo "Conexão OK!";  // Mensagem que aparecerá, caso dê certo!
 }
 
 session_start();  //Reinicializa um array de sessão com os valores originais
-if ($senha != $confirmaSenha) {    
+if ($senha != $confirmaSenha) {     // Exige preenchimento nos campos do formulario
     $erro = "SENHAS NÃO COINCIDENTES";        
     $_SESSION["erro"] = $erro;
     header("Location: formCadastrodeAlunos.php");
@@ -36,7 +37,7 @@ $sql = "SELECT id FROM alunos WHERE email='$email'";
 $result = mysqli_query($connection, $sql);
 $erro = "";
  
-if (mysqli_num_rows($result) > 0) {
+if (mysqli_num_rows($mysqli_result) > 0) {
     $erro = "E-mail indisponível.";        
     $_SESSION["erro"] = $erro;
     header("Location: ../HTML/formCadastrodeAlunos.html");
