@@ -149,6 +149,15 @@
               </div>
             </form>
           </div>
+          <div>
+                <?php
+                  session_start();
+                  if (isset($_SESSION["erro"])) {
+                    echo $_SESSION["erro"];
+                    unset($_SESSION["erro"]);
+                  }
+                ?>
+              </div>
             </div>
           </div>
         </div>

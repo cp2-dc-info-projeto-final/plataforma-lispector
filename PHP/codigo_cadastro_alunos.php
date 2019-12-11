@@ -29,8 +29,6 @@ else {
     echo "Conexão OK!";  // Mensagem que aparecerá, caso dê certo!
 }
 
-
-
 $sql = "SELECT id_aluno FROM alunos WHERE email='$email'";
 $result = mysqli_query($connection, $sql);
 $erro = "";
@@ -51,7 +49,7 @@ $sql = "INSERT INTO alunos (nome, email, matricula, turma, senha) VALUES ('$nome
 if(mysqli_query($connection, $sql)){
     header("Location: ../HTML/formLogindeAlunos.html");
 } else{
-    echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS.";
+    echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
 }
 mysqli_close($connection);
 
