@@ -6,7 +6,7 @@ if(autentica($email, $senha)){
     header('Location:../PHP/perfildoprofessor.php?email='.$email);
 }
 else{
-    header('Location:formLoginProfessor.php');
+    header('Location:../HTML/formLoginProfessor.tmlh');
 }
    
     function autentica($email, $senha){

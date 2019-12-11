@@ -18,7 +18,7 @@ $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 if($connection === false){
     die("Deu ruim, mano!" . mysqli_connect_error());
 }
-$sql = "SELECT id FROM professor WHERE email='$email'";
+$sql = "SELECT id_professor FROM professor WHERE email='$email'";
 $result = mysqli_query($connection, $sql);
 $erro = "";
  
