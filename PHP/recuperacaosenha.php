@@ -119,11 +119,12 @@
             <form action="#" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
+                  
                 <?php 
   if( !empty($_POST) ){
     // processar o pedido
-    mysql_connect('localhost', 'root', 'plataforma_lispector');  // ligar à base de dados
-    mysql_select_db('test');  // escolher a base de dados pretendida
+    mysqli_connect('localhost', 'root', 'plataforma_lispector');  // ligar à base de dados
+    mysqli_select_db('test');  // escolher a base de dados pretendida
  
     $user = mysql_real_escape_string($_POST['email']);
     $q = mysql_query("SELECT * FROM utilizadores WHERE email = '$user'");
