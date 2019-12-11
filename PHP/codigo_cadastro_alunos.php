@@ -37,7 +37,7 @@ if ($result) {
     if (mysqli_num_rows($result) > 0) {
         $erro = "E-mail indisponível.";        
         $_SESSION["erro"] = $erro;
-        header("Location: ../HTML/formCadastrodeAlunos.php");
+        header("Location: ../PHP/formCadastrodeAlunos.php");
         exit();
     }    
 } else
@@ -47,7 +47,7 @@ if ($result) {
 // Attempt insert query execution
 $sql = "INSERT INTO alunos (nome, email, matricula, turma, senha) VALUES ('$nome', '$email', '$matricula', '$turma', '$hash')";
 if(mysqli_query($connection, $sql)){
-    header("Location: ../HTML/formLogindeAlunos.html");
+    header("Location: ../PHP/formLogindeAlunos.php");
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
 }

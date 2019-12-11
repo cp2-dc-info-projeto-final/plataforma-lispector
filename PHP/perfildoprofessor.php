@@ -71,10 +71,10 @@
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
                   <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
-                  <li><a href="../HTML/formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
-                  <li><a href="../HTML/formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
-                  <li><a href="../HTML/formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="../HTML/formLogindeProfessores.html" class="nav-link">Login de Professores</a></li>                 
+                  <li><a href="../PHP/formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="../PHP/formCadastrodeProfessores.php" class="nav-link">Cadastro de Professores</a></li>
+                  <li><a href="../PHP/formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
+                  <li><a href="../PHP/formLogindeProfessores.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
           </div>

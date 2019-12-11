@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Perfil do Aluno </title>
+    <title>Cadastro de Professores </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -70,14 +70,20 @@
 
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                  <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
-                  <li><a href="../PHP/formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
-                  <li><a href="../PHP/formCadastrodeProfessores.php" class="nav-link">Cadastro de Professores</a></li>
-                  <li><a href="../PHP/formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="../PHP/formLogindeProfessores.php" class="nav-link">Login de Professores</a></li>                 
+                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
+                  <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
+                  <li><a href="formLogindeProfessor.html" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
-
+              <div class="top-social ml-auto">
+                <a href="#"><span class="icon-facebook text-teal"></span></a>
+                <a href="#"><span class="icon-twitter text-success"></span></a>
+                <a href="#"><span class="icon-linkedin text-yellow"></span></a>
+              </div>
+          </div>
+        </div>
 
        
 
@@ -105,44 +111,40 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Perfil do Aluno</h2>
-          <p>Seja muito bem-vindo(a). Este é o seu Perfil! </div>
+          <h2>Cadastro de Professores</h2>
+          <p>Seja muito bem-vindo(a). Cadastre-se! </div>
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
+            <form action="..//PHP/codigo_cadastro_professor.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                <?php
+                  <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu E-mail">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" name="matricula" id="matricula" class="form-control" placeholder="Digite sua Matrícula">
+                </div>
+              </div>
 
-
-error_reporting(0); #oculta erros PHP
-
-$login = $HTTP_SESSION_VARS["login"];
-$email = $_GET['email'];
-
-$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
-
-$sql = "SELECT * FROM alunos WHERE email='$email'";
-
-$result = mysqli_query($connection, $sql);
-
-while($row = $result->fetch_assoc()){
-
-    $nome = $row['nome'];
-    $id = $row['id'];
-    $turma = $row['turma'];
-}
-
-
- echo ("Olá $nome Você é o usuário número: $id."); 
-
- echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); 
-
-?>
-
-
-
+              <div class="form-group row">
+                <div class="col-md-12">
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua Senha">
+                </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-md-12">
+                      <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme sua Senha">
+                  </div>
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
+                </div>
+                <p class="message">Não é cadastrado? <a href="formLogindeProfessor.html">Cadastre-se!</a></p>
 
               </div>
             </form>
@@ -161,9 +163,8 @@ while($row = $result->fetch_assoc()){
         <div class="row">
           <div class="col-lg-4">
             <h2 class="footer-heading mb-3">Obrigada !</h2>
-                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! 
-               
-         
+            <p class="mb-5">A plaraforma lispector, fica feliz em ajudar!
+           
           </div>
  
             </div>
@@ -196,3 +197,4 @@ while($row = $result->fetch_assoc()){
   </body>
 
 </html>
+

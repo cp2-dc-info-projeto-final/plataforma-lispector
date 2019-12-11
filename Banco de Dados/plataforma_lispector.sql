@@ -3,7 +3,7 @@ CREATE TABLE alunos (
 id_aluno INT (100) NOT  NULL AUTO_INCREMENT,
 nome VARCHAR (60) NOT  NULL,
 email VARCHAR (60) NOT  NULL,
-senha  VARCHAR (60) NOT  NULL,
+senha  VARCHAR (255) NOT  NULL,
 matricula VARCHAR (50) NOT  NULL,
 turma VARCHAR (5) NOT  NULL,
 PRIMARY KEY (id_aluno)
@@ -14,7 +14,7 @@ CREATE TABLE professor (
 id_professor INT (100) NOT NULL AUTO_INCREMENT,
 nome VARCHAR (60) NOT  NULL,
 email VARCHAR (60) NOT  NULL,
-senha  VARCHAR (60) NOT  NULL,
+senha  VARCHAR (255) NOT  NULL,
 matricula VARCHAR (50) NOT  NULL,
 PRIMARY KEY (id_professor)
 );

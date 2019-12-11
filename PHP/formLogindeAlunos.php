@@ -71,7 +71,7 @@
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
                   <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
                   <li><a href="formLogindeProfessor.html" class="nav-link">Login de Professores</a></li>                 
@@ -116,7 +116,7 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="../PHP/codigo_login_aluno.php" method="post">
+          <form action="loginCtrl.php" method="post">
               <div class="form-group row">
   
                 <div class="col-md-6">
@@ -132,11 +132,19 @@
             
               <div class="form-group row">
                 <div class="col-md-6 mr-auto">
-                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Entrar">
                 </div>
-                <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.html">Cadastre-se!</a></p>
+                <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 
               </div>
+              <?php
+                    session_start();
+                    if(array_key_exists('erro', $_SESSION) == true){
+                        $erro = $_SESSION["erro"];
+                        echo "<br><b>$erro</b>";
+                        session_unset();
+                    }
+                ?>
             </form>
           </div>
             </div>
@@ -153,12 +161,13 @@
         <div class="row">
           <div class="col-lg-4">
             <h2 class="footer-heading mb-3">Esqueci minha senha...</h2>
-                <p class="mb-5">Esqueceu sua senha? Não se preocupe, a Plataforma Lispector, lhe enviará outra. Basta preencher o campo abaixo, com seu e-mail.</p>
+                <p class="mb-5">Esqueceu sua senha? Não se preocupe! A Plataforma Lispector lhe enviará outra. Basta preencher o campo abaixo com o seu e-mail.</p>
                 <h2 class="footer-heading mb-4">Digite seu E-mail:</h2>
-                <form action="../PHP/codigo_login_aluno.php" class="d-flex" class="subscribe">
+                <form action="../PHP/codigo_login_aluno.php" class="d-flex" class="subscribe"> <!--qual a função desse form action?-->
                   <input type="text" class="form-control mr-3" placeholder="Email">
                   <input type="submit" value="Enviar" class="btn btn-primary">
                 </form>
+                
           </div>
  
             </div>
@@ -187,6 +196,8 @@
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
+
+    
 
   </body>
 

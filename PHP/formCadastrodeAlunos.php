@@ -71,7 +71,7 @@
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
                   <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
                   <li><a href="formLogindeProfessor.html" class="nav-link">Login de Professores</a></li>                 
@@ -146,7 +146,7 @@
                 <div class="col-md-6 mr-auto">
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
                 </div>
-                <p class="message">Já é cadastrado? <a href="formLogindeAlunos.html">Entre!</a></p>
+                <p class="message">Já é cadastrado? <a href="formLogindeAlunos.php">Entre!</a></p>
 
               </div>
               <div>

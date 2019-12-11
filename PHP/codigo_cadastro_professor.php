@@ -10,7 +10,7 @@ session_start();
 if ($senha != $confirmaSenha) {    
     $erro = "SENHAS NÃO COINCIDENTES";        
     $_SESSION["erro"] = $erro;
-    header("Location: ../HTML/formCadastrodeProfessores.php");
+    header("Location: ../PHP/formCadastrodeProfessores.php");
     exit();
 }
 
@@ -48,7 +48,7 @@ if ($result) {
 $sql = "INSERT INTO professor (nome, email, senha, matricula) VALUES ('$nome', '$email', '$hash', '$matricula')";
 
 if(mysqli_query($connection, $sql)){
-    header("Location: ../HTML/formLogindeProfessor.html");
+    header("Location: ../PHP/formLogindeProfessor.php");
 } else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
 }

@@ -71,7 +71,7 @@
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
                   <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
                   <li><a href="formLogindeProfessores.html" class="nav-link">Login de Professores</a></li>                 
