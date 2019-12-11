@@ -149,6 +149,15 @@
                 <p class="message">Já é cadastrado? <a href="formLogindeAlunos.html">Entre!</a></p>
 
               </div>
+              <div>
+                <?php
+                  session_start();
+                  if (isset($_SESSION["erro"])) {
+                    echo $_SESSION["erro"];
+                    unset($_SESSION["erro"]);
+                  }
+                ?>
+              </div>
             </form>
           </div>
             </div>
