@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Cadastro de Professores </title>
+    <title>Perfil do Aluno </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -70,20 +70,14 @@
 
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
-                  <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
-                  <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="formLogindeProfessores.html" class="nav-link">Login de Professores</a></li>                 
+                  <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
+                  <li><a href="../HTML/formCadastrodeAlunos.html" class="nav-link">Cadastro de Alunos</a></li>
+                  <li><a href="../HTML/formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
+                  <li><a href="../HTML/formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
+                  <li><a href="../HTML/formLogindeProfessores.html" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
-              <div class="top-social ml-auto">
-                <a href="#"><span class="icon-facebook text-teal"></span></a>
-                <a href="#"><span class="icon-twitter text-success"></span></a>
-                <a href="#"><span class="icon-linkedin text-yellow"></span></a>
-              </div>
-          </div>
-        </div>
+
 
        
 
