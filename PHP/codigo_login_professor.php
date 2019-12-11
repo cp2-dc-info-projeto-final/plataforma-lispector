@@ -1,40 +1,56 @@
 <?php
-$senha =(MD5($_POST["senha"]);
-$email =$_POST["email"];
 
-if(autentica($email, $senha)){
-    header('Location:../PHP/perfildoprofessor.php?email='.$email);
+$email =$_POST["email"];
+$senha =$_POST["senha"];
+
+session_start();
+if ($senha) {    
+    $erro = "SENHA INCORRETA!";        
+    $_SESSION["erro"] = $erro;
+    header("Location: ../HTML/formLogindeProfessor.html");
+    exit();
 }
-else{
-    header('Location:../HTML/formLoginProfessor.tmlh');
+
+# Hash da Senha
+
+$hash = password_hash($senha, PASSWORD_DEFAULT);
+
+$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
+
+if (mysqli_connect_error($connection)) { // Retorna uma string descrevendo o ultimo erro da função connect
+
+    echo "Erro de conexão"; // Mensagem que aparecerá, caso haja o erro.
 }
-   
-    function autentica($email, $senha){
-        
-        $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
- 
-        // Check connection
-        if($connection === false){
-            die("Erro de Conexão" . mysqli_connect_error());
-        }
-        
-        $sql = "SELECT senha, email FROM professor WHERE email='$email'";
+else {
+    echo "Conexão OK!";  // Mensagem que aparecerá, caso dê certo!
+}
+
+        $sql = "SELECT email, senha FROM professor WHERE email='$email'";
     
         $result = mysqli_query($connection, $sql);
+
+        $erro="";
         
-        if (mysqli_num_rows($result) > 0) {
-            // output data of each row
-            while($row = mysqli_fetch_assoc($result)) {
-                $hash = $row["senha"];
-                if (password_verify($senha, $hash)) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-        } else {
-            return false;
+        if ($result) {
+            if (mysqli_num_rows($result) > 0) {
+                $erro = "E-mail indisponível.";        
+                $_SESSION["erro"] = $erro;
+                header("Location: ../HTML/formLogindeProfessor.html");
+                exit();
+            }    
+        } else
+        {
+            die ("$sql" . mysqli_error($connection));
+        }
+        // Attempt insert query execution
+        $sql = "INSERT INTO professor (email, senha,) VALUES ('$email', '$hash')";
+        
+        if(mysqli_query($connection, $sql)){
+
+            header("Location: perfildoprofessor.php");
+        } else{
+            echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
         }
         mysqli_close($connection);
-    }   
-?>
+        
+        ?>
