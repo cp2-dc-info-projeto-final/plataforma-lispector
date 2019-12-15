@@ -135,7 +135,14 @@
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
                 </div>
                 <p class="message">Não é cadastrado? <a href="formCadastrodeProfessores.html">Cadastre-se!</a></p>
-
+                <?php
+                    session_start();
+                    if(array_key_exists('erro', $_SESSION) == true){
+                        $erro = $_SESSION["erro"];
+                        echo "<br><b>$erro</b>";
+                        session_unset();
+                    }
+                ?>
               </div>
             </form>
           </div>

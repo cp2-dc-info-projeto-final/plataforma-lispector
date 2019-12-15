@@ -1,6 +1,6 @@
 <?php
 //algum arquivo de código também
-    require "login.php";//qual a função desse require?
+    require "A_login.php";//qual a função desse require?
 
     $email = $_POST["email"]; //esse nome em aspas tem que estar referenciado no id e nome da form
     $senha = $_POST["senha"];

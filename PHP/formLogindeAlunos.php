@@ -116,7 +116,7 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-          <form action="loginCtrl.php" method="post">
+          <form action="A_loginCtrl.php" method="post">
               <div class="form-group row">
   
                 <div class="col-md-6">
