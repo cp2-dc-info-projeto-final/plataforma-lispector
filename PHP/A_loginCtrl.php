@@ -10,7 +10,7 @@
     if (autentica($email, $senha) == true) { //quando o login for efetuado, ele efetuará o redirecionamento para a área seguinte
         session_unset();
         $_SESSION["nome"] = $row["nome"]; 
-        header("Location: ../HTML/index.html");
+        header("Location: perfildoaluno.php");
         exit();
     }
     else { //se os dados inseridos no login estiverem incorretos, o sistema redirecionará para a tela de inserção de dados de login

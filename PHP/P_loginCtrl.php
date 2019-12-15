@@ -10,7 +10,7 @@
     if (autentica($email, $senha) == true) {
         session_unset();
         $_SESSION["nome"] = $row["nome"]; 
-        header("Location: ../HTML/index.html");
+        header("Location: perfildoprofessor.php");
         exit();
     }
     else {
