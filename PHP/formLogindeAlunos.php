@@ -70,11 +70,11 @@
 
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
                   <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.PHP" class="nav-link">Cadastro de Professores</a></li>
-                  <li><a href="formLogindeAlunos.html" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="formLogindeProfessor.html" class="nav-link">Login de Professores</a></li>                 
+                  <li><a href="formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
+                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
               <div class="top-social ml-auto">

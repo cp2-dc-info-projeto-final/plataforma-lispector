@@ -70,11 +70,11 @@
 
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
                   <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
-                  <li><a href="formCadastrodeProfessores.html" class="nav-link">Cadastro de Professores</a></li>
+                  <li><a href="formCadastrodeProfessores.php" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="../HTML/formLogindeProfessor.html" class="nav-link">Login de Professores</a></li>                 
+                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
               <div class="top-social ml-auto">
@@ -144,7 +144,7 @@
                 <div class="col-md-6 mr-auto">
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
                 </div>
-                <p class="message">Não é cadastrado? <a href="formLogindeProfessor.html">Cadastre-se!</a></p>
+                <p class="message">Não é cadastrado? <a href="formLogindeProfessor.php">Cadastre-se!</a></p>
 
               </div>
             </form>
