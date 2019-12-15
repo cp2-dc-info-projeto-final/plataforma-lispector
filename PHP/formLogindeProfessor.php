@@ -116,7 +116,7 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
+            <form action="P_loginCtrl.php" method="post">
               <div class="form-group row">
   
                 <div class="col-md-6">
@@ -162,7 +162,7 @@
             <h2 class="footer-heading mb-3">Esqueci minha senha...</h2>
                 <p class="mb-5">Esqueceu sua senha? Não se preocupe, a Plataforma Lispector, lhe enviará outra. Basta preencher o campo abaixo, com seu e-mail.</p>
                 <h2 class="footer-heading mb-4">Digite seu E-mail:</h2>
-                <form action="#" class="d-flex" class="subscribe">
+                <form action="#" class="d-flex" class="subscribe"> <!--qual a função desse form action? 15/12/2019 relembrando!!-->
                   <input type="text" class="form-control mr-3" placeholder="Email">
                   <input type="submit" value="Enviar" class="btn btn-primary">
                 </form>

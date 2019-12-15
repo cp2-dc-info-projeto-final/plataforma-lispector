@@ -2,14 +2,14 @@
 
     function autentica($email, $senha) {
         
-        $connection = mysqli_connect("localhost", "root", "", "lp3");
+        $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
  
         // Check connection
         if($connection === false){
-            die("Erro de Conecção" . mysqli_connect_error());
+            die("Erro de Conexão" . mysqli_connect_error());
         }
         
-        $sql = "SELECT senha,nome FROM usuario WHERE email='$email'";
+        $sql = "SELECT senha, nome FROM professor WHERE email='$email'";
     
         $result = mysqli_query($connection, $sql);
         
