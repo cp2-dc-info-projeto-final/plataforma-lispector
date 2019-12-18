@@ -117,28 +117,26 @@
                 <?php
 
 
-error_reporting(0); #oculta erros PHP
 
-$login = $HTTP_SESSION_VARS["login"];
-$email = $_GET['email'];
 
 $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
-$sql = "SELECT * FROM alunos WHERE email='$email'";
+$sql = "SELECT * FROM professor";
 
 $result = mysqli_query($connection, $sql);
 
 while($row = $result->fetch_assoc()){
 
     $nome = $row['nome'];
-    $id = $row['id'];
-    $turma = $row['turma'];
+    $id_professor = $row['id_professor'];
+    $email = $row['email'];
+    $matricula = $row['matricula'];
 }
 
 
- echo ("Olá $nome Você é o usuário número: $id."); 
+ echo ("Olá $nome Você é o usuário número: $id_professor. E aqui estão seus dados:"); 
 
- echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br></a>"); 
+ echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Matrícula: $matricula</a>"); 
 
 ?>
 
