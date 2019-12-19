@@ -134,7 +134,7 @@ while($row = $result->fetch_assoc()){
 }
 
 
- echo ("Olá $nome Você é o usuário número: $id_aluno. E aqui estão seus dados:"); 
+ echo ("Olá, $nome! Você é o usuário número $id_aluno. E aqui estão seus dados:"); 
 
  echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br>Matrícula: $matricula</a>"); 
 
