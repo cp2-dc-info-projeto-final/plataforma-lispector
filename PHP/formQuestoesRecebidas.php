@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Perfil de Professores </title>
+    <title>Questões Recebidas </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -106,8 +106,8 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Perfil do Professor</h2>
-          <p>Seja muito bem-vindo(a). Este é o seu Perfil! </div>
+          <h2>Questões Recebidas</h2>
+          <p>Seja muito bem-vindo(a). Essas são as questões! </div>
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
@@ -125,11 +125,11 @@ $sql = "SELECT * FROM questao";
 
 $result = mysqli_query($connection, $sql);
 
-while($row = $result->fetch_assoc()){
+while($_POST = $result->fetch_assoc()){
 
-    $nome = $row['nome'];
+    $nome = $_POST['nome'];
     $disciplina = $_POST['disciplina'];
-    $pergunta = $_POST['pergunta'];
+    $pergunta1 = $_POST['pergunta1'];
     $pergunta2 = $_POST['pergunta2'];
     $pergunta3 = $_POST['pergunta3'];
 }
@@ -137,7 +137,7 @@ while($row = $result->fetch_assoc()){
 
  echo ("Olá, o(a) professor(a) $nome, enviou essas questões:"); 
 
- echo ("<BR><BR>Questão 1: $pergunta<br>Questão 2: $pergunta2<br>Questão 3:: $pergunta3</a>"); 
+ echo ("<BR><BR>Questão 1: $pergunta1<br>Questão 2: $pergunta2<br>Questão 3:: $pergunta3</a>"); 
 
 ?>
 
