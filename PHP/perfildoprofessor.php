@@ -140,13 +140,6 @@ while($row = $result->fetch_assoc()){
 
 ?>
 
-<input name="Arquiuvo" type="file" value="Anexar Tarefa"> <input type="submit" value="Enviar Tarefa">
-
-
-
-     
-
-
               </div>
             </form>
           </div>
