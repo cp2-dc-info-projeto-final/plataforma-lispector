@@ -121,27 +121,29 @@
 
 $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
-$sql = "SELECT * FROM professor";
+$sql = "SELECT * FROM questao";
 
 $result = mysqli_query($connection, $sql);
 
 while($row = $result->fetch_assoc()){
 
     $nome = $row['nome'];
-    $id_professor = $row['id_professor'];
-    $email = $row['email'];
-    $matricula = $row['matricula'];
+    $disciplina = $_POST['disciplina'];
+    $pergunta = $_POST['pergunta'];
+    $pergunta2 = $_POST['pergunta2'];
+    $pergunta3 = $_POST['pergunta3'];
 }
 
 
- echo ("Olá, $nome! Você é o usuário número: $id_professor. E aqui estão seus dados:"); 
+ echo ("Olá, o(a) professor(a) $nome, enviou essas questões:"); 
 
- echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Matrícula: $matricula</a>"); 
+ echo ("<BR><BR>Questão 1: $pergunta<br>Questão 2: $pergunta2<br>Questão 3:: $pergunta3</a>"); 
 
 ?>
 
-<p class="message">Gostaria de Enviar as Tarefas? <a href="formEnviodeQuestoes.php">Cadastre-as!</a></p>
-
+<div class="col-md-12">
+<input type="text" name="resposta" id="resposta" class="form-control" placeholder="Enviar Respostas">
+                  </div>
               </div>
             </form>
           </div>

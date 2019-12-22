@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Perfil de Professores </title>
+    <title>Envio de Questões </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -40,8 +40,6 @@
         <div class="site-mobile-menu-body"></div>
       </div>
 
-
-
       <header class="site-navbar site-navbar-target" role="banner">
 
         <div class="container mb-3">
@@ -77,6 +75,11 @@
                   <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
+              <div class="top-social ml-auto">
+                <a href="#"><span class="icon-facebook text-teal"></span></a>
+                <a href="#"><span class="icon-twitter text-success"></span></a>
+                <a href="#"><span class="icon-linkedin text-yellow"></span></a>
+              </div>
           </div>
         </div>
 
@@ -106,45 +109,52 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Perfil do Professor</h2>
-          <p>Seja muito bem-vindo(a). Este é o seu Perfil! </div>
+          <h2>Envio de Questões</h2>
+          <p>Seja muito bem-vindo(a). Cadastre-as perguntas! </div>
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
+            <form action="..//PHP/codigo_cadastro_professor.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                <?php
+                  <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome Professor">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="disciplina" id="disciplina" class="form-control" placeholder="Digite a Disciplina">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" name="pergunta" id="pergunta" class="form-control" placeholder="Digite a Pergunta 1):">
+                </div>
+              </div>
 
-
-
-
-$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
-
-$sql = "SELECT * FROM professor";
-
-$result = mysqli_query($connection, $sql);
-
-while($row = $result->fetch_assoc()){
-
-    $nome = $row['nome'];
-    $id_professor = $row['id_professor'];
-    $email = $row['email'];
-    $matricula = $row['matricula'];
-}
-
-
- echo ("Olá, $nome! Você é o usuário número: $id_professor. E aqui estão seus dados:"); 
-
- echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Matrícula: $matricula</a>"); 
-
-?>
-
-<p class="message">Gostaria de Enviar as Tarefas? <a href="formEnviodeQuestoes.php">Cadastre-as!</a></p>
-
+              <div class="form-group row">
+                <div class="col-md-12">
+                    <input type="text" name="pergunta2" id="pergunta2" class="form-control" placeholder="Digite a Pergunta 2):">
+                </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-md-12">
+                      <input type="text" name="pergunta3" id="pergunta3" class="form-control" placeholder="Digite a Pergunta 3):">
+                  </div>
+              
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Enviar">
+                </div>
               </div>
             </form>
           </div>
+          <div>
+                <?php
+                  session_start();
+                  if (isset($_SESSION["erro"])) {
+                    echo $_SESSION["erro"];
+                    unset($_SESSION["erro"]);
+                  }
+                ?>
+              </div>
             </div>
           </div>
         </div>
@@ -158,9 +168,9 @@ while($row = $result->fetch_assoc()){
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-          <h2 class="footer-heading mb-3">Obrigada !</h2>
-                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! 
-               
+            <h2 class="footer-heading mb-3">Obrigada !</h2>
+            <p class="mb-5">A plaraforma lispector, fica feliz em ajudar!
+           
           </div>
  
             </div>
