@@ -114,7 +114,7 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="..//PHP/codigo_cadastro_professor.php" method="post">
+            <form action="codigo_enviar_questao.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
                   <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome Professor">
@@ -125,7 +125,7 @@
               </div>
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" name="pergunta" id="pergunta" class="form-control" placeholder="Digite a Pergunta 1):">
+                  <input type="text" name="pergunta1" id="pergunta1" class="form-control" placeholder="Digite a Pergunta 1):">
                 </div>
               </div>
 

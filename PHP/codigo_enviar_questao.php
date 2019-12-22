@@ -2,7 +2,7 @@
 
 $nome = $_POST['nome'];
 $disciplina = $_POST['disciplina'];
-$pergunta = $_POST['pergunta'];
+$pergunta1 = $_POST['pergunta1'];
 $pergunta2 = $_POST['pergunta2'];
 $pergunta3 = $_POST['pergunta3'];
 
@@ -20,7 +20,7 @@ $sql = "SELECT id_questao FROM questao";
 $result = mysqli_query($connection, $sql);
 $erro = "";
 
-$sql = "INSERT INTO questao (nome, disciplina, pergunta, pergunta2, pergunta3, resposta) VALUES ('$nome', '$disciplina', '$pergunta', '$pergunta2', '$pergunta3', '$resposta')";
+$sql = "INSERT INTO questao (nome, disciplina, pergunta1, pergunta2, pergunta3) VALUES ('$nome', '$disciplina', '$pergunta1', '$pergunta2', '$pergunta3')";
 
 if(mysqli_query($connection, $sql)){
     header("Location: formQuestoesRecebidas.php");

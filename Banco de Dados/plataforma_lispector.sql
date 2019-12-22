@@ -38,8 +38,11 @@ FOREIGN KEY (id_professor) REFERENCES professor (id_professor)
 CREATE TABLE questao (
 
 id_questao INT (100) NOT  NULL AUTO_INCREMENT,
-pergunta VARCHAR (60) NOT  NULL,
-resposta VARCHAR (60) NOT  NULL,
+nome VARCHAR (100) NOT NULL,
+disciplina VARCHAR (100) NOT NULL,
+pergunta1 VARCHAR (1000) NOT  NULL,
+pergunta2 VARCHAR (1000) NOT  NULL,
+pergunta3 VARCHAR (1000) NOT  NULL,
 id_tarefa INT (100),
 id_disciplina INT (100),
 id_professor INT (100),
