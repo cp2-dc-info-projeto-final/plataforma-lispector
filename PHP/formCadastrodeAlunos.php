@@ -141,11 +141,12 @@
               <div class="form-group row">
                   <div class="col-md-12">
                       <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme sua Senha">
-                  </div>
+                  </div> <br>
               <div class="form-group row">
-                <div class="col-md-6 mr-auto">
+                <div class="col-md-6 mr-auto"> <br>
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
-                </div>
+                </div> <br>
+                &nbsp
                 <p class="message">Já é cadastrado? <a href="formLogindeAlunos.php">Entre!</a></p>
 
               </div>

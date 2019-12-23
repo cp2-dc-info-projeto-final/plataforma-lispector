@@ -138,13 +138,14 @@
               </div>
               <div class="form-group row">
                   <div class="col-md-12">
-                      <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme sua Senha">
+                      <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme sua Senha"> &nbsp
                   </div>
+
               <div class="form-group row">
                 <div class="col-md-6 mr-auto">
-                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
-                </div>
-                <p class="message">Não é cadastrado? <a href="formLogindeProfessor.php">Cadastre-se!</a></p>
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">&nbsp &nbsp
+                </div> &nbsp &nbsp &nbsp
+                &nbsp <p class="message">Já é cadastrado? <a href="formLogindeProfessor.php">Entre!</a></p>
 
               </div>
             </form>
@@ -165,7 +166,7 @@
 
 
     </div>
-
+                                                                                                                                                                                                                                                       
 
     <footer class="site-footer">
       <div class="container">

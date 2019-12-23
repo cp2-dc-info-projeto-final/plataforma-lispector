@@ -143,13 +143,14 @@ while($row = $result->fetch_assoc()){
 <br>
 
 <div class="col-md-6 mr-auto">
+
+<a href="formQuestoesRecebidas.php"><button>Ver Questões</button></a>
+                </div> <br>
   
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Minhas Respostas">
-                </div> <br>
-
-                <div class="col-md-6 mr-auto">
-                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Ver Gabarito">
                 </div>
+
+              
 
 
               </div>

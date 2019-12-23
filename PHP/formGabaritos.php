@@ -112,7 +112,10 @@
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
           <h2>Cantinho dos Gabaritos </h2>
-          <p>Sejam muito bem-vindo(a). Fizemos esse cantinho para vocês discentes e docentes! </div>
+          <p>Olá, professor(a)! Agora que enviou as questões, que tal enviar o gabarito?! </div>
+          
+        
+
  
 
               </div>
