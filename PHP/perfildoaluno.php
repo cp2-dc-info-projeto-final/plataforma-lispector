@@ -138,9 +138,17 @@ while($row = $result->fetch_assoc()){
 
  echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br>Matrícula: $matricula</a>"); 
 
-?>
+?> <br>
 
+<br>
 
+<div class="col-md-6 mr-auto">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Minhas Respostas">
+                </div> <br>
+
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Ver Gabarito">
+                </div>
 
 
               </div>
