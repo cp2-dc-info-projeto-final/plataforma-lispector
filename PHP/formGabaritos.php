@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Perfil do Aluno </title>
+    <title>Cantinho dos Gabaritos </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -77,7 +77,13 @@
                   <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
-
+              <div class="top-social ml-auto">
+                <a href="#"><span class="icon-facebook text-teal"></span></a>
+                <a href="#"><span class="icon-twitter text-success"></span></a>
+                <a href="#"><span class="icon-linkedin text-yellow"></span></a>
+              </div>
+          </div>
+        </div>
 
        
 
@@ -105,56 +111,22 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Perfil do Aluno</h2>
-          <p>Seja muito bem-vindo(a). Este é o seu Perfil! </div>
-      </div>
-        <div class="row">
-          <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
-              <div class="form-group row">
-                <div class="col-md-6 mb-4 mb-lg-0">
-                <?php
-
-
-
-
-$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
-
-$sql = "SELECT * FROM alunos";
-
-$result = mysqli_query($connection, $sql);
-
-while($row = $result->fetch_assoc()){
-
-    $nome = $row['nome'];
-    $id_aluno = $row['id_aluno'];
-    $turma = $row['turma'];
-    $email = $row['email'];
-    $matricula = $row['matricula'];
-}
-
-
- echo ("Olá, $nome! Você é o usuário número $id_aluno. E aqui estão seus dados:"); 
-
- echo ("<BR><BR>Nome: $nome<br>E-mail: $email<br>Turma: $turma<Br>Matrícula: $matricula</a>"); 
-
-?> <br>
-
-<br>
-
-<div class="col-md-6 mr-auto">
-  
-                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Minhas Respostas">
-                </div> <br>
-
-                <div class="col-md-6 mr-auto">
-                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Ver Gabarito">
-                </div>
-
+          <h2>Cantinho dos Gabaritos </h2>
+          <p>Sejam muito bem-vindo(a). Fizemos esse cantinho para vocês discentes e docentes! </div>
+ 
 
               </div>
             </form>
           </div>
+          <div>
+             <?php
+                  session_start();
+                  if (isset($_SESSION["erro"])) {
+                    echo $_SESSION["erro"];
+                    unset($_SESSION["erro"]);
+                  }
+                ?> 
+              </div>
             </div>
           </div>
         </div>
@@ -169,9 +141,8 @@ while($row = $result->fetch_assoc()){
         <div class="row">
           <div class="col-lg-4">
             <h2 class="footer-heading mb-3">Obrigada !</h2>
-                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! 
-               
-         
+            <p class="mb-5">A plaraforma lispector, fica feliz em ajudar!
+           
           </div>
  
             </div>
@@ -204,3 +175,4 @@ while($row = $result->fetch_assoc()){
   </body>
 
 </html>
+
