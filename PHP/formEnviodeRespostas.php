@@ -116,10 +116,10 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="..//PHP/codigo_cadastro_professor.php" method="post">
+            <form action="codigo_enviar_resposta.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" name="nome" placeholder="Digite sua resposta" value="">
+                <input type="text" name="resposta" id="resposta" class="form-control" placeholder="Digite as suas respostas">
                 </div>
         
               <div class="form-group row">
