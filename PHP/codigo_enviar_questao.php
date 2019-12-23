@@ -23,8 +23,9 @@ $erro = "";
 $sql = "INSERT INTO questao (nome, disciplina, pergunta1, pergunta2, pergunta3) VALUES ('$nome', '$disciplina', '$pergunta1', '$pergunta2', '$pergunta3')";
 
 if(mysqli_query($connection, $sql)){
-    header("Location: formQuestoesRecebidas.php");
-} else{
+
+    echo '<script>alert("Questões Enviadas");</script>'; }
+ else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
 }
 mysqli_close($connection);
