@@ -26,6 +26,13 @@ nome VARCHAR (60) NOT  NULL,
 PRIMARY KEY (id_disciplina)
 );
 
+CREATE TABLE resposta (
+
+id_resposta INT (100) NOT NULL AUTO_INCREMENT,
+resposta VARCHAR (1000) NOT NULL,
+PRIMARY KEY (id_resposta)
+);
+
 CREATE TABLE tarefa (
 
 id_tarefa INT (100) NOT  NULL AUTO_INCREMENT,
