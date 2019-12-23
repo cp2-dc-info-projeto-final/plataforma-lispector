@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Questões Recebidas </title>
+    <title>Cantinho da Resposta </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -77,6 +77,11 @@
                   <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
                 </ul>
               </nav>
+              <div class="top-social ml-auto">
+                <a href="#"><span class="icon-facebook text-teal"></span></a>
+                <a href="#"><span class="icon-twitter text-success"></span></a>
+                <a href="#"><span class="icon-linkedin text-yellow"></span></a>
+              </div>
           </div>
         </div>
 
@@ -106,46 +111,34 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Questões Recebidas</h2>
-          <p>Seja muito bem-vindo(a). Essas são as questões! </div>
+          <h2>Cantinho da Resposta...</h2>
+          <p>Olá professor, abaixo está a resposta do aluno! </div>
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="#" method="post">
+            <form action="..//PHP/codigo_cadastro_professor.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                <?php
-
-
-
-
-$connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
-
-$sql = "SELECT * FROM questao";
-
-$result = mysqli_query($connection, $sql);
-
-while($_POST = $result->fetch_assoc()){
-
-    $nome = $_POST['nome'];
-    $disciplina = $_POST['disciplina'];
-    $pergunta1 = $_POST['pergunta1'];
-    $pergunta2 = $_POST['pergunta2'];
-    $pergunta3 = $_POST['pergunta3'];
-}
-
-
- echo ("Olá, o(a) professor(a) $nome, enviou essas questões:"); 
-
- echo ("<BR><BR>Questão 1: $pergunta1<br>Questão 2: $pergunta2<br>Questão 3:: $pergunta3</a>"); 
-
-?>
-
-<p class="message">Pronto para responder as questões? <a href="formEnviodeRespostas.php">Responda!</a></p>
+                  <input type="text" name="nome" placeholder="Digite sua resposta" value="">
+                </div>
+        
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+             <input type="submit" class=" btn-primary text-white py-3 px-5" value="Enviar">
+                </div>
 
               </div>
             </form>
           </div>
+          <div>
+                <?php
+                  session_start();
+                  if (isset($_SESSION["erro"])) {
+                    echo $_SESSION["erro"];
+                    unset($_SESSION["erro"]);
+                  }
+                ?>
+              </div>
             </div>
           </div>
         </div>
@@ -159,9 +152,9 @@ while($_POST = $result->fetch_assoc()){
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-          <h2 class="footer-heading mb-3">Obrigada !</h2>
-                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! 
-               
+            <h2 class="footer-heading mb-3">Obrigada!</h2>
+            <p class="mb-5">A plaraforma lispector, fica feliz em ajudar!
+           
           </div>
  
             </div>
@@ -194,3 +187,4 @@ while($_POST = $result->fetch_assoc()){
   </body>
 
 </html>
+
