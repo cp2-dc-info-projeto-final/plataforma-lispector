@@ -116,7 +116,7 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="P_loginCtrl.php" method="post">
+            <form action="codigo_login_professor.php" method="post">
               <div class="form-group row">
   
                 <div class="col-md-6">
@@ -135,6 +135,9 @@
                   <input type="submit" class=" btn-primary text-white py-3 px-5" value="Cadastrar">
                 </div>
                 <p class="message">Não é cadastrado? <a href="formCadastrodeProfessores.php">Cadastre-se!</a></p>
+
+
+                
                 <?php
                     session_start();
                     if(array_key_exists('erro', $_SESSION) == true){
