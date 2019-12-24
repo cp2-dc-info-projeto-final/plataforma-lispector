@@ -136,7 +136,7 @@
               </div>
               <div class="form-group row">
                   <div class="col-md-12">
-                      <input type="text" name="pergunta3" id="pergunta3" class="form-control" placeholder="Digite a Pergunta 3):">
+                      <input type="text" name="pergunta3" id="pergunta3" class="form-control" placeholder="Digite a Pergunta 3):"><br>
                   </div>
               
               <div class="form-group row">
