@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Cantinho dos Gabaritos </title>
+    <title>Envio de Questões </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -39,8 +39,6 @@
         </div>
         <div class="site-mobile-menu-body"></div>
       </div>
-
-
 
       <header class="site-navbar site-navbar-target" role="banner">
 
@@ -111,24 +109,44 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Cantinho dos Gabaritos </h2>
-          <p>Olá, professor(a)! Agora que enviou as questões, que tal enviar o gabarito?! </div>
-          
-        
+          <h2>Envio do Gabarito</h2>
+          <p>Seja muito bem-vindo(a). Cadastre o Gabarito!! </div>
+      </div>
 
- 
-
+      </div>
+        <div class="row">
+          <div class="col-lg-8 mb-5" >
+            <form action="codigo_enviar_gabarito.php" method="post">
+              <div class="form-group row">
+                <div class="col-md-6 mb-4 mb-lg-0">
+                  <input type="text" name="pergunta1" id="pergunta1" class="form-control" placeholder="Digite a Resposta da Questão1:">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="pergunta2" id="pergunta2" class="form-control" placeholder="Digite a Resposta da Questão2:">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" name="pergunta3" id="pergunta3" class="form-control" placeholder="Digite a Resposta da Questão3:">
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class=" btn-primary text-white py-3 px-5" value="Enviar">
+                </div>
               </div>
             </form>
           </div>
           <div>
-             <?php
+       
+                <?php
                   session_start();
                   if (isset($_SESSION["erro"])) {
                     echo $_SESSION["erro"];
                     unset($_SESSION["erro"]);
                   }
-                ?> 
+                ?>
               </div>
             </div>
           </div>
@@ -178,4 +196,3 @@
   </body>
 
 </html>
-

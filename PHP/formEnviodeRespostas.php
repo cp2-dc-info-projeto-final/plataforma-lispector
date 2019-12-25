@@ -116,14 +116,19 @@
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="codigo_enviar_resposta.php" method="post">
+            <form action="codigo_respostas_recebidas.php" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                <input type="text" name="resposta" id="resposta" class="form-control" placeholder="Digite as suas respostas">
+                <input type="text" name="resposta" id="resposta" class="form-control" placeholder="Digite a resposta da Questão 1:">
+                </div>
+                <div class="col-md-6 mb-4 mb-lg-0">
+                <input type="text" name="resposta" id="resposta" class="form-control" placeholder="Digite a resposta da Questão 2:">
+                </div>
+                <div class="col-md-6 mb-4 mb-lg-0">
+                <input type="text" name="resposta" id="resposta" class="form-control" placeholder="Digite a resposta da Questão 3:">
                 </div>
         
-              <div class="form-group row">
-                <div class="col-md-6 mr-auto">
+             
              <input type="submit" class=" btn-primary text-white py-3 px-5" value="Enviar">
                 </div>
 

@@ -1,5 +1,7 @@
 <?php
-$resposta = $_POST['resposta'];
+$pergunta1 = $_POST['pergunta1'];
+$pergunta2 = $_POST['pergunta2'];
+$pergunta3 = $_POST['pergunta3'];
 
 $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
@@ -11,15 +13,16 @@ else {
     echo "Conexão OK!";  // Mensagem que aparecerá, caso dê certo!
 }
 
-$sql = "SELECT id_resposta FROM resposta";
+$sql = "SELECT id_questao FROM questao";
 $result = mysqli_query($connection, $sql);
 $erro = "";
 
-$sql = "INSERT INTO resposta (resposta) VALUES ('$resposta')";
+$sql = "INSERT INTO questao (pergunta1, pergunta2, pergunta3) VALUES ('$pergunta1', '$pergunta2', '$pergunta3')";
 
 if(mysqli_query($connection, $sql)){
-    echo "RESPOSTAS ENVIADAS! Acesse o gabarito.";
-} else{
+
+    echo '<script>alert("Gabarito Enviado");</script>'; }
+ else{
     echo "ERRO: NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS." . mysqli_error($connection);
 }
 mysqli_close($connection);

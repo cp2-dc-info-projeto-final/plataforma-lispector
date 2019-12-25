@@ -128,7 +128,7 @@
               <div class="form-group row">
                 <div class="col-md-12">
                   <input type="text" name="matricula" id="matricula" class="form-control" placeholder="Digite sua Matrícula">
-                </div>
+                  </div>
               </div>
               <input type="text" name="turma" id="turma" class="form-control" placeholder="Digite sua Turma">
             </div>
