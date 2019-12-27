@@ -13,7 +13,8 @@ if (mysqli_connect_error($connection)) { // Retorna uma string descrevendo o ult
     echo "Erro de conexão"; // Mensagem que aparecerá, caso haja o erro.
 }
 else {
-    echo "Conexão OK!";  // Mensagem que aparecerá, caso dê certo!
+    header("Location: ../PHP/formGabaritoParaEnviar.php");
+
 }
 
 $sql = "SELECT id_questao FROM questao";
