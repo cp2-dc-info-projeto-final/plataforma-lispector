@@ -1,7 +1,5 @@
 <?php
 
-
-
 $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
 if (mysqli_connect_error($connection)) { // Retorna uma string descrevendo o ultimo erro da função connect

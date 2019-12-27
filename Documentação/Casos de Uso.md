@@ -4,13 +4,17 @@
 
 - Cadastro de Alunos
 
-**Atores:** Professores
+**Atores:** Alunos
 
-**Pré-requisitos:** Ser professor do CIEP 404 - Clarice Lispector.
+**Pré-requisitos:** Ser aluno do CIEP 404 - Clarice Lispector.
 
 **Fluxo Principal:**
-1. O usuário informa nome, turma, e-mail, matrícula, senha e confirma a senha.
-2. Sistema verifica se os dados são válidos. Caso os dados já estejam cadastrados no sistema, estejam incompletos ou errado, ele retornará um erro. Se os dados forem válidos, o sistema efetuará o cadastro do usuário como aluno. O usuário é cadastrado por um professor.
+
+1. O aluno informa seus dados: nome, turma, e-mail, matrícula, senha e confirma a senha.
+
+2. O sistema verifica se os dados são válidos. Caso os dados já estejam cadastrados no sistema, estejam incompletos ou errado, ele retornará para a própria página. Se os dados forem válidos, o sistema efetuará o cadastro do usuário como aluno.
+
+3. O aluno é cadastrado por um professor.
 
 ## CDU 02
 
@@ -23,6 +27,7 @@
 **Fluxo Principal:**
 
 1. Usuário informa nome, matrícula, email, senha e cconfirma a senha.
+
 2. Sistema verifica se a matrícula realmwnte, é do professor e verifica se tem algum erro nos dados inseridos. Caso haja algum erro, o sistema retornará para o formulário. Se os dados forem válidos, o sistema efetuará o cadastro do usuário como professor. O usuário é cadastrado por ele mesmo, através da Matrícula saberemos se ele trabalha no Ciep.
 
 ## CDU 03
@@ -35,7 +40,7 @@
 
 **Fluxo Principal:**
 
-1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso de acordo com o cadastro, indo para a tela individual do perfil de cada um.
+1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso, indo para a tela individual do perfil de cada um.
 
 + Alunos recebem as permissões de acesso de Aluno;
 + Professores recebem as permissões de acesso de Professor.
@@ -44,12 +49,42 @@
 
 ## CDU 04
 
-- Entrega de Tarefas aos Alunos 
+- Cadastro de Perguntas (Tarefas)
 
-**Atores:** Professores e Alunos
+**Atores:** Professores 
 
-**Pré-Condições:** Estar cadastrado e logado no sistema como Professor ou Aluno
+**Pré-Condições:** Estar cadastrado e logado no sistema como Professor 
 
 **Fluxo Principal:**
-1. O professor enviará tarefas aos alunos;
-2. Os alunos recebem as tarefas;
+
+1. O professor deve informar seu nome, sua disciplina e quais são as perguntas que ele quer cadastraer.
+
+2. Após o cadastramento das perguntas, as mesmas serão enviadas para os alunos.
+
+## CDU 05
+
+- Cadastro de Gabarito
+
+**Atores:** Professores 
+
+**Pré-Condições:** Estar cadastrado e logado no sistema como Professor 
+
+**Fluxo Principal:**
+
+1. O professor deve informar a resposta para cada uma das questões cadastradas.
+
+2. Após o cadastramento do gabarito, o mesmo será enviado para os alunos.
+
+## CDU 06
+
+- Acesso as questões recebidas
+
+**Atores:** Alunos 
+
+**Pré-Condições:** Estar cadastrado e logado no sistema como Aluno 
+
+**Fluxo Principal:**
+
+1. O professor deve enviar as questões para os Alunos.
+
+2. Após o envio das questões, os alunos poderão acessar as mesmas na página "Questão Recebida".

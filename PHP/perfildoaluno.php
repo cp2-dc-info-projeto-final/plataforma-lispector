@@ -144,7 +144,7 @@ while($row = $result->fetch_assoc()){
 
 
 <p class="message"> Deseja ver as questões enviadas pelos professores? <a href="formQuestoesRecebidas.php">Clique Aqui!</a></p>
-<p class="message"> Deseja ver os gabaritos enviados pelos professores? <a href="formGabaritos.php">Clique Aqui!</a></p>
+<p class="message"> Deseja ver os gabaritos enviados pelos professores? <a href="formGabaritoRecebido.php">Clique Aqui!</a></p>
 
 
 

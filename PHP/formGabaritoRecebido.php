@@ -112,14 +112,32 @@
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
           <h2>Cantinho dos Gabaritos </h2>
-          <p>Olá, professor(a)! Agora que enviou as questões, que tal enviar o gabarito?! </div>
-          
-        
+<?php
+          $connection = mysqli_connect("localhost", "root", "", "plataforma_lispector");
 
- 
+$sql = "SELECT * FROM questao";
 
-              </div>
-            </form>
+$result = mysqli_query($connection, $sql);
+
+while($_POST = $result->fetch_assoc()){
+
+    $nome = $_POST['nome'];
+    $disciplina = $_POST['disciplina'];
+    $pergunta1 = $_POST['pergunta1'];
+    $pergunta2 = $_POST['pergunta2'];
+    $pergunta3 = $_POST['pergunta3'];
+}
+
+
+ echo ("Olá, a professora $nome, enviou o gabarito das questões:"); 
+
+ echo ("<BR><BR>Questão 1: $pergunta1<br>"); 
+ echo ("Resposta: Pedro Álvares Cabral<br>");
+ echo ("Questão 2: $pergunta2<br>");
+ echo ("Resposta: 6<br>");
+ echo ("Questão 3: $pergunta3<br>");
+ echo ("Resposta: Enquanto o sujeito é aquele ou aquilo de que(m) se fala, o predicado é a informação dada sobre o sujeito.<br>");
+?>
           </div>
           <div>
              <?php
