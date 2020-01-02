@@ -155,18 +155,6 @@
 
     </div>
 
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="footer-heading mb-3">Esqueci minha senha...</h2>
-                <p class="mb-5">Esqueceu sua senha? Não se preocupe! A Plataforma Lispector lhe enviará outra. Basta preencher o campo abaixo com o seu e-mail.</p>
-                <h2 class="footer-heading mb-4">Digite seu E-mail:</h2>
-                <form action="../PHP/codigo_login_aluno.php" class="d-flex" class="subscribe"> <!--qual a função desse form action? 15/12/2019 relembrando!!-->
-                  <input type="text" class="form-control mr-3" placeholder="Email">
-                  <input type="submit" value="Enviar" class="btn btn-primary">
-                </form>
                 
           </div>
  

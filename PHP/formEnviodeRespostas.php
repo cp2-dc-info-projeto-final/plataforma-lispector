@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Cantinho da Resposta </title>
+    <title>Envio de Resposta </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Cantinho da Resposta...</h2>
+          <h2>Envio de Resposta</h2>
           <p>Olá professor, abaixo está a resposta do aluno! </div>
       </div>
         <div class="row">

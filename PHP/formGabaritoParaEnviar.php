@@ -109,7 +109,7 @@
       <div class="container">
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
-          <h2>Envio do Gabarito</h2>
+          <h2>Cadastro de Gabaritos</h2>
           <p>Seja muito bem-vindo(a). Cadastre o Gabarito!! </div>
       </div>
 
