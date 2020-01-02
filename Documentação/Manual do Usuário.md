@@ -6,11 +6,11 @@
 
 ## Quem pode usar?
 
-- Pode usar somente alunos e professores do CIEP 404 - Clarice Lispector.
+- Pode ser usada somente por alunos e professores do CIEP 404 - Clarice Lispector.
 
 ## Como é feito o bloqueio para discentes e docentes de fora do CIEP?
 
-- Então, o nosso sistema de cadastro, é feito da seguinte forma:
+- Então, o nosso sistema de cadastro é feito da seguinte forma:
 
 - Alunos do CIEP devem iniciar a matrícula com "ACCL"
 - (Aluno do CIEP Clarice Lispector).
