@@ -8,7 +8,7 @@
 - [RF03](#rf03)
 - [RF04](#rf04)
 - [RF05](#rf05)
-- [RF06](#rf06)
+
 
 ### Requisitos não funcionais
 - [RNF01](#rnf01)
@@ -29,24 +29,20 @@ O site terá um recurso para cadastrar usuários.
 
 O site terá um recurso para enviar tarefas.
 
+
 ## RF03
-- Renovação de Senha
-
-O sistema deverá enviar ao usuário um código por email, caso o mesmo deseje mudar de senha, afim de que se confirme a identidade dele.
-
-## RF04
 
 - Envio de Novas Senhas
 
 O sistema enviará novas senhas para os alunos, através de um botão.
 
-## RF05
+## RF04
 
  - Envio de Gabarito
 
 O site terá um recurso para enviar os gabaritos da Tarefa.
 
-## RF06
+## RF05
 
  - Envio de Respostas
 
