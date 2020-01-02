@@ -8,7 +8,7 @@ if (mysqli_connect_error($connection)) { // Retorna uma string descrevendo o ult
     echo "Erro de conexão"; // Mensagem que aparecerá, caso haja o erro.
 }
 else {
-    echo "A Plataforma Lispector, agradece a sua visita!";  // Mensagem que aparecerá, caso dê certo!
+    header("Location: formLogindeProfessor.php");  // Mensagem que aparecerá, caso dê certo!
 }
 
 $sql = "SELECT id_resposta FROM resposta";
