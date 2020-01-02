@@ -162,7 +162,13 @@
           </div>
         </div>
         
-
+        <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="footer-heading mb-3">Obrigada !</h2>
+                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! </p>
+               
         </div>
       </div>
     </footer>
