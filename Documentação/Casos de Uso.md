@@ -32,22 +32,33 @@
 
 ## CDU 03
 
-- Login
+- Login dos Alunos 
 
-**Atores:** Alunos e professores
+**Atores:** Alunos 
 
-**Pré-condições:** Ser cadastrado no sistema
+**Pré-condições:** Ser cadastrado no sistema como Aluno
 
 **Fluxo Principal:**
 
-1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso, indo para a tela individual do perfil de cada um.
-
-+ Alunos recebem as permissões de acesso de Aluno;
-+ Professores recebem as permissões de acesso de Professor.
+1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso, indo para a tela do perfil de alunos.
 
 2. Caso o Usuário tenha esquecido sua senha, será redirecionado para a página de Recuperação.
 
 ## CDU 04
+
+- Login dos Professores
+
+**Atores:** Professores
+
+**Pré-condições:** Ser cadastrado no sistema como Professor
+
+**Fluxo Principal:**
+
+1. Usuários informam e-mail e senha. Se os dados informados estiverem de acordo com os registrados no sistema, o usuário recebe permissão de acesso, indo para a tela do perfil de professores.
+
+2. Caso o Usuário tenha esquecido sua senha, será redirecionado para a página de Recuperação.
+
+## CDU 05
 
 - Cadastro de Perguntas (Tarefas)
 
@@ -61,7 +72,7 @@
 
 2. Após o cadastramento das perguntas, as mesmas serão enviadas para os alunos.
 
-## CDU 05
+## CDU 06
 
 - Cadastro de Gabarito
 
@@ -75,7 +86,7 @@
 
 2. Após o cadastramento do gabarito, o mesmo será enviado para os alunos.
 
-## CDU 06
+## CDU 07
 
 - Acesso as questões recebidas
 
@@ -88,3 +99,17 @@
 1. O professor deve enviar as questões para os Alunos.
 
 2. Após o envio das questões, os alunos poderão acessar as mesmas na página "Questão Recebida".
+
+## CDU 07
+
+- Acesso ao Gabarito recebido
+
+**Atores:** Alunos 
+
+**Pré-Condições:** Estar logado como aluno e estar na página de "Cantinho dos Gabaritos"
+
+**Fluxo Principal:**
+
+1. O professor deve enviar o gabarito das questões para os Alunos.
+
+2. Após o envio das questões, os alunos poderão acessar as mesmas na página "Cantinho dos Gabaritos"
