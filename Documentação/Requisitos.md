@@ -7,6 +7,8 @@
 - [RF02](#rf02)
 - [RF03](#rf03)
 - [RF04](#rf04)
+- [RF05](#rf05)
+- [RF06](#rf06)
 
 ### Requisitos não funcionais
 - [RNF01](#rnf01)
@@ -34,9 +36,22 @@ O sistema deverá enviar ao usuário um código por email, caso o mesmo deseje m
 
 ## RF04
 
-- Envio de Senhas
+- Envio de Novas Senhas
 
-O sistema enviará s senhas, para os alunos, através de um botão.
+O sistema enviará novas senhas para os alunos, através de um botão.
+
+## RF05
+
+ - Envio de Gabarito
+
+O site terá um recurso para enviar os gabaritos da Tarefa.
+
+## RF06
+
+ - Envio de Respostas
+
+O site terá um recurso para enviar as respostas das tarefas.
+
 
 # Requisitos Não-funcionais
 
