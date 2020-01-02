@@ -65,14 +65,14 @@
             <span class="d-inline-block d-lg-none"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-black"></span></a></span>
 
               
-
             <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto ">
                   <li class="active"><a href="../HTML/index.html" class="nav-link">Home</a></li>
                   <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.php" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
+                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>  
+                  <li><a href="logoutProfessor.php" class="nav-link">Sair</a></li>             
                 </ul>
               </nav>
               <div class="top-social ml-auto">

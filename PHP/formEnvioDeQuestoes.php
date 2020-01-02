@@ -72,7 +72,8 @@
                   <li><a href="formCadastrodeAlunos.php" class="nav-link">Cadastro de Alunos</a></li>
                   <li><a href="formCadastrodeProfessores.php" class="nav-link">Cadastro de Professores</a></li>
                   <li><a href="formLogindeAlunos.php" class="nav-link">Login de Alunos</a></li>
-                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>                 
+                  <li><a href="formLogindeProfessor.php" class="nav-link">Login de Professores</a></li>  
+                  <li><a href="logoutProfessor.php" class="nav-link">Sair</a></li>             
                 </ul>
               </nav>
               <div class="top-social ml-auto">
