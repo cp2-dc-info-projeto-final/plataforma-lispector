@@ -7,10 +7,13 @@ $senha = $_POST['senha'];
 $confirmaSenha = $_POST["confirmaSenha"];
 
 session_start();
-if ($senha != $confirmaSenha) {    
-    $erro = "SENHAS NÃO COINCIDENTES";        
-    $_SESSION["erro"] = $erro;
-    header("Location: ../PHP/formCadastrodeProfessores.php");
+
+if ($senha != $confirmaSenha
+|| $matricula <> "PCCL") 
+
+ {  $_SESSION["erro"] = $erro;
+    $erro = "SENHAS NÃO COINCIDEM";
+     header("Location: ../PHP/formCadastrodeProfessores.php");
     exit();
 }
 

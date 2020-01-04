@@ -8,6 +8,9 @@
 - [RF03](#rf03)
 - [RF04](#rf04)
 - [RF05](#rf05)
+- [RF06](#rf06)
+- [RF07](#rf07)
+- [RF08](#rf08)
 
 
 ### Requisitos não funcionais
@@ -25,28 +28,46 @@
 O site terá um recurso para cadastrar usuários.
 
 ## RF02
+
+- Login de Usuários
+
+O site terá um recurso de login para usuários já cadastrados.
+
+## RF03
+
 - Envio de Tarefas
 
 O site terá um recurso para enviar tarefas.
 
-
-## RF03
-
-- Envio de Novas Senhas
-
-O sistema enviará novas senhas para os alunos, através de um botão.
-
 ## RF04
 
- - Envio de Gabarito
+ - Acesso as Tarefas
 
-O site terá um recurso para enviar os gabaritos da Tarefa.
+O site terá um recurso para os alunos acessarem as tarefas enviadas.
 
 ## RF05
 
  - Envio de Respostas
 
 O site terá um recurso para enviar as respostas das tarefas.
+
+## RF06
+
+ - Acesso as Respostas Enviadas
+
+O site terá um recurso para os professores acessarem as respostas envioadas pelos alunos.
+
+## RF07
+
+ - Envio de Gabarito
+
+O site terá um recurso para os professores enviar os gabaritos das Tarefas.
+
+## RF08
+
+ - Acesso ao Gabarito Enviado
+
+O site terá um recurso para os alunos acessarem os gabaritos envioadas pelos professores.
 
 
 # Requisitos Não-funcionais
@@ -59,7 +80,7 @@ O site deverá dar respostas curtas em pouco tempo, para facilitar o diálogo en
 ## RNF02
 - Interface amigável e intuitiva
 
-Tentaremos deixar o site o mais acessível possível, com dicas e/ou palavras chaves.
+O site está o mais acessível possível, com dicas e/ou palavras chaves.
 
 ## RNF03
 - Segurança para armazenar senhas

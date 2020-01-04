@@ -7,14 +7,16 @@ $turma = $_POST['turma'];
 $senha = $_POST['senha'];
 $confirmaSenha = $_POST['confirmaSenha'];
 
-
-
 session_start();  //Reinicializa um array de sessão com os valores originais
-if ($senha != $confirmaSenha) {     // Exige preenchimento nos campos do formulario (Senha e Confirma Senha)
-    $erro = "SENHAS NÃO COINCIDENTES";     // Mensagem que aparecerá, caso haja o erro.   
+if ($senha != $confirmaSenha 
+|| $matricula <> "ACCL") 
+{     // Exige preenchimento nos campos do formulario (Senha e Confirma Senha)
     $_SESSION["erro"] = $erro;
+    $erro = ("Não foi possível efetuar o Cadastro. Verifique se as senhas conicidem e/ou se sua matrícula está correta!");  // Mensagem que aparecerá, caso haja o erro.   
     header("Location: formCadastrodeAlunos.php"); // Página que retornará, caso haja o erro.
     exit();}
+
+ 
 
 # Hash da senha
 $hash = password_hash($senha, PASSWORD_DEFAULT); // Transformação de uma grande quantidade de dados, em uma pequena quantidade de informações.
