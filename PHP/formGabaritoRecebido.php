@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -141,9 +145,8 @@ while($_POST = $result->fetch_assoc()){
  echo ("Resposta: Enquanto o sujeito é aquele ou aquilo de que(m) se fala, o predicado é a informação dada sobre o sujeito.<br>");
 ?>
           </div>
-          <div>
+          <div><p><br>
              <?php
-                  session_start();
                   if (isset($_SESSION["erro"])) {
                     echo $_SESSION["erro"];
                     unset($_SESSION["erro"]);

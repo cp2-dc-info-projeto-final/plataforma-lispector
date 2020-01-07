@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 
@@ -147,9 +150,8 @@
               </div>
             </form>
           </div>
-          <div>
+          <div><p><br>
                 <?php
-                  session_start();
                   if (isset($_SESSION["erro"])) {
                     echo $_SESSION["erro"];
                     unset($_SESSION["erro"]);

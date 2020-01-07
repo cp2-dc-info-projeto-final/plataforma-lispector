@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 
@@ -112,14 +115,13 @@
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
           <h2>Minhas Respostas</h2>
-          <p>Seja muito bem-vindo(a). Aquiu está seu histórico de respostas! </div>
+          <p>Seja muito bem-vindo(a). Aqui está seu histórico de respostas! </div>
   
               </div>
             </form>
           </div>
-          <div>
+          <div><p><br>
                 <?php
-                  session_start();
                   if (isset($_SESSION["erro"])) {
                     echo $_SESSION["erro"];
                     unset($_SESSION["erro"]);
