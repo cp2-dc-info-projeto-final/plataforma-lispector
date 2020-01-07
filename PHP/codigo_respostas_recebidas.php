@@ -7,7 +7,7 @@ if (mysqli_connect_error($connection)) { // Retorna uma string descrevendo o ult
     echo "Erro de conexão"; // Mensagem que aparecerá, caso haja o erro.
 }
 else {
-    header("Location: formLogindeAlunos.php");  // Mensagem que aparecerá, caso dê certo!
+    header("Location: perfildoaluno.php");  // Mensagem que aparecerá, caso dê certo!
 }
 
 $sql = "SELECT id_resposta FROM resposta";

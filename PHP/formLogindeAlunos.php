@@ -137,14 +137,7 @@
                 <p class="message">Não é cadastrado? <a href="formCadastrodeAlunos.php">Cadastre-se!</a></p>
 
               </div>
-              <?php
-                    session_start();
-                    if(array_key_exists('erro', $_SESSION) == true){
-                        $erro = $_SESSION["erro"];
-                        echo "<br><b>$erro</b>";
-                        session_unset();
-                    }
-                ?>
+      
             </form>
           </div>
             </div>
