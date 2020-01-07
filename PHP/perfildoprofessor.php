@@ -159,8 +159,8 @@ while($row = $result->fetch_assoc()){
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-          <h2 class="footer-heading mb-3">Obrigada !</h2>
-                <p class="mb-5">A plaraforma lispector, fica feliz em ajudar! 
+          <h2 class="footer-heading mb-3">Obrigada!</h2>
+                <p class="mb-5">A plataforma lispector fica feliz em ajudar! 
                
           </div>
  

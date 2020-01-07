@@ -114,7 +114,7 @@
         <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
           <h2>Envio de Resposta</h2>
-          <p>Olá professor, abaixo está a resposta do aluno! </div>
+          <p>Olá, professor. Abaixo está a resposta do aluno! </div>
       </div>
         <div class="row">
           <div class="col-lg-8 mb-5" >
@@ -160,7 +160,7 @@
         <div class="row">
           <div class="col-lg-4">
             <h2 class="footer-heading mb-3">Obrigada!</h2>
-            <p class="mb-5">A plaraforma lispector, fica feliz em ajudar!
+            <p class="mb-5">A plataforma lispector fica feliz em ajudar!
            
           </div>
  
