@@ -11,8 +11,8 @@ session_start();  //Reinicializa um array de sessão com os valores originais
 if ($senha != $confirmaSenha 
 || $matricula <> "ACCL") 
 {     // Exige preenchimento nos campos do formulario (Senha e Confirma Senha)
-    $_SESSION["erro"] = $erro;
     $erro = ("Não foi possível efetuar o Cadastro. Verifique se as senhas conicidem e/ou se sua matrícula está correta!");  // Mensagem que aparecerá, caso haja o erro.   
+    $_SESSION["erro"] = $erro;
     header("Location: formCadastrodeAlunos.php"); // Página que retornará, caso haja o erro.
     exit();}
 

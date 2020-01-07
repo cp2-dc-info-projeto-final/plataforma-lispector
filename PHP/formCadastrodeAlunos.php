@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!doctype html>
 <html lang="en">
 
@@ -150,9 +153,8 @@
                 <p class="message">Já é cadastrado? <a href="formLogindeAlunos.php">Entre!</a></p>
 
               </div>
-              <div>
+              <div><p><br>
                 <?php
-                  session_start();
                   if (isset($_SESSION["erro"])) {
                     echo $_SESSION["erro"];
                     unset($_SESSION["erro"]);
